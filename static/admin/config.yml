@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: JesusGerardoAguiar/escritorioltaif
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: propiedad
+    identifier_field: title
+    label: Propiedad
+    folder: content/propiedad
+    create: true
+    fields:
+      - { name: id, label: ID Identificador, widget: number }
+      - { name: bedroom, label: Dormitorios }
+      - { name: bathroom, label: Baños }
+      - { name: mts2, label: Mts2 }
+      - { name: garage, label: Garaje }
+      - { name: description, label: Descripción }
+      - { name: location, label: Ubicación }
+      - { name: title,identifier_field ,label: Titulo }
+      - { name: longitud, label: Longitud, widget: number, valueType: 'float' }
+      - { name: latitud, label: Latitud, widget: number, valueType: 'float' }
+      - { name: price, label: Precio }
+      - { name: destacada, label: Destacada, widget: "boolean", default: false }
+      - {label: "Vendida", name: "soldout", widget: "boolean", default: false}
+      - {label: "Alquilada", name: "rented", widget: "boolean", default: false}
+      - { label: "Tipo de Moneda",  name: currency, widget: select, options: ["U$S", "$"]}
+      - { name: images, label: Imagenes, widget: list,  field: {label: Imagen, name: image, widget: image} }
+      - { label: "Tipo de Propiedad" ,  name: propertyType, widget: select, options: [ { label: "Casa", value: "casas" },{ label: "Apartamentos", value: "apartamentos" }, { label: "Terrenos", value: "terrenos" },  { value: "camposychacras", label: "Campos y Chacras" },{ value: "galponesylocalescomerciales", label: "Galpones y Locales Comerciales" }, { label: "Remates", value: "remates" }] }
+      - { label: "Tipo de Listado",  name: listType, widget: select, options: [{ label: "Ventas", value: "ventas" }, { label: "Alquileres", value: "alquileres" }]}
+      - { label: "Fecha de Creación", name: date,  widget: "datetime", dateFormat: "DD/MM/YYYY" , timeFormat: false, format: "LLL", pickerUtc: false }
+
+      
+
