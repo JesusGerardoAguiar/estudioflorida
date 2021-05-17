@@ -4,7 +4,6 @@ import Header from "./Header2"
 import PhoneNumber from "./Header/PhoneNumber"
 import Lograf from "../../content/assets/lografLogoBlack.svg"
 
-
 class Layout extends React.Component {
   render() {
     const { children, location } = this.props
@@ -18,16 +17,64 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer backgroundImg={Lograf}>
-          © {new Date().getFullYear()}, powered by
-          {` `}
-          <a href="https://www.lografdesign.com">
-            <img src={Lograf} alt="f" style={{ width: "5rem" }} />
-          </a>
+          <Row>
+            <ColumnLinks>
+            <h5>Link Utiles</h5>
+              <ul>
+                <li>Ventas y Alquileres</li>
+                <li>Blog</li>
+              </ul>
+            </ColumnLinks>
+            <span>
+              logo
+            </span>
+            <ColumnLinks>
+              <h5>Siguenos</h5>
+              <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+              </ul>
+            </ColumnLinks>
+          </Row>
+          <LografLogo>
+            © {new Date().getFullYear()}, powered by
+            <a href="https://www.lografdesign.com">
+              <img src={Lograf} alt="f" style={{ width: "5rem" }} />
+            </a>
+          </LografLogo>
         </Footer>
       </Wrapper>
     )
   }
 }
+
+const Row = styled.div`
+  display:flex;
+  flex-direction:row;
+  width: 40rem;
+  justify-content: space-between;
+  margin-bottom: -20px;
+  padding-top: 2rem;
+}
+`
+
+const ColumnLinks = styled.div`
+  display:flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content:initial;
+  ul{
+    text-align: initial;
+    margin-bottom:0px;
+  }
+  li{
+    list-style: none;
+    font-size: 1rem;
+  }
+  h5{
+    font-family: RobotoB;
+  }
+`
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -36,7 +83,7 @@ const Wrapper = styled.div`
   p {
     font-family: RobotoR;
   }
-
+  
   #ReactBackgroundSlider > figure {
     height: 80vh;
     top: auto;
@@ -44,14 +91,21 @@ const Wrapper = styled.div`
   }
 `
 
+const LografLogo = styled.div`
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+`
+
 const Footer = styled.footer`
   text-align: center;
   margin-top: auto;
   margin-bottom: 0px;
-  font-size: 18px;
+  font-size: 14px;
+  background-color:blue;
   font-family: "RobotoR";
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   a {
@@ -60,7 +114,7 @@ const Footer = styled.footer`
     color: transparent;
   }
   img {
-    width: 5rem;
+    width: 3rem;
     margin-bottom: 0px;
     margin-left: 0.5rem;
   }

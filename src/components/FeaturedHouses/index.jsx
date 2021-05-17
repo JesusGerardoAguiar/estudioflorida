@@ -54,15 +54,9 @@ const FeaturedHousesComponent = ({data}) => {
     if (matches.small) {
       return (
         <FeaturedHouses>
-          <SearchColumn>
-            <TitleContainer id="search">
-              <h4>Busqueda de Propiedades</h4>
-            </TitleContainer>
-            <SearchHouses />
-          </SearchColumn>
           <FeaturedColumn>
             <TitleContainer id="featured">
-              <h4>Nuevos Ingresos</h4>
+              <h2>Nuevos Ingresos</h2>
             </TitleContainer>
             <FeaturedStateRow>{renderHouses(properties)}</FeaturedStateRow>
           </FeaturedColumn>
@@ -71,15 +65,9 @@ const FeaturedHousesComponent = ({data}) => {
     } else if (matches.large) {
       return (
         <FeaturedHouses>
-          <SearchColumn>
-            <TitleContainer id="search">
-              <h4>Busqueda de Propiedades</h4>
-            </TitleContainer>
-            <SearchHouses />
-          </SearchColumn>
           <FeaturedColumn>
             <TitleContainer id="featured">
-              <h4>Nuevos Ingresos</h4>
+              <h2>Nuevos Ingresos</h2>
             </TitleContainer>
             <FeaturedStateRow>{renderHouses(properties)}</FeaturedStateRow>
           </FeaturedColumn>
@@ -220,19 +208,19 @@ const FeaturedColumn = styled.div`
 `
 
 const TitleContainer = styled.div`
-  width: 88.666666%;
-  background-color: lightgray;
+  width: 100%;
   opacity: 0.9;
   display: flex;
   flex-direction: column;
   padding: 1rem;
 
-  h4 {
+  h4,h3,h2 {
     margin: 0px;
     font-family: RobotoB;
     letter-spacing: 1px;
     text-transform: initial;
     color: #323785;
+    text-align:center;
   }
 
   @media (max-width: 768px) {

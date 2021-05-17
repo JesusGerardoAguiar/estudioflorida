@@ -34,6 +34,7 @@ const SearchTab = () => {
   const [filterState, setFilterState] = useState({
     propertyType: "",
     listType: "",
+    zones:""
   })
   const [openSnackbar, setOpenSnackbar] = useState(false)
 
@@ -46,21 +47,23 @@ const SearchTab = () => {
     setFilterState({
       propertyType: "",
       listType: "",
+      zones:"",
     })
   }
 
   const fieldsNotEmpty = (
     propertyType,
     listType,
+    zones
   ) =>
     propertyType !== "" &&
-    listType !== ""
+    listType !== "" && zones !== ""
 
   const checkFields = () => {
-    const { propertyType, listType } = filterState
-    if (fieldsNotEmpty(propertyType, listType)) {
+    const { propertyType, listType,zones } = filterState
+    if (fieldsNotEmpty(propertyType, listType, zones)) {
       navigate(
-        `propiedades?propertyType=${propertyType}&listType=${listType}`
+        `propiedades?propertyType=${propertyType}&listType=${listType}&zones=${zones}`
       )
     } else {
       setOpenSnackbar(true)
@@ -76,23 +79,32 @@ const SearchTab = () => {
   return (
     <Container>
       <SnackbarComponent variant='error' open={openSnackbar} handleClose={closeSnakbar} msg={"Ninguno de los campos puede ser vacio"} />
-      <Collapsible trigger="Buscar Propiedad">
+      <Collapsible trigger="Buscar Propiedad" open={true}>
         <SearchContainer>
           <SelectRow>
             <SelectComponent
-              label="Tipo de Propiedad"
+              label="Propiedad"
               keyObject="propertyType"
               menuItems={PropertyType}
               filter={filterState.propertyType}
               setFilterValue={changeFilter}
             />
             <SelectComponent
-              label="Tipo de Listado"
+              label="Listado"
               keyObject="listType"
               menuItems={
                 filterState.propertyType !== "terrenos" ? ListType : []
               }
               filter={filterState.listType}
+              setFilterValue={changeFilter}
+            />
+            <SelectComponent
+              label="Zonas"
+              keyObject="zones"
+              menuItems={
+                filterState.propertyType !== "terrenos" ? ListType : []
+              }
+              filter={filterState.zones}
               setFilterValue={changeFilter}
             />
           </SelectRow>

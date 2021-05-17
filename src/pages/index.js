@@ -8,12 +8,11 @@ import Durazno2 from "../../content/assets/img/durazno6.jpg"
 import Durazno3 from "../../content/assets/img/durazno7.jpg"
 import Durazno4 from "../../content/assets/img/durazno8.jpg"
 import Durazno5 from "../../content/assets/img/durazno5.jpg"
-import FeaturedHousesComponent from '../components/FeaturedHouses';
+import FeaturedHousesComponent from "../components/FeaturedHouses"
 import { createGlobalStyle } from "styled-components"
 import SearchTab from "../components/SearchTab/SearchInit"
-
+import Contact from "../components/EmailContainer"
 import BackgroundSlider from "react-background-slider"
-
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -36,9 +35,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: RobotoBlack;
     src: url(${require("../../content/assets/fonts/Roboto-Black.ttf")});
   }
-  h1,h2,h3,h4,h5,h6{
-    font-size: inherit!important;
-  }
   a{
     text-decoration: none!important;
   }
@@ -47,7 +43,7 @@ const GlobalStyles = createGlobalStyle`
 class Blog extends React.Component {
   render() {
     const { data } = this.props
-    
+
     const siteTitle = data.site.siteMetadata.title
 
     const renderCarouselContent = () => {
@@ -57,17 +53,10 @@ class Blog extends React.Component {
             <Container>
               <PresentationColumn>
                 <PresentationTextBox>
-                  <PresentationText
-                    id="deskltaif"
-                    style={{ borderBotttom: "2px solid white" }}
-                  >
-                    La llave segura de su negocio{" "}
-                  </PresentationText>
-                  <PresentationText style={{ paddingTop: "0.2rem" }}>
-                  Ventas, Alquileres, Remates y tasaciones
+                  <PresentationText id="deskltaif">
+                    La solución que buscas{" "}
                   </PresentationText>
                 </PresentationTextBox>
-              
               </PresentationColumn>
               <SearchTab />
             </Container>
@@ -84,29 +73,34 @@ class Blog extends React.Component {
           transition={2}
         />
         {renderCarouselContent()}
-       <FeaturedHousesComponent data={data}/>
+        <FeaturedHousesComponent data={data} />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Contact />
+        </div>
       </Layout>
     )
   }
 }
 
-
-
 const Container = styled.div`
-width: 40rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-border: 1px solid lightgray;
-background: lightgray;
-padding: 1rem;
-border-radius: 10px;
-opacity: 0.9;
- @media (max-width: 768px) {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  background: lightgray;
+  padding: 1rem;
+  border-radius: 10px;
+  opacity: 0.9;
+  @media (max-width: 768px) {
     width: inherit;
   }
 `
-
 
 const PresentationTextBox = styled.div`
   display: flex;
@@ -126,8 +120,6 @@ const PresentationTextBox = styled.div`
     }
   }
 `
-
-
 
 const PresentationText = styled.h4`
   margin: 0px;
@@ -157,7 +149,6 @@ const SearchContainer = styled.div`
   align-items: center;
   width: 100%;
 `
-
 
 // const Banner = styled.div`
 //   background-color: #aa5c3b;

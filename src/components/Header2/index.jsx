@@ -18,102 +18,30 @@ const Header = () => {
     <Navbar bg="light" expand="lg">
       <GlobalStyles />
       <Navbar.Brand style={{ padding: 0 }}>
-        <Img
-          alt="logo"
-          src={LtaiftLogo}
-        />
+        <Img alt="logo" src={LtaiftLogo} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto ml-auto">
           <Nav.Link style={{ boxShadow: "none" }} href="/">
             Inicio
           </Nav.Link>
-          <NavDropdown
-            style={{ boxShadow: "none!important" }}
-            title="Casas"
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=casas&listType=ventas"
-            >
-              Ventas
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=casas&listType=alquileres"
-            >
-              Alquileres
-            </NavDropdown.Item>
-          </NavDropdown>
-          <NavDropdown
-            style={{ boxShadow: "none" }}
-            title="Apartamentos"
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=apartamentos&listType=ventas"
-            >
-              Ventas
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=apartamentos&listType=alquileres"
-            >
-              Alquileres
-            </NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link
-            style={{ boxShadow: "none" }}
-            href="/propiedades?propertyType=terrenos"
-          >
-            Terrenos
+          <Nav.Link style={{ boxShadow: "none" }} href="/">
+            Ventas y Alquileres
           </Nav.Link>
-          <NavDropdown
-            style={{ boxShadow: "none" }}
-            title="Campos y Chacras"
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=camposychacras&listType=ventas"
-            >
-              Ventas
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=camposychacras&listType=alquileres"
-            >
-              Alquileres
-            </NavDropdown.Item>
-          </NavDropdown>
-          <NavDropdown
-            style={{ boxShadow: "none" }}
-            title="Galpones y Locales Comerciales"
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=galponesylocalescomerciales&listType=ventas"
-            >
-              Ventas
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              style={{ boxShadow: "none" }}
-              href="/propiedades?propertyType=galponesylocalescomerciales&listType=alquileres"
-            >
-              Alquileres
-            </NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link
-            style={{ boxShadow: "none" }}
-            href="/propiedades?propertyType=remates"
-          >
-            Remates
+          <Nav.Link style={{ boxShadow: "none" }} href="/">
+            Proyectos
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/contacto">
+          <Nav.Link style={{ boxShadow: "none" }} href="/">
+            Estudio Notarial
+          </Nav.Link>
+          <Nav.Link style={{ boxShadow: "none" }} href="/">
+            Blog
+          </Nav.Link>
+          <Nav.Link style={{ boxShadow: "none" }} href="/">
+            La Empresa
+          </Nav.Link>
+          <Nav.Link style={{ boxShadow: "none" }} href="/">
             Contacto
           </Nav.Link>
         </Nav>

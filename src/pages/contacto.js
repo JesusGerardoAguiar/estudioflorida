@@ -34,7 +34,6 @@ const GlobalStyles = createGlobalStyle`
     src: url(${require("../../content/assets/fonts/Roboto-Black.ttf")});
   }
   h1,h3,h4,h5,h6{
-    font-size: inherit!important;
   }
   a{
     text-decorator: none!important;
