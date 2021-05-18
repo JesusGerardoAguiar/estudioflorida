@@ -39,7 +39,7 @@ const GlobalStyles = createGlobalStyle`
 
 const Propiedades = ({ location, data }) => {
   let params = queryString.parse(location.search)
-  const { propertyType, listType, pageNumber } = params
+  const { propertyType, listType, bedrooms, minPrice, maxPrice,pageNumber } = params
 
   const [currentPage, setCurrentPage] = useState(
     pageNumber ? Number(pageNumber) : 1
@@ -71,7 +71,10 @@ const Propiedades = ({ location, data }) => {
     .filter(
       property =>
         property.propertyType === propertyType &&
-        (listType ? property.listType === listType : true)
+        (listType ? property.listType === listType : true) &&
+        (bedrooms ? property.bedroom === bedrooms : true)&&
+        (minPrice ? property.minPrice === minPrice : true)&&
+        (maxPrice ? property.maxPrice === maxPrice : true)
     )
     .reverse()
 
@@ -214,8 +217,10 @@ const Propiedades = ({ location, data }) => {
       <GlobalStyles />
       <Layout location={location}>
         <Container>
-          <PresentationText>{renderTitle()}</PresentationText>
-          <SearchPropiedades filterValues={params} />
+          <FiltersColumn>
+            <PresentationText>{renderTitle()}</PresentationText>
+            <SearchPropiedades filterValues={params} />
+          </FiltersColumn>
           <Properties>{renderProperties(currentItems)}</Properties>
         </Container>
         <PaginationDiv>
@@ -239,6 +244,11 @@ const Propiedades = ({ location, data }) => {
     </>
   )
 }
+
+export const FiltersColumn = styled.div`
+  display:flex;
+  flex-direction: column;
+`
 
 export const PaginationDiv = styled.div`
   display: flex;
@@ -288,7 +298,6 @@ const TextColumn = styled.div`
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    width: 40rem;
   }
   h4 {
     margin: 0px;
@@ -298,7 +307,6 @@ const TextColumn = styled.div`
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    width: 40rem;
   }
   h5 {
     margin: 0px;
@@ -315,7 +323,6 @@ const TextColumn = styled.div`
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     padding-top: 0px;
-    width: 42rem;
     text-align: justify;
   }
   #description {
@@ -342,7 +349,7 @@ const PropertyContainer = styled.div`
   padding: 1rem;
   border: 1px solid #016699;
   border-radius: 10px;
-  width: fit-content;
+  width: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -368,7 +375,7 @@ const Properties = styled.div`
 const PropertyRow = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   justify-content: start;
   align-items: end;
@@ -414,8 +421,8 @@ const PresentationText = styled.h2`
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: start;
   padding: 3rem;
   @media (max-width: 768px) {
     padding: 2rem;

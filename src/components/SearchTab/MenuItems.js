@@ -1,13 +1,13 @@
 export const PropertyType = [
   { value: "casas", name: "Casas" },
   { value: "apartamentos", name: "Apartamentos" },
-  { value: "terrenos", name: "Terrenos" },
-  { value: "camposychacras", name: "Campos y Chacras" },
-  {
-    value: "galponesylocalescomerciales",
-    name: "Galpones y Locales Comerciales",
-  },
-  { value: "remates", name: "Remates" },
+  // { value: "terrenos", name: "Terrenos" },
+  // { value: "camposychacras", name: "Campos y Chacras" },
+  // {
+  //   value: "galponesylocalescomerciales",
+  //   name: "Galpones y Locales Comerciales",
+  // },
+  // { value: "remates", name: "Remates" },
 ]
 
 export const ListType = [
