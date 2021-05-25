@@ -13,25 +13,18 @@ import SearchTab from "../components/SearchTab/SearchInit"
 import BackgroundSlider from "react-background-slider"
 
 const GlobalStyles = createGlobalStyle`
+ 
   @font-face {
-    font-family: RobotoL;
-    src: url(${require("../../content/assets/fonts/Roboto-Light.ttf")});
+    font-family: MontserratRegular;
+    src: url(${require("../../content/assets/fonts/Montserrat-Regular.ttf")});
   }
   @font-face {
-    font-family: RobotoM;
-    src: url(${require("../../content/assets/fonts/Roboto-Medium.ttf")});
+    font-family: MontserratBold;
+    src: url(${require("../../content/assets/fonts/Montserrat-SemiBold.ttf")});
   }
   @font-face {
-    font-family: RobotoB;
-    src: url(${require("../../content/assets/fonts/Roboto-Bold.ttf")});
-  }
-  @font-face {
-    font-family: RobotoR;
-    src: url(${require("../../content/assets/fonts/Roboto-Regular.ttf")});
-  }
-  @font-face {
-    font-family: RobotoBlack;
-    src: url(${require("../../content/assets/fonts/Roboto-Black.ttf")});
+    font-family: LeagueSpartanBold;
+    src: url(${require("../../content/assets/fonts/LeagueSpartan-Bold.otf")});
   }
   h1,h3,h4,h5,h6{
   }
@@ -64,7 +57,7 @@ class Contacto extends React.Component {
 
 const PresentationText = styled.h2`
   margin: 0px;
-  font-family: RobotoB;
+  font-family: MontserratBold;
   work-break: break-all;
   color: #2f358f;
   margin-bottom: 0px;
@@ -84,7 +77,7 @@ const Container = styled.div`
   padding-right: 30rem;
   padding-left: 30rem;
   #ltaif{
-    font-family: RobotoB;
+    font-family: MontserratBold;
     font-size: 1.2rem;
     align-self: self-end;
   }

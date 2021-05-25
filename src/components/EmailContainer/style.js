@@ -24,7 +24,7 @@ export const InputField = styled(InputBase)`
   border-radius: 10px;
   box-sizing: border-box;
   padding-left: 2rem !important;
-  font-family: RobotoL!important;
+  font-family: MontserratRegular!important;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -47,7 +47,7 @@ export const TextArea = styled(InputBase)`
   padding-left: 2rem !important;
   padding-top: 2rem !important;
   padding-right: 2rem !important;
-  font-family: RobotoL !important;
+  font-family: MontserratRegular !important;
   font-style: normal !important;
   font-weight: 300 !important;
   font-size: 18px !important;
@@ -70,7 +70,7 @@ export const Button = styled.button`
 
   border: 1px solid #2F358F;
   border-radius: 10px;
-  font-family: RobotoR;
+  font-family: LeagueSpartanBold;
   text-transform: uppercase;
   color: #2F358F;
   outline: none;

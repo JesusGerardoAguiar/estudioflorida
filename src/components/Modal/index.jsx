@@ -23,12 +23,12 @@ const useStyles = makeStyles({
     width: "20rem",
   },
   h2: {
-    fontFamily: "RobotoR",
+    fontFamily: "LeagueSpartanBold",
     color: "#aa5c3b",
     textTransform: "uppercase",
   },
   p: {
-    fontFamily: "RobotoR",
+    fontFamily: "LeagueSpartanBold",
     textAlign: "justify",
   },
   button: {
@@ -38,7 +38,7 @@ const useStyles = makeStyles({
     fontSize: "0.6rem",
     backgroundColor: "white",
     border: "3px solid #aa5c3b",
-    fontFamily: "RobotoR",
+    fontFamily: "LeagueSpartanBold",
     textTransform: "uppercase",
     color: "#aa5c3b",
   },

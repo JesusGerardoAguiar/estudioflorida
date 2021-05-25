@@ -13,26 +13,18 @@ import ImageGallery from "react-image-gallery"
 require("react-image-gallery/styles/css/image-gallery.css")
 
 const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: RobotoL;
-    src: url(${require("../../content/assets/fonts/Roboto-Light.ttf")});
-  }
-  @font-face {
-    font-family: RobotoM;
-    src: url(${require("../../content/assets/fonts/Roboto-Medium.ttf")});
-  }
-  @font-face {
-    font-family: RobotoB;
-    src: url(${require("../../content/assets/fonts/Roboto-Bold.ttf")});
-  }
-  @font-face {
-    font-family: RobotoR;
-    src: url(${require("../../content/assets/fonts/Roboto-Regular.ttf")});
-  }
-  @font-face {
-    font-family: RobotoBlack;
-    src: url(${require("../../content/assets/fonts/Roboto-Black.ttf")});
-  }
+@font-face {
+  font-family: MontserratRegular;
+  src: url(${require("../../content/assets/fonts/Montserrat-Regular.ttf")});
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(${require("../../content/assets/fonts/Montserrat-SemiBold.ttf")});
+}
+@font-face {
+  font-family: LeagueSpartanBold;
+  src: url(${require("../../content/assets/fonts/LeagueSpartan-Bold.otf")});
+}
 `
 
 const PropertyTemplate = props => {
@@ -144,7 +136,7 @@ const PropertyImage = styled.div``
 
 const Description = styled.p`
   margin: 0px;
-  font-family: RobotoL;
+  font-family: MontserratRegular;
   work-break: break-all;
   margin-bottom: 0.5rem;
   margin-top: 2rem;
@@ -170,7 +162,7 @@ const PriceTag = styled.div`
   clear: both;
   margin-top: 0px;
   font-size: 17px;
-  font-family: RobotoL;
+  font-family: MontserratRegular;
   margin-top: 1.5rem;
 
   img {
@@ -197,7 +189,7 @@ flexDirection: row,
 width: 25rem,
 alignItems: center
 margin: 0px;
-font-family: RobotoM;
+font-family: MontserratRegular;
 work-break: break-all;
 margin-bottom: 0.5rem;
 margin-top: 0.5rem;
@@ -214,7 +206,7 @@ const MainDiv = styled.div`
  
   h3 {
     margin: 0px;
-    font-family: RobotoM;
+    font-family: MontserratRegular;
     work-break: break-all;
     color: #2f358f;
     margin-bottom: 0px;
@@ -222,7 +214,7 @@ const MainDiv = styled.div`
     padding-top: 0px;
   }
   h1 {
-    font-family: "RobotoR";
+    font-family: "LeagueSpartanBold";
     color: #aa5c3b;
     text-transform: uppercase;
     margin-right: 1.5rem;

@@ -1,18 +1,20 @@
 export const PropertyType = [
   { value: "casas", name: "Casas" },
   { value: "apartamentos", name: "Apartamentos" },
-  // { value: "terrenos", name: "Terrenos" },
-  // { value: "camposychacras", name: "Campos y Chacras" },
-  // {
-  //   value: "galponesylocalescomerciales",
-  //   name: "Galpones y Locales Comerciales",
-  // },
-  // { value: "remates", name: "Remates" },
 ]
 
 export const ListType = [
     { value: "ventas", name: "Ventas" },
     { value: "alquileres", name: "Alquileres" },
+]
+
+export const ZoneType = [
+  { value: "Pocitos", name: "pocitos" },
+]
+
+export const StateType = [
+  { value: "Montevideo", name: "montevideo" },
+  { value: "Canelones", name: "canelones" },
 ]
 
 export const Currency =[

@@ -12,7 +12,6 @@ class Layout extends React.Component {
     return (
       <Wrapper>
         <div>
-          <header>{PhoneNumberBar}</header>
           <header>{header}</header>
           <main>{children}</main>
         </div>
@@ -72,7 +71,7 @@ const ColumnLinks = styled.div`
     font-size: 1rem;
   }
   h5{
-    font-family: RobotoB;
+    font-family: MontserratBold;
   }
 `
 
@@ -81,7 +80,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   p {
-    font-family: RobotoR;
+    font-family: LeagueSpartanBold;
   }
   
   #ReactBackgroundSlider > figure {
@@ -103,7 +102,7 @@ const Footer = styled.footer`
   margin-bottom: 0px;
   font-size: 14px;
   background-color:blue;
-  font-family: "RobotoR";
+  font-family: "LeagueSpartanBold";
   display: flex;
   flex-direction: column;
   justify-content: center;

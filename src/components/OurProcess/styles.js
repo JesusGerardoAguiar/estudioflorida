@@ -48,7 +48,7 @@ export const ProccessTextDiv = styled.div`
   flex-direction: column;
 
   h1 {
-    font-family: "RobotoR";
+    font-family: "LeagueSpartanBold";
     color: #aa5c3b;
     text-transform: uppercase;
   }
@@ -65,7 +65,7 @@ export const ProccessTextDiv = styled.div`
       margin-top: 0px;
     }
     p{
-      font-family: RobotoR;
+      font-family: LeagueSpartanBold;
     }
   }
 `
@@ -74,7 +74,7 @@ export const Button = styled.button`
   height: 3rem;
   background-color: white;
   border: 3px solid #aa5c3b;
-  font-family: RobotoR;
+  font-family: LeagueSpartanBold;
   text-transform: uppercase;
   color: #aa5c3b;
   outline: none;

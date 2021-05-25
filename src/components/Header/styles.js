@@ -15,7 +15,7 @@ export const LinkDiv = styled.div`
   // padding: 1rem;
   font-size: 14px;
   color: #016699;
-  font-family: "RobotoR";
+  font-family: "LeagueSpartanBold";
   font-weight: 300;
   text-align: center;
   cursor: pointer;

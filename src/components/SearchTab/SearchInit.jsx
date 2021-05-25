@@ -5,13 +5,10 @@ import Button from "@material-ui/core/Button"
 import SearchIcon from "@material-ui/icons/Search"
 import ClearAllIcon from "@material-ui/icons/ClearAll"
 import SelectComponent from "./SelectComponent"
-import Collapsible from "react-collapsible"
-import SnackbarComponent from '../Snackbar';
-import {navigate} from 'gatsby';
-  import {
-    PropertyType,
-    ListType,
-  } from "./MenuItems"
+import SnackbarComponent from "../Snackbar"
+import { theme } from "../../theme"
+import { navigate } from "gatsby"
+import { PropertyType, ListType, ZoneType, StateType } from "./MenuItems"
 
 const useStyles = makeStyles(theme => ({
   formControl: {
@@ -34,7 +31,8 @@ const SearchTab = () => {
   const [filterState, setFilterState] = useState({
     propertyType: "",
     listType: "",
-    zones:""
+    zones: "",
+    states: "",
   })
   const [openSnackbar, setOpenSnackbar] = useState(false)
 
@@ -47,23 +45,19 @@ const SearchTab = () => {
     setFilterState({
       propertyType: "",
       listType: "",
-      zones:"",
+      zones: "",
+      states: "",
     })
   }
 
-  const fieldsNotEmpty = (
-    propertyType,
-    listType,
-    zones
-  ) =>
-    propertyType !== "" &&
-    listType !== "" && zones !== ""
+  const fieldsNotEmpty = (propertyType, listType, zones, states) =>
+    propertyType !== "" && listType !== "" && zones !== "" && states !== ""
 
   const checkFields = () => {
-    const { propertyType, listType,zones } = filterState
-    if (fieldsNotEmpty(propertyType, listType, zones)) {
+    const { propertyType, listType, zones, states } = filterState
+    if (fieldsNotEmpty(propertyType, listType, zones, states)) {
       navigate(
-        `propiedades?propertyType=${propertyType}&listType=${listType}&zones=${zones}`
+        `propiedades?propertyType=${propertyType}&listType=${listType}&state=${states}&zones=${zones}`
       )
     } else {
       setOpenSnackbar(true)
@@ -71,24 +65,20 @@ const SearchTab = () => {
   }
 
   const closeSnakbar = (event, reason) => {
-    
-      
-          setOpenSnackbar(false);
+    setOpenSnackbar(false)
   }
 
   return (
     <Container>
-      <SnackbarComponent variant='error' open={openSnackbar} handleClose={closeSnakbar} msg={"Ninguno de los campos puede ser vacio"} />
-      <Collapsible trigger="Buscar Propiedad" open={true}>
+      <SnackbarComponent
+        variant="error"
+        open={openSnackbar}
+        handleClose={closeSnakbar}
+        msg={"Ninguno de los campos puede ser vacio"}
+      />
+      <BackgroundDiv>
         <SearchContainer>
           <SelectRow>
-            <SelectComponent
-              label="Propiedad"
-              keyObject="propertyType"
-              menuItems={PropertyType}
-              filter={filterState.propertyType}
-              setFilterValue={changeFilter}
-            />
             <SelectComponent
               label="Listado"
               keyObject="listType"
@@ -99,11 +89,24 @@ const SearchTab = () => {
               setFilterValue={changeFilter}
             />
             <SelectComponent
+              label="Propiedad"
+              keyObject="propertyType"
+              menuItems={PropertyType}
+              filter={filterState.propertyType}
+              setFilterValue={changeFilter}
+            />
+            <SelectComponent
+              label="Departamento"
+              keyObject="state"
+              menuItems={StateType}
+              filter={filterState.states}
+              setFilterValue={changeFilter}
+            />
+
+            <SelectComponent
               label="Zonas"
               keyObject="zones"
-              menuItems={
-                filterState.propertyType !== "terrenos" ? ListType : []
-              }
+              menuItems={ZoneType}
               filter={filterState.zones}
               setFilterValue={changeFilter}
             />
@@ -114,7 +117,6 @@ const SearchTab = () => {
               color="secundary"
               size="large"
               className={classes.button}
-              startIcon={<ClearAllIcon />}
               onClick={() => clearFilter()}
             >
               Limpiar
@@ -124,43 +126,25 @@ const SearchTab = () => {
               color="primary"
               size="large"
               className={classes.button}
-              startIcon={<SearchIcon />}
               onClick={() => checkFields()}
             >
               Buscar
             </Button>
           </ButtonDiv>
         </SearchContainer>
-      </Collapsible>
+      </BackgroundDiv>
     </Container>
   )
 }
 
+const BackgroundDiv = styled.div`
+  width: 100%;
+  padding: 0.5rem;
+  background-color: ${theme.secundaryColor};
+`
+
 const Container = styled.div`
-  .Collapsible {
-    text-align: center;
-  }
-
-  .Collapsible__trigger {
-    font-family: RobotoBlack;
-    work-break: break-all;
-    margin: 1rem;
-    color: #2f358f;
-    font-size: 2em;
-    margin-left: 0px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    cursor: pointer;
-    text-align: center;
-    :hover {
-      opacity: 0.8;
-    }
-    @media (max-width: 768px) {
-      font-size: 1.5em;
-    }
-  }
-
-  .MuiFormControl-root{
+  .MuiFormControl-root {
     @media (max-width: 768px) {
       width: 9rem;
     }
@@ -173,7 +157,7 @@ const Container = styled.div`
     }
   }
 
-  .MuiInputLabel-shrink{
+  .MuiInputLabel-shrink {
     @media (max-width: 768px) {
       width: 10rem;
       text-align: initial;
@@ -189,24 +173,59 @@ const Container = styled.div`
 
 const SearchContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  width: 30rem;
+  width: 100%;
 
   @media (max-width: 768px) {
     width: inherit;
   }
   .MuiButton-containedPrimary {
-    background-color: #2f358f;
+    background-color: ${theme.themeColor};
   }
   .MuiFormControl-root {
     margin: 8px;
-    min-width: 120px;
+    min-width: 165.74px;
+    background: #fff;
   }
   .MuiButtonBase-root {
-    margin: 8px;
+    width: 189.84px;
+    background: ${theme.themeColor};
+
+    font-family: LeagueSpartanBold;
+    font-weight: normal;
+    font-size: 17.26px;
+    line-height: 20.71px;
+    color: #fff;
+
+    padding: 1.2rem;
+    text-align: center;
+
+    &:hover{
+      background: ${theme.themeColor};
+      color: ${theme.secundaryColor};
+    }
+  }
+  .MuiInputBase-root {
+    font-family: LeagueSpartanBold;
+    font-weight: normal;
+    text-align: left;
+    color: ${theme.themeColor};
+  }
+  .MuiSvgIcon-root, .MuiFormLabel-root {
+    color: ${theme.themeColor}!important;
+    font-family: LeagueSpartanBold;
+
+    margin-bottom:0px!important;
+    label{
+    }
+  }
+  .MuiFilledInput-underline:after {
+    border-bottom: none;
+  }
+  .MuiFilledInput-underline:before {
+    border-bottom: none;
   }
   #maxprice {
     width: 100%;
@@ -223,7 +242,7 @@ const SelectRow = styled.div`
 const ButtonDiv = styled.div`
   align-items: baseline;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 
   @media (max-width: 768px) {
     margin-top: 0.5rem;

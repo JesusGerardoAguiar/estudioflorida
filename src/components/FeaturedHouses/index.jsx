@@ -3,46 +3,64 @@ import styled from "styled-components"
 import SearchHouses from "../SearchTab/SearchHouses"
 import Media from "react-media"
 import { Link } from "gatsby"
+import { theme } from "../../theme"
 
-const FeaturedHousesComponent = ({data}) => {
+const FeaturedHousesComponent = ({ data }) => {
   const properties =
     data &&
     data.allMdx &&
     data.allMdx.nodes &&
     data.allMdx.nodes
       .filter(node => {
-        return node.frontmatter.listType !== null && node.frontmatter.destacada === true})
+        return (
+          node.frontmatter.listType !== null &&
+          node.frontmatter.destacada === true
+        )
+      })
       .map(frontmatter => {
         return { ...frontmatter.frontmatter }
-      }).reverse()
+      })
+      .reverse()
 
-
-  const renderParseInt = (price) => {
-    
-    if(isNaN(parseInt(price).toLocaleString().replace(/,/g, '.'))){
-      return '-'
+  const renderParseInt = price => {
+    if (
+      isNaN(
+        parseInt(price)
+          .toLocaleString()
+          .replace(/,/g, ".")
+      )
+    ) {
+      return "-"
     }
-    return parseInt(price).toLocaleString().replace(/,/g, '.')
+    return parseInt(price)
+      .toLocaleString()
+      .replace(/,/g, ".")
   }
   const renderHouses = () => {
     return (
       properties &&
       properties.length > 0 &&
       properties.map((property, index) => {
-        if (index <= 15) {
+        if (index <= 7) {
           return (
             <Link to={`/propiedad?id=${property.id}`}>
-            <StateContainer>
-              <StateImage bg={property.images[0]}>
-                <StateInfo>
-                  <StateLabel>{property.title}</StateLabel>
-                  <StateAddress>{property.location}</StateAddress>
-                  <StatePrice>
-                    {property.currency} {renderParseInt(property.price)}
-                  </StatePrice>
-                </StateInfo>
-              </StateImage>
-            </StateContainer>
+              <StateContainer>
+                <StateImage bg={property.images[0]}>
+                  <StateInfo>
+                    <StateLabel>{property.listType}</StateLabel>
+                  </StateInfo>
+                </StateImage>
+              </StateContainer>
+              <Description>{property.description.slice(0,90)}...</Description>
+              <Location>{property.location}</Location>
+              <Price>
+                {property.currency} {property.price}
+              </Price>
+              <RowItems>
+                <p>mts2: {property.mts2}</p>
+                <p>Baños: {property.bathroom}</p>
+                <p>Dormitorios: {property.bedroom}</p>
+              </RowItems>
             </Link>
           )
         }
@@ -88,66 +106,70 @@ const FeaturedHousesComponent = ({data}) => {
 export default FeaturedHousesComponent
 
 const StateInfo = styled.div`
-  display: none;
-  background-color: #303f9f;
-  opacity: 0.6;
-  width: inherit;
-  height: inherit;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  background-color: ${theme.themeColor};
   align-items: center;
-  border-radius: 10px;
+  padding: 0.5rem;
+  width: 7rem;
+  margin: 1rem;
 `
 
+const StateLabel = styled.h5`
+  letter-spacing: 3px;
 
+  text-transform: uppercase;
+  font-family: LeagueSpartanBold;
+  font-weight: normal;
+  font-size: 15.15px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 4px;
+`
 
 const StateImage = styled.div`
   background-image: url(${props => props.bg});
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
-  h4,
-  h5 {
-    display: none;
-  }
 
   :hover {
     cursor: pointer;
-    h4,
-    h5 {
-      display: initial;
-      color: white;
-    }
-    div {
-      display: flex;
-    }
   }
   width: 100%;
-  height: 10rem;
+  height: 20rem;
 `
 
-const StateLabel = styled.h5`
-  font-family: RobotoB;
-  margin: 0;
-  margin-top: 0.5rem;
+const Description = styled.p`
+  font-family: LeagueSpartanBold;
+  font-weight: normal;
+  font-size: 11.29px;
+  line-height: 18.55px;
+  text-align: left;
+  color: ${theme.themeColor};
+  width: 392.98px;
+  text-transform: Capitalize;
+  margin-top: 0.8rem;
   margin-bottom: 0.5rem;
-  text-align: center;
-  width: 10rem;
 `
 
-const StateAddress = styled.h5`
-  font-family: RobotoM;
-  margin: 0;
-  text-align: center;
+const Location = styled.p`
+  font-family: LeagueSpartanBold;
+  font-weight: normal;
+  font-size: 11.29px;
+  line-height: 13.55px;
+  text-align: left;
+  color: ${theme.secundaryColor};
 `
 
-const StatePrice = styled.h4`
-  font-family: RobotoB;
-  margin: 0;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
+const Price = styled.p`
+  font-family: LeagueSpartanBold;
+  font-weight: normal;
+  font-size: 23.39px;
+  line-height: 13.55px;
+  text-align: left;
+  color: ${theme.themeColor};
 `
 
 const StateContainer = styled.div`
@@ -156,15 +178,45 @@ const StateContainer = styled.div`
   justify-content: start;
   align-items: start;
   flex-wrap: wrap;
-  width: 15rem;
+  width: 392.98px;
+  border: 2.42px solid ${theme.secundaryColor};
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
-
+  padding: 0.2rem;
 
   @media (max-width: 768px) {
     width: 100%;
   }
- 
+`
+
+const RowItems = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  p {
+    font-family: MontserratBold;
+    font-weight: normal;
+    font-size: 15px;
+    margin-right:1rem;
+    letter-spacing: 0.2em;
+    line-height: 9.3px;
+    text-align: left;
+    color: ${theme.secundaryColor};
+  }
+`
+
+const StateAddress = styled.h5`
+  font-family: MontserratRegular;
+  margin: 0;
+  text-align: center;
+`
+
+const StatePrice = styled.h4`
+  font-family: MontserratBold;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
 `
 
 const FeaturedStateRow = styled.div`
@@ -174,7 +226,7 @@ const FeaturedStateRow = styled.div`
   padding: 1rem;
   flex-wrap: wrap;
   justify-content: end;
-  a{
+  a {
     color: transparent;
   }
   @media (max-width: 768px) {
@@ -182,7 +234,7 @@ const FeaturedStateRow = styled.div`
     padding-right: 0px;
     padding-left: 0px;
     width: 100%;
-    a{
+    a {
       width: 100%;
       margin-right: 0px;
     }
@@ -209,24 +261,29 @@ const FeaturedColumn = styled.div`
 
 const TitleContainer = styled.div`
   width: 100%;
-  opacity: 0.9;
   display: flex;
   flex-direction: column;
   padding: 1rem;
 
-  h4,h3,h2 {
+  h4,
+  h3,
+  h2 {
     margin: 0px;
-    font-family: RobotoB;
+    font-family: LeagueSpartanBold;
+    font-weight: normal;
+    font-size: 48.45px;
+    line-height: 58.14px;
+    text-align: center;
+
     letter-spacing: 1px;
     text-transform: initial;
-    color: #323785;
-    text-align:center;
+    color: ${theme.themeColor};
+    text-align: center;
   }
 
   @media (max-width: 768px) {
     width: 100%;
   }
-
 `
 
 const FeaturedHouses = styled.div`

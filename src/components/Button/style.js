@@ -4,7 +4,7 @@ export const Button = styled.button`
   width: 10rem;
   height: 3rem;
   border: 3px solid #aa5c3b;
-  font-family: RobotoR;
+  font-family: LeagueSpartanBold;
   text-transform: uppercase;
   color: #aa5c3b;
   outline: none;

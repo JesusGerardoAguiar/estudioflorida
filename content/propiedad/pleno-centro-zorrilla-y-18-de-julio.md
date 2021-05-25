@@ -22,5 +22,6 @@ images:
 propertyType: casas
 listType: ventas
 date: 'March 26, 2021 3:12 PM'
+destacada: true
 ---
 

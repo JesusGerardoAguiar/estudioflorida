@@ -32,7 +32,7 @@ export const Testimonie = styled.p`
   }
   @media (max-width: 768px) {
     p{
-      font-family: RobotoR;
+      font-family: LeagueSpartanBold;
     }
   }
   color: #aa5c3b;
@@ -59,7 +59,7 @@ export const Name = styled.p`
   /* identical to box height, or 150% */
   @media (max-width: 768px) {
     p{
-      font-family: RobotoR;
+      font-family: LeagueSpartanBold;
     }
   }
   color: #aa5c3b;
@@ -80,7 +80,7 @@ export const Company = styled.p`
   /* identical to box height, or 131% */
   @media (max-width: 768px) {
     p{
-      font-family: RobotoR;
+      font-family: LeagueSpartanBold;
     }
   }
   color: #aa5c3b;

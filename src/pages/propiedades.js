@@ -10,26 +10,18 @@ import { Link } from "gatsby"
 import queryString from "query-string"
 
 const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: RobotoL;
-    src: url(${require("../../content/assets/fonts/Roboto-Light.ttf")});
-  }
-  @font-face {
-    font-family: RobotoM;
-    src: url(${require("../../content/assets/fonts/Roboto-Medium.ttf")});
-  }
-  @font-face {
-    font-family: RobotoB;
-    src: url(${require("../../content/assets/fonts/Roboto-Bold.ttf")});
-  }
-  @font-face {
-    font-family: RobotoR;
-    src: url(${require("../../content/assets/fonts/Roboto-Regular.ttf")});
-  }
-  @font-face {
-    font-family: RobotoBlack;
-    src: url(${require("../../content/assets/fonts/Roboto-Black.ttf")});
-  }
+@font-face {
+  font-family: MontserratRegular;
+  src: url(${require("../../content/assets/fonts/Montserrat-Regular.ttf")});
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(${require("../../content/assets/fonts/Montserrat-SemiBold.ttf")});
+}
+@font-face {
+  font-family: LeagueSpartanBold;
+  src: url(${require("../../content/assets/fonts/LeagueSpartan-Bold.otf")});
+}
   h4,h5,h6{
   }
   a{
@@ -273,7 +265,7 @@ const PriceTag = styled.div`
   clear: both;
   margin-top: 0px;
   font-size: 17px;
-  font-family: RobotoL;
+  font-family: MontserratRegular;
 
   img {
     width: 1rem !important;
@@ -292,7 +284,7 @@ const TextColumn = styled.div`
   margin-left: 1rem;
   h3 {
     margin: 0px;
-    font-family: RobotoM;
+    font-family: MontserratRegular;
     work-break: break-all;
     color: #2f358f;
     margin-bottom: 0px;
@@ -301,7 +293,7 @@ const TextColumn = styled.div`
   }
   h4 {
     margin: 0px;
-    font-family: RobotoB;
+    font-family: MontserratBold;
     work-break: break-all;
     color: #2f358f;
     margin-bottom: 0px;
@@ -310,7 +302,7 @@ const TextColumn = styled.div`
   }
   h5 {
     margin: 0px;
-    font-family: RobotoM;
+    font-family: MontserratRegular;
     work-break: break-all;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
@@ -318,7 +310,7 @@ const TextColumn = styled.div`
   }
   p {
     margin: 0px;
-    font-family: RobotoL;
+    font-family: MontserratRegular;
     work-break: break-all;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
@@ -400,7 +392,7 @@ export const Li = styled.li`
   justify-content: center;
   text-align: center;
   text-decoration: none;
-  font-family: RobotoM;
+  font-family: MontserratRegular;
   list-style-type: none;
   cursor: pointer;
   display: flex;
@@ -409,7 +401,7 @@ export const Li = styled.li`
 
 const PresentationText = styled.h2`
   margin: 0px;
-  font-family: RobotoB;
+  font-family: MontserratBold;
   work-break: break-all;
   color: #2f358f;
   margin-bottom: 0px;
