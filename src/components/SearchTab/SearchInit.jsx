@@ -192,7 +192,7 @@ const SearchContainer = styled.div`
   .MuiButtonBase-root {
     width: 189.84px;
     background: ${theme.themeColor};
-
+    border-radius:0px;
     font-family: LeagueSpartanBold;
     font-weight: normal;
     font-size: 17.26px;

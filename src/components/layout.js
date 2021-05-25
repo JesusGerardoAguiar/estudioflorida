@@ -3,6 +3,8 @@ import styled from "styled-components"
 import Header from "./Header2"
 import PhoneNumber from "./Header/PhoneNumber"
 import Lograf from "../../content/assets/lografLogoBlack.svg"
+import {theme} from '../theme';
+import LogoFooter from '../../content/assets/img/logo-footer.png'
 
 class Layout extends React.Component {
   render() {
@@ -24,9 +26,10 @@ class Layout extends React.Component {
                 <li>Blog</li>
               </ul>
             </ColumnLinks>
-            <span>
-              logo
-            </span>
+            <div style={{width:'100%'}}>
+            <img src={LogoFooter} />
+
+            </div>
             <ColumnLinks>
               <h5>Siguenos</h5>
               <ul>
@@ -50,7 +53,7 @@ class Layout extends React.Component {
 const Row = styled.div`
   display:flex;
   flex-direction:row;
-  width: 40rem;
+  width: 55rem;
   justify-content: space-between;
   margin-bottom: -20px;
   padding-top: 2rem;
@@ -62,6 +65,7 @@ const ColumnLinks = styled.div`
   flex-direction:column;
   align-items: flex-start;
   justify-content:initial;
+  width:30%;
   ul{
     text-align: initial;
     margin-bottom:0px;
@@ -69,15 +73,18 @@ const ColumnLinks = styled.div`
   li{
     list-style: none;
     font-size: 1rem;
+    color:white;
   }
   h5{
     font-family: MontserratBold;
+    color:white;
   }
 `
 
 const Wrapper = styled.div`
   min-height: 100vh;
   display: flex;
+  background-color: #fcfcfc;
   flex-direction: column;
   p {
     font-family: LeagueSpartanBold;
@@ -94,6 +101,8 @@ const LografLogo = styled.div`
   display:flex;
   flex-direction:row;
   align-items:center;
+  color:white;
+
 `
 
 const Footer = styled.footer`
@@ -101,7 +110,7 @@ const Footer = styled.footer`
   margin-top: auto;
   margin-bottom: 0px;
   font-size: 14px;
-  background-color:blue;
+  background-color:${theme.themeColor};
   font-family: "LeagueSpartanBold";
   display: flex;
   flex-direction: column;
@@ -111,9 +120,10 @@ const Footer = styled.footer`
     display: flex;
     border-shadow: none;
     color: transparent;
+    color:white;
   }
   img {
-    width: 3rem;
+  
     margin-bottom: 0px;
     margin-left: 0.5rem;
   }

@@ -1,5 +1,5 @@
 import React, { useCallback } from "react"
-import { Box, Button, FormContainer, ButtonDiv } from "./style"
+import { Box, Button, FormContainer, ButtonDiv, TitleContainer, Container } from "./style"
 import Input from "./Input"
 import InputArea from "./InputArea"
 import { Formik } from "formik"
@@ -10,10 +10,13 @@ const isClient = typeof window !== 'undefined';
 
 const EmailContainer = ({ propertyId, location }) => {
   const onSubmit = useCallback(values => {
-    window.open(`https://api.whatsapp.com/send?phone=++59899361742&text=%20Nombre:${values.name}  Email: ${values.email} Consulta: ${values.consult} ID de la propiedad: ${propertyId} Propiedad Consultada: ${location}`, 'blank')
+    window.open(`https://api.whatsapp.com/send?phone=++&text=%20Nombre:${values.name}  Email: ${values.email} Consulta: ${values.consult} ID de la propiedad: ${propertyId} Propiedad Consultada: ${location}`, 'blank')
     
   }, [])
-  return (
+  return (<Container>
+      <TitleContainer id="featured">
+              <h2>Contactanos</h2>
+            </TitleContainer>
     <Box>
       <Formik
         initialValues={{ email: "", name: "", consult: "" }}
@@ -52,6 +55,8 @@ const EmailContainer = ({ propertyId, location }) => {
         }}
       </Formik>
     </Box>
+  </Container>
+
   )
 }
 
