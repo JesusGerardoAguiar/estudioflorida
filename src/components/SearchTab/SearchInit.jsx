@@ -113,6 +113,7 @@ const SearchTab = () => {
           </SelectRow>
           <ButtonDiv>
             <Button
+            style={{marginRight:'0.5rem'}}
               variant="contained"
               color="secundary"
               size="large"
@@ -198,7 +199,7 @@ const SearchContainer = styled.div`
     font-size: 17.26px;
     line-height: 20.71px;
     color: #fff;
-
+    
     padding: 1.2rem;
     text-align: center;
 
