@@ -43,7 +43,8 @@ const FeaturedHousesComponent = ({ data }) => {
       properties.map((property, index) => {
         if (index <= 7) {
           return (
-            <Link to={`/propiedad?id=${property.id}`}>
+            // <Link to={`/propiedad?id=${property.id}`}>
+              <Link>
               <StateContainer>
                 <StateImage bg={property.images[0]}>
                   <StateInfo>
