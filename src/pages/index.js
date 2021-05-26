@@ -8,7 +8,9 @@ import { createGlobalStyle } from "styled-components"
 import SearchTab from "../components/SearchTab/SearchInit"
 import Contact from "../components/EmailContainer";
 import HomeBg from '../../content/assets/img/home-bg.jpg'
+import HomeBgMobile from '../../content/assets/img/home-bg-mobile.jpg'
 import LogoHome from '../../content/assets/img/logo-home.png';
+
 
 
 const GlobalStyles = createGlobalStyle`
@@ -136,7 +138,18 @@ img{
     font-family:LeagueSpartanBold;
     font-size:25px;
   }
-  
+  @media (max-width: 768px) {
+    background-image: url(${HomeBgMobile});
+    h3{
+      font-size: 15px;
+      text-align: center;
+      padding: 3rem;
+    }
+   img{
+     width: 15rem;
+
+   }
+  }
 `
 
 

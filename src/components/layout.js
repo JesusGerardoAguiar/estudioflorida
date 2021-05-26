@@ -57,6 +57,11 @@ const Row = styled.div`
   justify-content: space-between;
   margin-bottom: -20px;
   padding-top: 2rem;
+
+  @media (max-width: 768px) {
+    width: auto;
+    flex-direction:column;
+  }
 }
 `
 
@@ -78,6 +83,16 @@ const ColumnLinks = styled.div`
   h5{
     font-family: MontserratBold;
     color:white;
+  }
+
+  @media (max-width: 768px) {
+    width: auto;
+    h5,li,ul{
+      text-align: center;
+    width: 100%;
+    margin-left: 0;
+
+    }
   }
 `
 
@@ -129,6 +144,9 @@ const Footer = styled.footer`
   }
   @media (max-width: 768px) {
     margin: 0px;
+    img{
+      margin-bottom:1rem;
+    }
   }
 `
 

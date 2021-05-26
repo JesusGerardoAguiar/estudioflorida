@@ -153,6 +153,10 @@ const Description = styled.p`
   text-transform: Capitalize;
   margin-top: 0.8rem;
   margin-bottom: 0.5rem;
+  @media (max-width: 768px) {
+    font-size: 12.29px;
+    width:auto;
+  }
 `
 
 const Location = styled.p`
@@ -203,6 +207,10 @@ const RowItems = styled.div`
     line-height: 9.3px;
     text-align: left;
     color: ${theme.secundaryColor};
+    @media (max-width: 768px) {
+      font-size: 12.29px;
+      width:auto;
+    }
   }
 `
 

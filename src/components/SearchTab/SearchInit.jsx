@@ -147,7 +147,7 @@ const BackgroundDiv = styled.div`
 const Container = styled.div`
   .MuiFormControl-root {
     @media (max-width: 768px) {
-      width: 9rem;
+      width: 11.8rem;
     }
   }
 
@@ -181,6 +181,7 @@ const SearchContainer = styled.div`
 
   @media (max-width: 768px) {
     width: inherit;
+    flex-direction:column;
   }
   .MuiButton-containedPrimary {
     background-color: ${theme.themeColor};
@@ -213,7 +214,7 @@ const SearchContainer = styled.div`
     font-weight: normal;
     text-align: left;
     color: ${theme.themeColor};
-  }
+      }
   .MuiSvgIcon-root, .MuiFormLabel-root {
     color: ${theme.themeColor}!important;
     font-family: LeagueSpartanBold;
@@ -238,6 +239,11 @@ const SelectRow = styled.div`
   display: flex;
   flex-direction: row;
   width: inherit;
+  @media (max-width: 768px) {
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
 `
 
 const ButtonDiv = styled.div`
@@ -247,6 +253,7 @@ const ButtonDiv = styled.div`
 
   @media (max-width: 768px) {
     margin-top: 0.5rem;
+    flex-direction:column;
   }
 `
 export default SearchTab

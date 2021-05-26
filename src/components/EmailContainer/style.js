@@ -127,4 +127,5 @@ export const Container = styled.div`
   flex-direction:column;
   background-color: #fcfcfc;
   padding-bottom:2rem;
+  align-items: center;
 `

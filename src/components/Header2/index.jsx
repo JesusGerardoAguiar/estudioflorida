@@ -16,6 +16,10 @@ const GlobalStyles = createGlobalStyle`
   .nav-link{font-family:LeagueSpartanBold; color:#fff!important; :hover{
     color:${theme.secundaryColor}!important;
   }}
+  .navbar-collapse{
+    background-color: ${theme.secundaryColor};
+    z-index: 99;
+  }
   #basic-navbar-nav{
     flex-direction: row;
     justify-content: end;
@@ -49,7 +53,7 @@ const Header = () => {
             Blog
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/">
-            La Empresa
+            Nosotros
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/">
             Contacto
@@ -62,8 +66,8 @@ const Header = () => {
 
 const Img = styled.img`
   margin-bottom: 0px;
-  @media (max-width: 320px) {
-    width: 10rem;
+  @media (max-width: 768px) {
+    width: 4rem;
   }
 `
 
