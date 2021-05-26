@@ -5,7 +5,7 @@ import Logo from "../../../content/assets/img/logo-header.jpg"
 import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
 import {theme} from '../../theme';
-console.log(window.location.pathname)
+const isClient = typeof window !== 'undefined';
 const GlobalStyles = createGlobalStyle`
   a{
     text-decoration: none;
@@ -13,8 +13,8 @@ const GlobalStyles = createGlobalStyle`
     margin-right: 1rem;/
   }
   .navbar{
-    position: ${window.location.pathname === '/' ? 'absolute' : 'relative'};
-    background-color: ${window.location.pathname === '/' ? 'transparent' : theme.themeColor};
+    position: ${isClient && window.location.pathname === '/' ? 'absolute' : 'relative'};
+    background-color: ${isClient &&window.location.pathname === '/' ? 'transparent' : theme.themeColor};
     padding:0;width:100%;
   }
   .nav-link{font-family:LeagueSpartanBold; color:#fff!important; :hover{
@@ -73,7 +73,7 @@ const Header = () => {
 
 const Img = styled.img`
   margin-bottom: 0px;
-  width: ${window.location.pathname === '/' ? '' : '6rem'};
+  width: ${isClient && window.location.pathname === '/' ? '' : '6rem'};
   @media (max-width: 768px) {
     width: 4rem;
   }

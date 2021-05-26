@@ -9,7 +9,6 @@ import BedIcon from "../../content/assets/icons/king_bed.svg"
 import { Link } from "gatsby"
 import queryString from "query-string"
 import {theme} from '../theme';
-
 const GlobalStyles = createGlobalStyle`
 @font-face {
   font-family: MontserratRegular;
