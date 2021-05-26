@@ -5,20 +5,27 @@ import Logo from "../../../content/assets/img/logo-header.jpg"
 import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
 import {theme} from '../../theme';
-
+console.log(window.location.pathname)
 const GlobalStyles = createGlobalStyle`
   a{
     text-decoration: none;
     box-shadow: none;
     margin-right: 1rem;/
   }
-  .navbar{position: absolute;padding:0;width:100%;}
+  .navbar{
+    position: ${window.location.pathname === '/' ? 'absolute' : 'relative'};
+    background-color: ${window.location.pathname === '/' ? 'transparent' : theme.themeColor};
+    padding:0;width:100%;
+  }
   .nav-link{font-family:LeagueSpartanBold; color:#fff!important; :hover{
     color:${theme.secundaryColor}!important;
   }}
   .navbar-collapse{
-    background-color: ${theme.secundaryColor};
-    z-index: 99;
+    @media (max-width: 768px) {
+      background-color: ${theme.secundaryColor};
+      z-index: 99;
+    }
+    
   }
   #basic-navbar-nav{
     flex-direction: row;
@@ -40,7 +47,7 @@ const Header = () => {
           <Nav.Link style={{ boxShadow: "none" }} href="/">
             Inicio
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/">
+          <Nav.Link style={{ boxShadow: "none" }} href="/propiedades/?propertyType=casas">
             Ventas y Alquileres
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/">
@@ -66,6 +73,7 @@ const Header = () => {
 
 const Img = styled.img`
   margin-bottom: 0px;
+  width: ${window.location.pathname === '/' ? '' : '6rem'};
   @media (max-width: 768px) {
     width: 4rem;
   }

@@ -8,6 +8,7 @@ import BathIcon from "../../content/assets/icons/bathtub.svg"
 import BedIcon from "../../content/assets/icons/king_bed.svg"
 import { Link } from "gatsby"
 import queryString from "query-string"
+import {theme} from '../theme';
 
 const GlobalStyles = createGlobalStyle`
 @font-face {
@@ -223,7 +224,7 @@ const Propiedades = ({ location, data }) => {
                   key={number}
                   id={number}
                   currentNumber={
-                    number === currentPage ? "1px solid #016699;" : ""
+                    number === currentPage ? `1px solid ${theme.themeColor};` : ""
                   }
                   onClick={e => handleClickPagination(e)}
                 >
@@ -257,10 +258,9 @@ const PriceTag = styled.div`
   align-items: center;
   justify-content: space-evenly;
   align-self: flex-end;
-  background-color: #2f358f;
+  background-color: ${theme.themeColor};
   color: #fff;
   padding: 7px 5px;
-  border-radius: 3px;
   cursor: pointer;
   clear: both;
   margin-top: 0px;
@@ -284,9 +284,9 @@ const TextColumn = styled.div`
   margin-left: 1rem;
   h3 {
     margin: 0px;
-    font-family: MontserratRegular;
+    font-family: LeagueSpartanBold;
     work-break: break-all;
-    color: #2f358f;
+    color: ${theme.themeColor};
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
@@ -307,6 +307,8 @@ const TextColumn = styled.div`
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     padding-top: 0px;
+    color: ${theme.secundaryColor};
+    img{display:none;}
   }
   p {
     margin: 0px;
@@ -339,8 +341,7 @@ const TextColumn = styled.div`
 
 const PropertyContainer = styled.div`
   padding: 1rem;
-  border: 1px solid #016699;
-  border-radius: 10px;
+  border: 2.42px solid ${theme.secundaryColor};
   width: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -403,8 +404,9 @@ const PresentationText = styled.h2`
   margin: 0px;
   font-family: MontserratBold;
   work-break: break-all;
-  color: #2f358f;
+  color: ${theme.themeColor};
   margin-bottom: 0px;
+  text-align: center;
   margin-top: 0px;
   padding: 0.5rem;
   padding-top: 0px;

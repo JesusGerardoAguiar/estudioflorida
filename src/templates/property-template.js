@@ -8,6 +8,7 @@ import PriceTagIcon from "../../content/assets/icons/pricetag.png"
 import BathIcon from "../../content/assets/icons/bathtub.svg"
 import BedIcon from "../../content/assets/icons/king_bed.svg"
 import {GoogleMap} from '../components/Map';
+import {theme} from '../theme';
 
 import ImageGallery from "react-image-gallery"
 require("react-image-gallery/styles/css/image-gallery.css")
@@ -136,28 +137,27 @@ const PropertyImage = styled.div``
 
 const Description = styled.p`
   margin: 0px;
-  font-family: MontserratRegular;
+  font-family: MontserratRegular!important;
   work-break: break-all;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   margin-top: 2rem;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   padding-top: 0px;
   text-align: justify;
   margin-right: 3rem;
 `
 
 const PriceTag = styled.div`
-  width: 9rem;
+  width: 15rem;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   align-self: flex-end;
-  background-color: #2f358f;
+  background-color: ${theme.themeColor};
   color: #fff;
   padding: 7px 5px;
-  border-radius: 3px;
   cursor: pointer;
   clear: both;
   margin-top: 0px;
@@ -194,6 +194,8 @@ work-break: break-all;
 margin-bottom: 0.5rem;
 margin-top: 0.5rem;
 padding-top: 0px;
+color:${theme.secundaryColor};
+img{display:none;}
 `
 
 const MainDiv = styled.div`
@@ -206,16 +208,16 @@ const MainDiv = styled.div`
  
   h3 {
     margin: 0px;
-    font-family: MontserratRegular;
+    font-family:LeagueSpartanBold;
     work-break: break-all;
-    color: #2f358f;
+    color:  ${theme.themeColor};
     margin-bottom: 0px;
     margin-top: 0;
     padding-top: 0px;
   }
   h1 {
-    font-family: "LeagueSpartanBold";
-    color: #aa5c3b;
+    font-family: "MontserratRegular";
+    color: ${theme.themeColor};
     text-transform: uppercase;
     margin-right: 1.5rem;
   }
