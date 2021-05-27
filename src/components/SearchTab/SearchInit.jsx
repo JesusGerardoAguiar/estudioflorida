@@ -97,7 +97,7 @@ const SearchTab = () => {
             />
             <SelectComponent
               label="Departamento"
-              keyObject="state"
+              keyObject="states"
               menuItems={StateType}
               filter={filterState.states}
               setFilterValue={changeFilter}

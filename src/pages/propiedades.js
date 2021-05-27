@@ -31,7 +31,7 @@ const GlobalStyles = createGlobalStyle`
 
 const Propiedades = ({ location, data }) => {
   let params = queryString.parse(location.search)
-  const { propertyType, listType, bedrooms, minPrice, maxPrice,pageNumber } = params
+  const { propertyType, listType, bedrooms, minPrice, maxPrice,pageNumber, state, zones } = params
 
   const [currentPage, setCurrentPage] = useState(
     pageNumber ? Number(pageNumber) : 1
@@ -58,7 +58,7 @@ const Propiedades = ({ location, data }) => {
     location.search = newLocation
     window.location.href = `/propiedades?${location.search}`
   }
-
+  debugger;
   const properties = propertiesToBeFiltered
     .filter(
       property =>
@@ -66,7 +66,9 @@ const Propiedades = ({ location, data }) => {
         (listType ? property.listType === listType : true) &&
         (bedrooms ? property.bedroom === bedrooms : true)&&
         (minPrice ? property.minPrice === minPrice : true)&&
-        (maxPrice ? property.maxPrice === maxPrice : true)
+        (maxPrice ? property.maxPrice === maxPrice : true)&&
+        (state ? property.state === state  : true)&&
+        (zones ?  property.zones === zones : true)
     )
     .reverse()
 

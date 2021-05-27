@@ -9,7 +9,14 @@ import SelectComponent from "./SelectComponent"
 import SnackbarComponent from "../Snackbar"
 import { navigate } from "gatsby"
 import TextField from "@material-ui/core/TextField"
-import { PropertyType, ListType, MinPrice, MaxPrice } from "./MenuItems"
+import {
+  PropertyType,
+  ListType,
+  MinPrice,
+  MaxPrice,
+  StateType,
+  ZoneType,
+} from "./MenuItems"
 import { theme } from "../../theme"
 
 const useStyles = makeStyles(theme => ({
@@ -45,6 +52,8 @@ const SearchPropiedades = ({ filterValues }) => {
       minPrice: "",
       maxPrice: "",
       bedrooms: 0,
+      states: "",
+      zones: "",
     })
   }
 
@@ -52,14 +61,23 @@ const SearchPropiedades = ({ filterValues }) => {
     propertyType !== "" && listType !== ""
 
   const checkFields = () => {
-    const { propertyType, listType, minPrice, maxPrice, bedrooms } = filterState
+    const {
+      propertyType,
+      listType,
+      minPrice,
+      maxPrice,
+      bedrooms,
+      states,
+      zones,
+    } = filterState
     if (fieldsNotEmpty(propertyType, listType)) {
       navigate(
         `propiedades?propertyType=${propertyType}&listType=${listType}${
           minPrice !== undefined ? `&minPrice=${minPrice}` : ""
         }${maxPrice !== undefined ? `&maxPrice=${maxPrice}` : ""}${
           bedrooms !== undefined ? `&bedrooms=${bedrooms}` : ""
-        }`
+        }${states !== undefined ? `&state=${states}` : ""
+          }${zones !== undefined ? `&zones=${zones}` : ""}`
       )
     } else {
       setOpenSnackbar(true)
@@ -113,6 +131,23 @@ const SearchPropiedades = ({ filterValues }) => {
           keyObject="maxPrice"
           menuItems={MaxPrice}
           filter={filterState.maxPrice}
+          setFilterValue={changeFilter}
+          labelColor={theme.themeColor}
+        />
+        <SelectComponent
+          label="Departamento"
+          keyObject="states"
+          menuItems={StateType}
+          filter={filterState.states}
+          setFilterValue={changeFilter}
+          labelColor={theme.themeColor}
+        />
+
+        <SelectComponent
+          label="Zonas"
+          keyObject="zones"
+          menuItems={ZoneType}
+          filter={filterState.zones}
           setFilterValue={changeFilter}
           labelColor={theme.themeColor}
         />
@@ -193,19 +228,19 @@ const SearchContainer = styled.div`
     width: 100%;
     margin: 8px;
     margin-right: 0.5rem;
-    background-color:${theme.themeColor};
-    color:#fff;
-    :hover{
-      background-color:${theme.themeColor};
-      color:#fff;
-      svg{
-        color:#fff;
-        fill:#fff;
+    background-color: ${theme.themeColor};
+    color: #fff;
+    :hover {
+      background-color: ${theme.themeColor};
+      color: #fff;
+      svg {
+        color: #fff;
+        fill: #fff;
       }
     }
-    svg{
-      color:#fff;
-      fill:#fff;
+    svg {
+      color: #fff;
+      fill: #fff;
     }
   }
   #maxprice {
@@ -257,7 +292,7 @@ const SelectColumn = styled.div`
       border-bottom: none;
     }
   }
-  .MuiFilledInput-underline{
+  .MuiFilledInput-underline {
     &:before {
       border-bottom: 1px solid ${theme.themeColor};
     }
