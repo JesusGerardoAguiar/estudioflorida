@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: JesusGerardoAguiar/escritorioltaif
+  repo: JesusGerardoAguiar/estudioflorida
 
 media_folder: static/assets
 public_folder: assets
