@@ -19,7 +19,6 @@ exports.createPages = ({ graphql, actions }) => {
               garage
               images
               listType
-              location
               mts2
               path
               price

@@ -173,7 +173,6 @@ export const pageQuery = graphql`
           garage
           images
           listType
-          location
           mts2
           path
           price
