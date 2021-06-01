@@ -58,7 +58,6 @@ const Propiedades = ({ location, data }) => {
     location.search = newLocation
     window.location.href = `/propiedades?${location.search}`
   }
-  debugger;
   const properties = propertiesToBeFiltered
     .filter(
       property =>
@@ -242,6 +241,10 @@ const Propiedades = ({ location, data }) => {
 export const FiltersColumn = styled.div`
   display:flex;
   flex-direction: column;
+  @media (max-width: 768px) {
+    align-self: flex-start;
+    width:100%;
+  }
 `
 
 export const PaginationDiv = styled.div`
@@ -379,6 +382,7 @@ const PropertyRow = styled.div`
   }
   @media (max-width: 768px) {
     width: 17.333333rem;
+    flex-direction:column;
   }
 `
 
@@ -421,6 +425,7 @@ const Container = styled.div`
   padding: 3rem;
   @media (max-width: 768px) {
     padding: 2rem;
+    flex-direction:column;
   }
 `
 
