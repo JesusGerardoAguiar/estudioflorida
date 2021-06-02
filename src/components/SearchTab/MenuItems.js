@@ -1,6 +1,8 @@
 export const PropertyType = [
   { value: "casas", name: "Casas" },
   { value: "apartamentos", name: "Apartamentos" },
+  { name: "Terreno", value: "terreno" },
+  { name: "Local", value: "local" }
 ]
 
 export const ListType = [

@@ -64,8 +64,8 @@ const Propiedades = ({ location, data }) => {
         property.propertyType === propertyType &&
         (listType ? property.listType === listType : true) &&
         (bedrooms ? property.bedroom === bedrooms : true)&&
-        (minPrice ? property.minPrice === minPrice : true)&&
-        (maxPrice ? property.maxPrice === maxPrice : true)&&
+        (minPrice ? property.price >= minPrice : true)&&
+        (maxPrice ? property.price <= maxPrice : true)&&
         (state ? property.state === state  : true)&&
         (zones ?  property.zones === zones : true)
     )
@@ -86,13 +86,7 @@ const Propiedades = ({ location, data }) => {
   }
 
   const renderParseInt = price => {
-    if (
-      isNaN(
-        parseInt(price)
-          .toLocaleString()
-          .replace(/,/g, ".")
-      )
-    ) {
+    if(price.trim() === ""){
       return "-"
     }
     return parseInt(price)
@@ -463,6 +457,8 @@ export const pageQuery = graphql`
           soldout
           rented
           destacada
+          location
+          rooms
         }
       }
     }

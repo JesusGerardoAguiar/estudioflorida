@@ -83,7 +83,7 @@ const SearchTab = () => {
               label="Listado"
               keyObject="listType"
               menuItems={
-                filterState.propertyType !== "terrenos" ? ListType : []
+               ListType
               }
               filter={filterState.listType}
               setFilterValue={changeFilter}

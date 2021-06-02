@@ -58,7 +58,7 @@ const SearchPropiedades = ({ filterValues }) => {
   }
 
   const fieldsNotEmpty = (propertyType, listType) =>
-    propertyType !== "" && listType !== ""
+    propertyType !== ""
 
   const checkFields = () => {
     const {
@@ -72,12 +72,14 @@ const SearchPropiedades = ({ filterValues }) => {
     } = filterState
     if (fieldsNotEmpty(propertyType, listType)) {
       navigate(
-        `propiedades?propertyType=${propertyType}&listType=${listType}${
-          minPrice !== undefined ? `&minPrice=${minPrice}` : ""
-        }${maxPrice !== undefined ? `&maxPrice=${maxPrice}` : ""}${
-          bedrooms !== undefined ? `&bedrooms=${bedrooms}` : ""
-        }${states !== undefined ? `&state=${states}` : ""
-          }${zones !== undefined ? `&zones=${zones}` : ""}`
+        `propiedades?propertyType=${propertyType}${
+          listType !== '' && listType!== undefined ? `&listType=${listType}` : ""
+        }${
+          minPrice !== ''  &&minPrice !== undefined ? `&minPrice=${minPrice}` : ""
+        }${maxPrice !== '' &&maxPrice !== undefined  ? `&maxPrice=${maxPrice}` : ""}${
+          bedrooms !== 0  && bedrooms!== undefined ? `&bedrooms=${bedrooms}` : ""
+        }${states !== ''  && states!== undefined ? `&state=${states}` : ""
+          }${zones !== '' && zones!== undefined  ? `&zones=${zones}` : ""}`
       )
     } else {
       setOpenSnackbar(true)

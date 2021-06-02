@@ -111,8 +111,9 @@ const StateInfo = styled.div`
   justify-content: center;
   background-color: ${theme.themeColor};
   align-items: center;
-  padding: 0.5rem;
-  width: 7rem;
+  width: fit-content;
+  text-align:center;
+  padding:0.5rem;
   margin: 1rem;
 `
 

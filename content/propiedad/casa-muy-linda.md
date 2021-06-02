@@ -20,5 +20,7 @@ images:
 propertyType: casas
 listType: ventas
 date: 'May 31, 2021 6:06 PM'
+location: ""
+rooms: ""
 ---
 

@@ -13,23 +13,25 @@ collections:
     create: true
     fields:
       - { name: id, label: ID Identificador, widget: number }
-      - { name: bedroom, label: Dormitorios }
-      - { name: bathroom, label: Baños }
+      - { name: bedroom, label: Dormitorios, required: false }
+      - { name: bathroom, label: Baños, required: false }
       - { name: mts2, label: Mts2 }
-      - { name: garage, label: Garaje }
+      - { name: garage, label: Garaje, required: false }
       - { name: description, label: Descripción }
+      - { name: location, label: Ubicación }
+      - { name: rooms, label: Ambientes, required: false }
       - { label: "Departamento" ,  name: state, widget: select, options: [ { label: "Montevideo", value: "mvdeo" },{ label: "Canelones", value: "cane" }] }
-      - { label: "Zonas",  name: zone, widget: select, options: [ { label: "Pocitos", value: "pocitos" }] }
+      - { label: "Zonas",required: false, name: zone, widget: select, options: [ { label: "Pocitos", value: "pocitos" }] }
       - { name: title,identifier_field ,label: Titulo }
-      - { name: longitud, label: Longitud, widget: number, valueType: 'float' }
-      - { name: latitud, label: Latitud, widget: number, valueType: 'float' }
+      - { name: longitud, label: Longitud, widget: number, valueType: 'float', required: false }
+      - { name: latitud, label: Latitud, widget: number, valueType: 'float', required: false }
       - { name: price, label: Precio }
       - { name: destacada, label: Destacada, widget: "boolean", default: false }
       - {label: "Vendida", name: "soldout", widget: "boolean", default: false}
       - {label: "Alquilada", name: "rented", widget: "boolean", default: false}
       - { label: "Tipo de Moneda",  name: currency, widget: select, options: ["U$S", "$"]}
       - { name: images, label: Imagenes, widget: list,  field: {label: Imagen, name: image, widget: image} }
-      - { label: "Tipo de Propiedad" ,  name: propertyType, widget: select, options: [ { label: "Casa", value: "casas" },{ label: "Apartamentos", value: "apartamentos" }] }
+      - { label: "Tipo de Propiedad" ,  name: propertyType, widget: select, options: [ { label: "Casa", value: "casas" },{ label: "Apartamentos", value: "apartamentos" },{ label: "Terreno", value: "terreno" },{ label: "Local", value: "local" }] }
       - { label: "Tipo de Listado",  name: listType, widget: select, options: [{ label: "Ventas", value: "ventas" }, { label: "Alquileres", value: "alquileres" }]}
       - { label: "Fecha de Creación", name: date,  widget: "datetime", dateFormat: "DD/MM/YYYY" , timeFormat: false, format: "LLL", pickerUtc: false }
 

@@ -29,6 +29,8 @@ exports.createPages = ({ graphql, actions }) => {
               id
               soldout
               rented
+              location
+              rooms
             }
           }
         }
