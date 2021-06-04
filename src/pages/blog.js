@@ -83,6 +83,9 @@ const PostTile = styled.h3`
 const PostDiv = styled.div`
   margin-bottom: 2rem;
   width:35rem;
+  @media (max-width: 768px) {
+    width:20rem;
+  }
   small,
   p {
     font-family: MontserratL;

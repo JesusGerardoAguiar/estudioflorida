@@ -75,6 +75,10 @@ const Container = styled.div`
   padding-left:10rem;
   padding-right:10rem;
   padding-bottom:10rem;
+  @media (max-width: 768px) {
+    padding-left:2rem;
+    padding-right:2rem;
+  }
 `
 
 const PostTile = styled.h1`
