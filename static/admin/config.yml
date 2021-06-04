@@ -45,6 +45,16 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
-      - { name: blogPost, value: true }
+      - { name: blogPost, default: true, widget: "hidden" }
+  - name: projects
+    label: Proyectos
+    folder: content/projects
+    create: true
+    fields:
+      - { name: id, label: ID Identificador, widget: number }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: images, label: Imagenes, widget: list,  field: {label: Imagen, name: image, widget: image} }
+      - { name: isProject, default: true, widget: "hidden" }
       
 

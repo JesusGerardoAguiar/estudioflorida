@@ -6,6 +6,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   const propertyPost = path.resolve(`./src/templates/property-template.js`);
   const blogPost = path.resolve(`./src/templates/blog-template.js`);
+  const projectPost = path.resolve(`./src/templates/project-template.js`);
 
   return graphql(
     `
@@ -38,6 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
               date
               description
               blogPost
+              isProject
             }
           }
         }
@@ -52,6 +54,16 @@ exports.createPages = ({ graphql, actions }) => {
     const properties = result.data.allMdx.nodes
 
     properties.forEach((product, index) => {
+      
+      if(product.frontmatter.isProject){
+        createPage({
+          path: `project/${product.frontmatter.id}`,
+          component: projectPost,
+          context: {
+            slug: product.frontmatter.id,
+          },
+        })
+      }
       if(product.frontmatter.blogPost){
         createPage({
           path: `blog/${product.frontmatter.path}`,

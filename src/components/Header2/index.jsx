@@ -50,7 +50,7 @@ const Header = () => {
           <Nav.Link style={{ boxShadow: "none" }} href="/propiedades/?propertyType=casas">
             Ventas y Alquileres
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/">
+          <Nav.Link style={{ boxShadow: "none" }} href="/projects">
             Proyectos
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/">
