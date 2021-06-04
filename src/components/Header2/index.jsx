@@ -56,7 +56,7 @@ const Header = () => {
           <Nav.Link style={{ boxShadow: "none" }} href="/">
             Estudio Notarial
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/">
+          <Nav.Link style={{ boxShadow: "none" }} href="/blog">
             Blog
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/">

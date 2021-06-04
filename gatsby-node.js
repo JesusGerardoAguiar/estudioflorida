@@ -4,7 +4,9 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const propertyPost = path.resolve(`./src/templates/property-template.js`)
+  const propertyPost = path.resolve(`./src/templates/property-template.js`);
+  const blogPost = path.resolve(`./src/templates/blog-template.js`);
+
   return graphql(
     `
       {
@@ -31,6 +33,11 @@ exports.createPages = ({ graphql, actions }) => {
               rented
               location
               rooms
+              title
+              headerImg
+              date
+              description
+              blogPost
             }
           }
         }
@@ -43,7 +50,17 @@ exports.createPages = ({ graphql, actions }) => {
     console.log('this is on gatsby node ' + result)
     // Create blog posts pages.
     const properties = result.data.allMdx.nodes
+
     properties.forEach((product, index) => {
+      if(product.frontmatter.blogPost){
+        createPage({
+          path: `blog/${product.frontmatter.path}`,
+          component: blogPost,
+          context: {
+            slug: product.frontmatter.path,
+          },
+        })
+      }
       createPage({
         path: `propiedad`,
         component: propertyPost,
@@ -52,9 +69,8 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-
-    return null
   })
+
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

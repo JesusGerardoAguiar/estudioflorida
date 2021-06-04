@@ -34,6 +34,17 @@ collections:
       - { label: "Tipo de Propiedad" ,  name: propertyType, widget: select, options: [ { label: "Casa", value: "casas" },{ label: "Apartamentos", value: "apartamentos" },{ label: "Terreno", value: "terreno" },{ label: "Local", value: "local" }] }
       - { label: "Tipo de Listado",  name: listType, widget: select, options: [{ label: "Ventas", value: "ventas" }, { label: "Alquileres", value: "alquileres" }]}
       - { label: "Fecha de Creación", name: date,  widget: "datetime", dateFormat: "DD/MM/YYYY" , timeFormat: false, format: "LLL", pickerUtc: false }
-
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: headerImg, label: HeaderImg, widget: image }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+      - { name: blogPost, value: true }
       
 
