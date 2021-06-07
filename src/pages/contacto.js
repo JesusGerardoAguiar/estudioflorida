@@ -43,12 +43,10 @@ class Contacto extends React.Component {
         <GlobalStyles />
         <Container>
           <PresentationText>Contacto</PresentationText>
-          <p id="ltaif">Sergio Ltaif – Rematador y Tasador público Mat.4885</p>
-          <p id='contact-bullets'> <img src={LocationIcon} /> Manuel Oribe 633 – Durazno – Uruguay </p>
-          <p id='contact-bullets'><img src={FaxIcon} /> Tel.fax: 43622225 </p>
-          <p id='contact-bullets'><img src={PhoneNumberIcon} /> Celular 099 361 742 </p>
-          <p id='contact-bullets'><img src={CellphoneIcon} /> Teléfono desde el exterior: +598 43622225 </p>
-          <p id='contact-bullets'><img src={EmailIcon} />sergioltaif@gmail.com </p>
+          <p id="ltaif">Estudio Florida</p>
+          <p id='contact-bullets'> <img src={LocationIcon} />---- – ---- – Uruguay </p>
+          <p id='contact-bullets'><img src={PhoneNumberIcon} /> Celular +598 99 757 820 </p>
+          <p id='contact-bullets'><img src={EmailIcon} />estudioinmobiliarioflorida@gmail.com</p>
         </Container>
       </Layout>
     )

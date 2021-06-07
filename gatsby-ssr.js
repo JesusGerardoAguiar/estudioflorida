@@ -9,7 +9,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
         var options = {
           facebook: "",
           // Facebook page ID
-          whatsapp: "+59899361742",
+          whatsapp: "+59899757820",
           // WhatsApp number
           call_to_action: "Escribenos!",
           // Call to action

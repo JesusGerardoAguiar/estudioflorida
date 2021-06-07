@@ -53,16 +53,16 @@ const Header = () => {
           <Nav.Link style={{ boxShadow: "none" }} href="/projects">
             Proyectos
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/">
+          <Nav.Link style={{ boxShadow: "none" }} href="/studio">
             Estudio Notarial
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/blog">
             Blog
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/">
-            Nosotros
+          <Nav.Link style={{ boxShadow: "none" }} href="/aboutme">
+            Quien Soy
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/">
+          <Nav.Link style={{ boxShadow: "none" }} href="/contacto">
             Contacto
           </Nav.Link>
         </Nav>
