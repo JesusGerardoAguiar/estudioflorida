@@ -16,10 +16,11 @@ state: mvdeo
 zone: pocitos
 title: 'A Estrenar! Con Garaje, Gran Ubicación!'
 price: '22500'
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
+images: []
 propertyType: apartamentos
 listType: alquileres
 date: 'June 7, 2021 12:26 AM'
