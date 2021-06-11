@@ -21,7 +21,7 @@ collections:
       - { name: location, label: Ubicación }
       - { name: rooms, label: Ambientes, required: false }
       - { label: "Departamento" ,  name: state, widget: select, options: [ { label: "Montevideo", value: "mvdeo" },{ label: "Canelones", value: "cane" }] }
-      - { label: "Zonas",required: false, name: zone, widget: select, options: [ { label: "Pocitos", value: "pocitos" }] }
+      - { label: "Zonas",required: false, name: zone, widget: select, options: [{label: "Villa Biarritz", value: "villa biarritz"},{label: "Pocitos", value: "pocitos"},{label: "Parque Rodó", value: "parque rodó"},{label: "Parque Batlle", value: "parque batlle"},{label: "Buceo", value: "buceo"},{label: "Nuevo pocitos", value: "nuevo pocitos"},{label: "Cordón", value: "cordón"},{label: "Tres cruces", value: "tres cruces"},{label: "Punta Carretas", value: "punta carretas"},{label: "Barrio Sur", value: "barrio sur"},{label: "Centro", value: "centro"},{label: "Ciudad Vieja", value: "ciudad vieja"},{label: "Larrañaga", value: "larrañaga"},{label: "Jacinto Vera", value: "jacinto vera"},{label: "Goes", value: "goes"},{label: "Aguada", value: "aguada"},{label: "Villa Muñoz", value: "villa muñoz"},{label: "Reducto", value: "reducto"},{label: "Bella Vista", value: "bella vista"},{label: "Prado", value: "prado"},{label: "Atahualpa", value: "atahualpa"},{label: "Arroyo Seco", value: "arroyo seco"},{label: "La comercial", value: "la comercial"},{label: "La Figurita", value: "la figurita"},{label: "Palermo", value: "palermo"},{label: "La Blanqueada", value: "la blanqueada"}] }
       - { name: title,identifier_field ,label: Titulo }
       - { name: longitud, label: Longitud, widget: number, valueType: 'float', required: false }
       - { name: latitud, label: Latitud, widget: number, valueType: 'float', required: false }
@@ -57,4 +57,3 @@ collections:
       - { name: images, label: Imagenes, widget: list,  field: {label: Imagen, name: image, widget: image} }
       - { name: isProject, default: true, widget: "hidden" }
       
-
