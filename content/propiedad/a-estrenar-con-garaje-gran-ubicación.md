@@ -16,7 +16,7 @@ state: mvdeo
 zone: pocitos
 title: 'A Estrenar! Con Garaje, Gran Ubicación!'
 price: '22500'
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: $
