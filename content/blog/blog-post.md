@@ -2,7 +2,7 @@
 path: '1'
 headerImg: /assets/170264593_828782431048048_4545107237805912268_n-1-.jpg
 date: 2021-06-03T22:53:57.734Z
-title: Tips para alquilar o comprar una propiedad
+title: Tips para alquilar o comprar una propiedad.
 description: "Buscar \U0001F50Euna propiedad para alquilar o comprar no tiene porque ser una tarea estresante. Siguiendo estas recomendaciones te será más sencilla la búsqueda de tu nuevo hogar."
 blogPost: true
 ---
