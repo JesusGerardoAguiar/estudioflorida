@@ -1,5 +1,5 @@
 ---
-path: redisena-tu-logo
+path: '1'
 headerImg: /assets/170264593_828782431048048_4545107237805912268_n-1-.jpg
 date: 2021-06-03T22:53:57.734Z
 title: Tips para alquilar o comprar una propiedad
