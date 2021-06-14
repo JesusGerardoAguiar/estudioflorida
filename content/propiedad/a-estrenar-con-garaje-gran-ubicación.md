@@ -13,7 +13,7 @@ description: >-
 location: Av. 8 de Octubre y Jaime Cibils
 rooms: '2'
 state: mvdeo
-zone: pocitos
+zone: la blanqueada
 title: 'A Estrenar! Con Garaje, Gran Ubicación!'
 price: '22500'
 destacada: true
