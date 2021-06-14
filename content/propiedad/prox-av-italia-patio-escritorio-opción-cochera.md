@@ -13,8 +13,10 @@ description: >-
   Además tiene opción para cochera por 1800 pesos.   Garantías admitidas: Porto
   Seguro, Anda o Contaduría.   ¡Agenda tu visita! 094.140.123 (linea WhatsApp) -
   2400-7347
+location: Tabobá entre Delgado y Mataojo
+rooms: ''
 state: mvdeo
-zone: pocitos
+zone: buceo
 title: Prox Av Italia! Patio + Escritorio + opción cochera!
 longitud: -125
 latitud: 256
@@ -27,10 +29,13 @@ images:
   - /assets/20210518_173351.jpg
   - /assets/20210518_173936.jpg
   - /assets/20210518_174007.jpg
+  - /assets/20210602_140824.jpg
+  - /assets/20210518_173515.jpg
+  - /assets/20210518_173858.jpg
+  - /assets/20210518_173433.jpg
+  - /assets/20210518_173405.jpg
 propertyType: apartamentos
 listType: alquileres
 date: 'May 31, 2021 11:51 PM'
-location: ""
-rooms: ""
 ---
 
