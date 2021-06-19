@@ -20,7 +20,7 @@ zone: buceo
 title: Prox Av Italia! Patio + Escritorio + opción cochera!
 longitud: -125
 latitud: 256
-price: '18000'
+price: '17000'
 destacada: true
 soldout: false
 rented: false
