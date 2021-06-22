@@ -22,8 +22,8 @@ class Layout extends React.Component {
             <ColumnLinks>
             <h5>Link Utiles</h5>
               <ul>
-                <li>Ventas y Alquileres</li>
-                <li>Blog</li>
+              <a href="/propiedades">Ventas y Alquileres</a>
+                <a href="/blog">Blog</a>
               </ul>
             </ColumnLinks>
             <div style={{width:'100%'}}>
@@ -33,8 +33,8 @@ class Layout extends React.Component {
             <ColumnLinks>
               <h5>Siguenos</h5>
               <ul>
-                <li>Instagram</li>
-                <li>Facebook</li>
+              <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank">Instagram</a>
+                <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank">Facebook</a>
               </ul>
             </ColumnLinks>
           </Row>

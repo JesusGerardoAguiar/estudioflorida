@@ -44,8 +44,8 @@ class Contacto extends React.Component {
         <Container>
           <PresentationText>Contacto</PresentationText>
           <p id="ltaif">Estudio Florida</p>
-          <p id='contact-bullets'> <img src={LocationIcon} />---- – ---- – Uruguay </p>
-          <p id='contact-bullets'><img src={PhoneNumberIcon} /> Celular +598 99 757 820 </p>
+          <p id='contact-bullets'> <img src={LocationIcon} />Cordón, Montevideo, Uruguay </p>
+          <p id='contact-bullets'><img src={PhoneNumberIcon} /> Celular +598 94 140 123, Oficina 24007347 </p>
           <p id='contact-bullets'><img src={EmailIcon} />estudioinmobiliarioflorida@gmail.com</p>
         </Container>
       </Layout>

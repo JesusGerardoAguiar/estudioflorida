@@ -18,8 +18,9 @@ description: >-
 location: 'Mallorca y Piràn '
 state: mvdeo
 title: 'Euskalerria 71, 4 dormitorios, piso 6!'
-longitud: ''
 price: '72000'
+longitud: '1'
+latitud: '1'
 destacada: false
 soldout: false
 rented: false

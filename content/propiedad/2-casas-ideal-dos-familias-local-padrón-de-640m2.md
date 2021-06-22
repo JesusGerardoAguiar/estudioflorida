@@ -41,5 +41,7 @@ images:
 propertyType: casas
 listType: ventas
 date: 'June 19, 2021 7:40 PM'
+longitud: '1'
+latitud: '1'
 ---
 

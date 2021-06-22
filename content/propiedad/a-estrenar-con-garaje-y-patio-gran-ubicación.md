@@ -33,5 +33,7 @@ images:
 propertyType: apartamentos
 listType: alquileres
 date: 'June 13, 2021 11:01 PM'
+longitud: '1'
+latitud: '1'
 ---
 

@@ -17,6 +17,8 @@ location: Basilio Pereira de la luz y Luis Lamas
 rooms: '5'
 state: mvdeo
 zone: pocitos
+longitud: '1'
+latitud: '1'
 title: >-
   En una gran zona! Estudio de Grabación o vivienda C/renta Basilio Pereira de
   la Luz y Luis Lamas

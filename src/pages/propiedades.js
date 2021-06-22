@@ -89,9 +89,7 @@ const Propiedades = ({ location, data }) => {
     if(price.trim() === ""){
       return "-"
     }
-    return parseInt(price)
-      .toLocaleString()
-      .replace(/,/g, ".")
+    return (price)
   }
   const sortByName = (a, b) => {
     if (a.title < b.title) {

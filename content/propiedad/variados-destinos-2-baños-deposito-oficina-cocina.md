@@ -19,6 +19,8 @@ title: 'Variados destinos! 2 baños, deposito + oficina + cocina!'
 price: '28.000'
 destacada: true
 soldout: false
+longitud: '1'
+latitud: '1'
 rented: false
 currency: $
 images:

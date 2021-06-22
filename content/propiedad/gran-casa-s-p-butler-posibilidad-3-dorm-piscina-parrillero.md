@@ -23,6 +23,8 @@ destacada: false
 soldout: false
 rented: false
 currency: U$S
+longitud: '1'
+latitud: '1'
 images:
   - /assets/whatsapp-image-2020-01-12-at-22.14.33-2-.jpeg
   - /assets/whatsapp-image-2020-01-12-at-22.14.29-1-.jpeg

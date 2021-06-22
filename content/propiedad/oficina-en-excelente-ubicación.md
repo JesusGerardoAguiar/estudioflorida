@@ -21,6 +21,8 @@ destacada: false
 soldout: false
 rented: false
 currency: U$S
+longitud: '1'
+latitud: '1'
 images:
   - /assets/871f7abf-fa43-4903-afb4-46f71628d72d.jpg
   - /assets/cdcac411-c8f6-46ea-96df-681aad0e6a3f.jpg

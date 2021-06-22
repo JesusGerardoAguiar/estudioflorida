@@ -24,6 +24,8 @@ destacada: false
 soldout: false
 rented: false
 currency: U$S
+longitud: '1'
+latitud: '1'
 images:
   - /assets/img-20201117-wa0062.jpg
   - /assets/img-20201117-wa0043.jpg

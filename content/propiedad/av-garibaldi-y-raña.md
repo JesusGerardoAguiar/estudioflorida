@@ -34,5 +34,7 @@ images:
 propertyType: apartamentos
 listType: ventas
 date: 'June 19, 2021 8:01 PM'
+longitud: '1'
+latitud: '1'
 ---
 

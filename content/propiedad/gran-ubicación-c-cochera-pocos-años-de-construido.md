@@ -20,6 +20,8 @@ title: Gran ubicación! C/ cochera! Pocos años de construido!
 price: '24500'
 destacada: false
 soldout: false
+longitud: '1'
+latitud: '1'
 rented: false
 currency: $
 images:

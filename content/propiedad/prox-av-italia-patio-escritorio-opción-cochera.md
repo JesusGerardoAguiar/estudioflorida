@@ -18,9 +18,9 @@ rooms: ''
 state: mvdeo
 zone: buceo
 title: Prox Av Italia! Patio + Escritorio + opción cochera!
-longitud: -125
-latitud: 256
 price: '17000'
+longitud: '1'
+latitud: '1'
 destacada: true
 soldout: false
 rented: false

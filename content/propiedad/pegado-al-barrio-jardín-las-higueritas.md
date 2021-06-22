@@ -15,6 +15,8 @@ destacada: false
 soldout: false
 rented: false
 currency: U$S
+longitud: '1'
+latitud: '1'
 images:
   - /assets/whatsapp-image-2020-12-02-at-16.09.33-1-.jpeg
   - /assets/plano-higueritas.jpeg

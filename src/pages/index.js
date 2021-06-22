@@ -7,6 +7,7 @@ import FeaturedHousesComponent from "../components/FeaturedHouses"
 import { createGlobalStyle } from "styled-components"
 import SearchTab from "../components/SearchTab/SearchInit"
 import Contact from "../components/EmailContainer";
+import Instagram from '../components/Instagram'
 import HomeBg from '../../content/assets/img/home-bg.jpg'
 import HomeBgMobile from '../../content/assets/img/home-bg-mobile.jpg'
 import LogoHome from '../../content/assets/img/logo-home.png';
@@ -43,7 +44,7 @@ class Blog extends React.Component {
           <SearchContainer>
             <img className="logo-home" src={LogoHome} />
             <SearchTab />
-            <h3>Dedicados a facilitar la realización de negocios inmobiliarios</h3>
+            <h3>La solución que buscás</h3>
           </SearchContainer>
         </>
       )
@@ -60,7 +61,23 @@ class Blog extends React.Component {
             justifyContent: "center",
           }}
         >
+          {/* <Contact /> */}
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <Contact />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Instagram />
         </div>
       </Layout>
     )

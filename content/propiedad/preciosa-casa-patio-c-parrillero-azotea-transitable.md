@@ -21,6 +21,8 @@ price: '175.000'
 destacada: true
 soldout: false
 rented: false
+longitud: '1'
+latitud: '1'
 currency: U$S
 images:
   - /assets/20210507_103046.jpg
