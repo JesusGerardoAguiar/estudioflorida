@@ -5,6 +5,7 @@ import PhoneNumber from "./Header/PhoneNumber"
 import Lograf from "../../content/assets/lografLogoBlack.svg"
 import {theme} from '../theme';
 import LogoFooter from '../../content/assets/img/logo-footer.png'
+import Adiu from '../../content/assets/adiu.jpeg'
 
 class Layout extends React.Component {
   render() {
@@ -35,7 +36,10 @@ class Layout extends React.Component {
               <ul>
               <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank">Instagram</a>
                 <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank">Facebook</a>
+                <img src={Adiu} style={{ width: '5rem',
+    marginLeft: 0}}/>
               </ul>
+
             </ColumnLinks>
           </Row>
           <LografLogo>

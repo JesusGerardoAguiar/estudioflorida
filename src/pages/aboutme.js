@@ -10,7 +10,7 @@ import Contact from "../components/EmailContainer"
 import HomeBg from "../../content/assets/img/home-bg.jpg"
 import HomeBgMobile from "../../content/assets/img/home-bg-mobile.jpg"
 import LogoHome from "../../content/assets/img/logo-home.png"
-
+import AboutMeImg from "../../content/assets/aboutme.jpeg"
 const GlobalStyles = createGlobalStyle`
 @font-face {
   font-family: MontserratRegular;
@@ -34,32 +34,49 @@ class AboutMe extends React.Component {
     return (
       <Layout location={this.props.location} title={"Quien Soy"}>
         <GlobalStyles />
-
         <Span>
-          <h3>¡Bienvenidos! </h3> <p>Hola, me presento para aquell@s que aún no me
-          conocen, soy Andrea, Directora de Estudio Florida Inmobiliaria. Soy
-          mamá de Felipe de casi 2 años, Operadora Inmobiliaria recibida de Utu
-          (2012) y Escribana Pública (2011).
-          <br />
-          Comencé a emprender en el rubro inmobiliario en el año 2016,
-          previamente trabajé en relación de dependencia por 5 años, siendo
-          vendedora en otra Inmobiliaria.
-          <br />
-          Aprendí mucho de la actividad, hasta que llegó un momento que el
-          trabajo de 9 horas no era compatible con el ejercicio de mi profesión.
-          Necesitaba más tiempo para dedicarle y poder crecer.
-          <br />
-          Tras algunos meses de estar haciendo malabarismos con ambas
-          actividades, decidí independizarme.
-          <br />
-          Tomé mi experiencia y conocimientos y di el paso. ¡Y lo logré! Siempre
-          con el gran apoyo de mi hoy marido, mis padres y toda la familia. Hoy
-          5 años después sigo adelante con mi emprendimiento inmobiliario y con
-          el ejercicio del notariado. Uno de mis diferenciales es la cercana
-          relación que tengo con los clientes. Busco darles soluciones y
-          facilitarles los procesos tanto de venta como de alquiler, así como
-          asesorarlos en la temática. Te invito a que me contactes y conversemos
-          sobre ello para darte ¡La solución que buscas!</p>
+          <h3>¡Bienvenidos! </h3>{" "}
+          <p>
+            Hola, soy Andrea Alchurrut Duarte, Directora de Estudio Florida
+            Inmobiliaria. Soy mamá de Felipe de 2 años, Operadora Inmobiliaria
+            recibida de UTU en el año 2012 y Escribana Pública desde 2011.
+            Comencé a emprender en el rubro inmobiliario en 2016, previamente
+            trabajé en relación de dependencia por 5 años, siendo agente en otra
+            Inmobiliaria de Montevideo.
+            <br />
+            Durante la relación de dependencia aprendí mucho de la actividad,
+            pero llegó un momento, en que necesité crecer personal y
+            profesionalmente, abarcar tareas que aumentaran la compatibilidad
+            con mi profesión y poder ser decisora de mi futuro. Tiempo de poner
+            la mira, desde otro punto de vista, el desafío de ser emprendedora.
+            <br />
+            Tomé mi experiencia y conocimientos y di el paso. Logré
+            independizarme. Hoy Estudio Florida tiene 5 años en el mercado, con
+            una cartera de clientes fijos y en crecimiento. La Inmobiliaria es
+            hace varios años socia de la Asociación de Agentes Inmobiliarios del
+            Uruguay (A.D.I.U), institución que nos brinda capacitación constante
+            y un equipo de trabajo con más de 200 profesionales inmobiliarios,
+            con los cuales compartimos tanto experiencias como material en venta
+            y alquiler, permitiendo abarcar el 100% del mercado.
+            <br />
+            Uno de mis diferenciales es la cordial relación que tengo con los
+            clientes, intento empatizar con la necesidad u oportunidad que los
+            encuentra en el momento de pensar o llevar a cabo una operación de
+            esta índole.
+            <br />
+            Te invito a que me contactes y conversemos sobre ello para darte ¡La
+            solución que buscas!
+          </p>
+          <div
+            style={{
+              backgroundImage: `url(${AboutMeImg})`,
+              backgroundSize: "contain",
+              width: "50rem",
+              height: "30rem",
+              backgroundRepeat: 'no-repeat',
+              margin:'auto'
+            }}
+          />
         </Span>
       </Layout>
     )
@@ -68,18 +85,18 @@ class AboutMe extends React.Component {
 
 const Span = styled.div`
   text-align: center;
-  padding:5rem;
+  padding: 5rem;
   h3 {
     font-family: LeagueSpartanBold;
     color: ${theme.themeColor};
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
   }
-  p{font-size: 18px;
+  p {
+    font-size: 18px;
     line-height: 40px;
     text-align: start;
     font-family: MontserratRegular;
-}
-
+  }
 `
 
 const Container = styled.div`

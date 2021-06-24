@@ -78,6 +78,17 @@ export const ZoneType = [
   {value:"Manga", name:"manga"},
   {value:"Punta de Rieles – Bella Italia", name:"punta de rieles – bella italia"},
   {value:"Villa García–Manga Rural", name:"villa garcía–manga rural"},
+  {value:"Lagomar", name:"lagomar"},
+  {value:"Solymar", name:"solymar"},
+  {value:"medanos de solymar", name:"medanos de solymar"},
+  {value:"lomas de solymar", name:"lomas de solymar"},
+  {value:"el pinar", name:"el pinar"},
+  {value:"colonia nicolich", name:"colonia nicolich"},
+  {value:"shangrila", name:"shangrila"},
+  {value:"paso carrasco", name:" paso carrasco"},
+  {value:"san josé de carrasco", name:"san josé de carrasco"},
+  {value:"ciudad de la costa", name:"ciudad de la costa"},
+  
 ]
 
 export const StateType = [
