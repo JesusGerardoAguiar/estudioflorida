@@ -110,6 +110,7 @@ debugger;
             ¡Envianos tu consulta!
           </h3>
           <EmailContainer
+          showTitle={true}
             propertyId={propertySelected && propertySelected.id}
             location={props.location.href}
           />

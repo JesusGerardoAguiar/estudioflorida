@@ -14,7 +14,7 @@ description: >-
   admitidas: Anda, Contaduría o Porto Seguro.   Agendá una visita!   24007347 o
   al 094140123 (línea whatsapp) . 
 location: Av Garibaldi y Raña
-state: mvdeo
+state: montevideo
 zone: tres cruces
 title: Gran ubicación! C/ cochera! Pocos años de construido!
 price: '24500'

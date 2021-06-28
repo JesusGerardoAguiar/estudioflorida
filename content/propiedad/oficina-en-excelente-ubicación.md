@@ -13,7 +13,7 @@ description: >-
   $14.000 gastos comunes incluidos.  Consultános!! T. 2400 7347 C. 094140123
 location: Av Libertador y Paysandú
 rooms: '3'
-state: mvdeo
+state: montevideo
 zone: centro
 title: Oficina en excelente ubicación!
 price: '46000'

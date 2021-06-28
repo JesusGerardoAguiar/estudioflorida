@@ -12,7 +12,7 @@ description: >-
   Deposito con posibilidad de construir un apartamento al fondo. Cochera.  
   Acepta préstamo bancario.   No dude en consultar! LINEA WHATSAPP 094.140.123
 location: Biarritz e Indiana
-state: cane
+state: canelones
 title: 'Preciosa casa c/fondo, barbacoa, y deposito.'
 price: '225.000'
 destacada: true

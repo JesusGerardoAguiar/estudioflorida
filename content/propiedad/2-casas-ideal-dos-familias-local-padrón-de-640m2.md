@@ -18,7 +18,7 @@ description: >-
   autos. Además sobre la calle tiene un local de 12m2.   Agendá tu visita al
   2400 7347, vía whatsapp al 094140123
 location: Los pinos
-state: cane
+state: canelones
 title: '2 casas, ideal dos familias! + local! Padrón de 640m2!'
 price: '308000'
 destacada: false

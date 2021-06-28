@@ -16,7 +16,7 @@ description: >-
   3.400. Primaria: 3 cuotas de $1150. Buena opción para renta! Agendá una
   visita!  T. 24007347 o al C. 094140123 (línea whatsapp) .
 location: 26 de marzo y Julio Cesar
-state: mvdeo
+state: montevideo
 zone: pocitos
 title: 'En PB, ubicación ideal, silencioso y luminoso. Patio de 16m2. '
 price: '145.000'

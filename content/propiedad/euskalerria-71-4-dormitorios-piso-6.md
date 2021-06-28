@@ -16,7 +16,7 @@ description: >-
   préstamo bancario.     Agendá tu visita!        T. 2400 7347 C. 094140123
   (línea whatsapp)
 location: 'Mallorca y Piràn '
-state: mvdeo
+state: montevideo
 title: 'Euskalerria 71, 4 dormitorios, piso 6!'
 price: '72000'
 longitud: '1'

@@ -16,7 +16,7 @@ description: >-
   préstamo bancario.   Agendá tu visita!        T. 2400 7347 C. 094140123 (línea
   whatsapp)
 location: Av. Pérez Butler y Patria
-state: cane
+state: canelones
 title: 'Gran casa s/P.Butler, posibilidad 3 dorm, Piscina+Parrillero'
 price: '263000'
 destacada: false

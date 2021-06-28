@@ -36,15 +36,15 @@ class Studio extends React.Component {
         <GlobalStyles />
 
         <Span>
-          <h3>Estudio Notarial</h3> <p>Realizo compraventa de inmuebles y de automotores, contratos de prendas e Hipotecas. Promesas. Certificados Notariales. Leasing. Arrendamientos urbanos y rurales. Mandatos. Cartas poderes. Capitulaciones Matrimoniales. Sucesiones. Particiones. Etc. 
-<br />
-Busco darle a los negocios , actos y diferentes situaciones el marco jurídico que mejor se adapte a las necesidades del cliente. Dando la solución que buscan. 
-<br />
-Contactame,  trabajemos juntos.</p>
+           <p>Esc. Andrea Alchurrut.-  Egresada de la Universidad de la República (2011). (Foto)<br />
+Busco darle a los negocios, actos y diferentes situaciones el marco jurídico que mejor se adapte a las necesidades del cliente, contribuir aportando mi experiencia y habilidades en el desempeño de mi profesión. Teniendo como objetivo crecer profesionalmente cada día.  
+Servicios Notariales: Compraventas de inmuebles y de automotores, contratos de prendas e hipotecas, Promesas, Arrendamientos, Certificados Notariales, Mandatos, Cartas poderes, Actas Notariales, Capitulaciones Matrimoniales, Sucesiones, Particiones, etc.<br />
+
+Contáctame, trabajemos juntos.</p>
         </Span>
         <MainDiv>
         <ContactDiv>
-          <EmailContainer propertyId={""} location={"/studio"} />
+          <EmailContainer propertyId={""} location={"/studio"} showTitle={false} />
         </ContactDiv>
       </MainDiv>
       </Layout>

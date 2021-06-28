@@ -13,7 +13,7 @@ description: >-
   Inmobiliaria Florida   Socio ADIU
 location: Av Uruguay y Cuareim
 rooms: '3'
-state: mvdeo
+state: montevideo
 zone: centro
 title: 'Variados destinos! 2 baños, deposito + oficina + cocina!'
 price: '28.000'

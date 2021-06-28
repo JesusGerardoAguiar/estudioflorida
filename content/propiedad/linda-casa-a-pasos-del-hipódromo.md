@@ -13,7 +13,7 @@ description: >-
   Acepta préstamo bancario.   Agendá tu visita!        T. 2400 7347 C. 094140123
   (línea whatsapp)
 location: Francisco Santos y Susviela
-state: mvdeo
+state: montevideo
 title: Linda casa a pasos del hipódromo!
 price: '60.000'
 destacada: true

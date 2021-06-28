@@ -15,7 +15,7 @@ description: >-
   C. 094140123 (línea whatsapp)
 location: Basilio Pereira de la luz y Luis Lamas
 rooms: '5'
-state: mvdeo
+state: montevideo
 zone: pocitos
 longitud: '1'
 latitud: '1'

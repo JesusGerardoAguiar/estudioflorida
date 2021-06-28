@@ -10,7 +10,7 @@ description: >-
   lavadero. 2 dormitorios. Los gastos comunes son 610 pesos, se paga aparte la
   OSE y tarifa de saneamiento. Tel. 24007347 - 094140123 (línea wapp)
 location: 'Complejo Inve 122, calle 122, block 6 '
-state: mvdeo
+state: montevideo
 title: A dos cuadras de Iguá. Para entrar!
 price: '34000'
 destacada: false

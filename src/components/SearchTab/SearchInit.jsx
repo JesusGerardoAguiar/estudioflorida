@@ -57,7 +57,7 @@ const SearchTab = () => {
     const { propertyType, listType, zones, states } = filterState
     if (fieldsNotEmpty(propertyType, listType, zones, states)) {
       navigate(
-        `propiedades?propertyType=${propertyType}&listType=${listType}&state=${states}&zones=${zones}`
+        `propiedades?propertyType=${propertyType}&listType=${listType}&states=${states.toLowerCase()}&zones=${zones}`
       )
     } else {
       setOpenSnackbar(true)
@@ -106,7 +106,10 @@ const SearchTab = () => {
             <SelectComponent
               label="Zonas"
               keyObject="zones"
-              menuItems={ZoneType}
+              menuItems={ZoneType.filter((zone) => {
+                return zone.zone === filterState.states.toLowerCase()
+              
+              })}
               filter={filterState.zones}
               setFilterValue={changeFilter}
             />

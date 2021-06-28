@@ -12,7 +12,7 @@ description: >-
   22.500  FOTOS: 307 1 DORMITORIO + GARAJE = $22.500  ¡Agendate que vuelan!
 location: Av. 8 de Octubre y Jaime Cibils
 rooms: '2'
-state: mvdeo
+state: montevideo
 zone: la blanqueada
 title: 'A Estrenar! Con Garaje, Gran Ubicación!'
 price: '22500'

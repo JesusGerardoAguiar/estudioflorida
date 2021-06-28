@@ -15,7 +15,7 @@ description: >-
   2400-7347
 location: Tabobá entre Delgado y Mataojo
 rooms: ''
-state: mvdeo
+state: montevideo
 zone: buceo
 title: Prox Av Italia! Patio + Escritorio + opción cochera!
 price: '17000'

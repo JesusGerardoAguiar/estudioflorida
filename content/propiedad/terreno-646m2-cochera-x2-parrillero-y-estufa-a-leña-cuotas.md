@@ -16,7 +16,7 @@ description: >-
   $5.000   Primaria: 3 x $1200.    Agendá tu visita!     T. 2400 7347 C.
   094140123 (línea whatsapp)
 location: Curitiba (Ex Brasil) esquina Paraguay.
-state: cane
+state: canelones
 title: 'Terreno 646m2,cochera x2, parrillero y estufa a leña +cuotas'
 price: '90.000'
 destacada: false

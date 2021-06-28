@@ -13,7 +13,7 @@ description: >-
   ¡Agendate  que vuelan! 
 location: Av 8 de Octubre y Jaime Cibils
 rooms: '2'
-state: mvdeo
+state: montevideo
 zone: la blanqueada
 title: A estrenar! Con garaje y patio. Gran ubicación!
 price: '24.000'

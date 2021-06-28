@@ -16,7 +16,7 @@ description: >-
   alquilado desde el 22/10/19 al 22/10/2021 por Anda en $12.000  No dudes en
   consultar!   24007347 o al 094140123 (línea whatsapp) . 
 location: Sobre Av. Artigas y López
-state: cane
+state: canelones
 title: 'C/Renta! Amplia Terraza, Ambientes Cómodos Y Luminoso!'
 price: '68000'
 destacada: false

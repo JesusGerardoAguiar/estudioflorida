@@ -8,7 +8,7 @@ description: >-
   47 metros de frente.   Consúltanos!     T. 2400 7347 C. 094140123 (línea
   whatsapp)
 location: Cno Gonzalo Gonchi Rdoriguez
-state: cane
+state: canelones
 title: Pegado al Barrio jardín Las Higueritas!
 price: '480000'
 destacada: false

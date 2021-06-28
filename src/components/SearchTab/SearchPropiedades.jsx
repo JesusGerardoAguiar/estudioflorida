@@ -37,6 +37,7 @@ const useStyles = makeStyles(theme => ({
 
 const SearchPropiedades = ({ filterValues }) => {
   const classes = useStyles()
+  debugger;
   const [filterState, setFilterState] = useState(filterValues)
   const [openSnackbar, setOpenSnackbar] = useState(false)
 
@@ -57,8 +58,7 @@ const SearchPropiedades = ({ filterValues }) => {
     })
   }
 
-  const fieldsNotEmpty = (propertyType, listType) =>
-    propertyType !== ""
+  const fieldsNotEmpty = (propertyType, listType) => propertyType !== ""
 
   const checkFields = () => {
     const {
@@ -73,13 +73,24 @@ const SearchPropiedades = ({ filterValues }) => {
     if (fieldsNotEmpty(propertyType, listType)) {
       navigate(
         `propiedades?propertyType=${propertyType}${
-          listType !== '' && listType!== undefined ? `&listType=${listType}` : ""
+          listType !== "" && listType !== undefined
+            ? `&listType=${listType}`
+            : ""
         }${
-          minPrice !== ''  &&minPrice !== undefined ? `&minPrice=${minPrice}` : ""
-        }${maxPrice !== '' &&maxPrice !== undefined  ? `&maxPrice=${maxPrice}` : ""}${
-          bedrooms !== 0  && bedrooms!== undefined ? `&bedrooms=${bedrooms}` : ""
-        }${states !== ''  && states!== undefined ? `&state=${states}` : ""
-          }${zones !== '' && zones!== undefined  ? `&zones=${zones}` : ""}`
+          minPrice !== "" && minPrice !== undefined
+            ? `&minPrice=${minPrice}`
+            : ""
+        }${
+          maxPrice !== "" && maxPrice !== undefined
+            ? `&maxPrice=${maxPrice}`
+            : ""
+        }${
+          bedrooms !== 0 && bedrooms !== undefined
+            ? `&bedrooms=${bedrooms}`
+            : ""
+        }${states !== "" && states !== undefined ? `&states=${states.toLowerCase()}` : ""}${
+          zones !== "" && zones !== undefined ? `&zones=${zones}` : ""
+        }`
       )
     } else {
       setOpenSnackbar(true)
@@ -144,15 +155,18 @@ const SearchPropiedades = ({ filterValues }) => {
           setFilterValue={changeFilter}
           labelColor={theme.themeColor}
         />
-
         <SelectComponent
           label="Zonas"
           keyObject="zones"
-          menuItems={ZoneType}
+          menuItems={ZoneType.filter(zone => {
+            if(filterState.states){return zone.zone === filterState.states.toLowerCase()}
+            return zone
+          })}
           filter={filterState.zones}
           setFilterValue={changeFilter}
           labelColor={theme.themeColor}
         />
+
         <TextField
           id="standard-number"
           label="Numero de Dormitorios"

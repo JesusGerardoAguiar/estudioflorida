@@ -16,7 +16,7 @@ description: >-
   cuotas de $1458. Primaria: 3 cuotas de $577.  No dudes en consultar!  
   24007347 o al 094140123 (línea whatsapp) . 
 location: Av Garibaldi y Raña
-state: mvdeo
+state: montevideo
 zone: tres cruces
 title: Av Garibaldi y Raña
 price: '145000'

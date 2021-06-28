@@ -13,7 +13,7 @@ description: >-
   $762  Primaria: 3 cuotas de $383.   Agendá tu visita!     T. 2400 7347 C.
   094140123 (línea whatsapp)
 location: Nueva York esquina YI
-state: mvdeo
+state: montevideo
 zone: centro
 title: 'Zona repuestos! Oficinas, depòsito o proyecto constructivo!'
 price: '130.000'

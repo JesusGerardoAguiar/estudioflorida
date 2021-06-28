@@ -14,7 +14,7 @@ description: >-
   Contribución: 3 cuotas de 1656 pesos  Primaria: 3 cuotas de 600 pesos  Agenda
   tu visita al 094.140.123.
 location: Mariano Moreno y Emilio Raña
-state: mvdeo
+state: montevideo
 zone: la blanqueada
 title: 'Preciosa casa, patio c/parrillero, azotea transitable.'
 price: '175.000'
