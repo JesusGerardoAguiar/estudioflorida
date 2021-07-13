@@ -19,7 +19,10 @@ description: >-
   2400 7347, vía whatsapp al 094140123
 location: Los pinos
 state: canelones
+zone: solymar
 title: '2 casas, ideal dos familias! + local! Padrón de 640m2!'
+longitud: '1'
+latitud: '1'
 price: '308000'
 destacada: false
 soldout: false
@@ -41,7 +44,5 @@ images:
 propertyType: casas
 listType: ventas
 date: 'June 19, 2021 7:40 PM'
-longitud: '1'
-latitud: '1'
 ---
 
