@@ -11,9 +11,12 @@ description: >-
   OSE y tarifa de saneamiento. Tel. 24007347 - 094140123 (línea wapp)
 location: 'Complejo Inve 122, calle 122, block 6 '
 state: montevideo
+zone: malvin norte
 title: A dos cuadras de Iguá. Para entrar!
+longitud: '1'
+latitud: '1'
 price: '34000'
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
@@ -31,7 +34,5 @@ images:
 propertyType: apartamentos
 listType: ventas
 date: 'June 16, 2021 7:13 PM'
-longitud: '1'
-latitud: '1'
 ---
 
