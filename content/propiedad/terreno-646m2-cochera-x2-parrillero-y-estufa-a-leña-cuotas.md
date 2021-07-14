@@ -17,14 +17,15 @@ description: >-
   094140123 (línea whatsapp)
 location: Curitiba (Ex Brasil) esquina Paraguay.
 state: canelones
+zone: lomas de solymar
 title: 'Terreno 646m2,cochera x2, parrillero y estufa a leña +cuotas'
+longitud: '1'
+latitud: '1'
 price: '90.000'
 destacada: false
 soldout: false
 rented: false
 currency: U$S
-longitud: '1'
-latitud: '1'
 images:
   - /assets/whatsapp-image-2020-12-01-at-20.53.22.jpeg
   - /assets/20210516_110634.jpg
