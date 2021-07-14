@@ -13,13 +13,14 @@ description: >-
   Acepta préstamo bancario.   No dude en consultar! LINEA WHATSAPP 094.140.123
 location: Biarritz e Indiana
 state: canelones
+zone: medanos de solymar
 title: 'Preciosa casa c/fondo, barbacoa, y deposito.'
+longitud: '1'
+latitud: '1'
 price: '225.000'
 destacada: true
 soldout: false
 rented: false
-longitud: '1'
-latitud: '1'
 currency: U$S
 images:
   - /assets/20210602_104903.jpg
