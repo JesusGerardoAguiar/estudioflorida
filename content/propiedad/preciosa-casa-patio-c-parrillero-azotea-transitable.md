@@ -17,12 +17,12 @@ location: Mariano Moreno y Emilio Raña
 state: montevideo
 zone: la blanqueada
 title: 'Preciosa casa, patio c/parrillero, azotea transitable.'
-price: '175.000'
+longitud: '1'
+latitud: '1'
+price: '171.000'
 destacada: true
 soldout: false
 rented: false
-longitud: '1'
-latitud: '1'
 currency: U$S
 images:
   - /assets/20210507_103046.jpg
