@@ -17,11 +17,12 @@ description: >-
   (línea whatsapp)
 location: 'Mallorca y Piràn '
 state: montevideo
+zone: malvin norte
 title: 'Euskalerria 71, 4 dormitorios, piso 6!'
-price: '72000'
 longitud: '1'
 latitud: '1'
-destacada: false
+price: '72000'
+destacada: true
 soldout: false
 rented: false
 currency: U$S
