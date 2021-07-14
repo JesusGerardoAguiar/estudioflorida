@@ -19,8 +19,10 @@ location: Av Garibaldi y Raña
 state: montevideo
 zone: tres cruces
 title: Av Garibaldi y Raña
+longitud: '1'
+latitud: '1'
 price: '145000'
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
@@ -34,7 +36,5 @@ images:
 propertyType: apartamentos
 listType: ventas
 date: 'June 19, 2021 8:01 PM'
-longitud: '1'
-latitud: '1'
 ---
 
