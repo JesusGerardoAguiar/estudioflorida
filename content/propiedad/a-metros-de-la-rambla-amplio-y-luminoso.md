@@ -24,11 +24,17 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - /assets/logo_mesa-de-trabajo-1-copia-10.jpg
-  - /assets/logo_mesa-de-trabajo-1-copia-10.jpg
-  - /assets/logo_mesa-de-trabajo-1-copia-10.jpg
-  - /assets/logo_mesa-de-trabajo-1-copia-10.jpg
-  - /assets/logo_mesa-de-trabajo-1-copia-10.jpg
+  - /assets/e9a5defc-d3e8-4749-ab30-410be4af3086.jpg
+  - /assets/4fdaf076-6a4f-4956-a981-214390432480.jpg
+  - /assets/b5187a5d-7424-41ec-9f74-e543d30028e3.jpg
+  - /assets/7396f079-9329-497a-bcd4-05dd74f8d7cc.jpg
+  - /assets/7ea85d53-e3f6-40cd-bc4c-d47f681b71b5.jpg
+  - /assets/29890086-80fb-4795-a272-78cf318afe62.jpg
+  - /assets/a46c2b9d-4f0b-4a44-8fd9-ec68d25f549b.jpg
+  - /assets/e05eaf1f-058a-4f14-9c0b-1d39a0cab464.jpg
+  - /assets/f721f086-3521-47bf-b1fb-eed871861790.jpg
+  - /assets/fae02bac-023c-4988-89e3-f1319fbc109d.jpg
+  - /assets/fae02bac-023c-4988-89e3-f1319fbc109d.jpg
 propertyType: apartamentos
 listType: ventas
 date: 'July 20, 2021 6:46 PM'
