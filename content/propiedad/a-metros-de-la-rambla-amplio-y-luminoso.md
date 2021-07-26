@@ -34,7 +34,7 @@ images:
   - /assets/e05eaf1f-058a-4f14-9c0b-1d39a0cab464.jpg
   - /assets/f721f086-3521-47bf-b1fb-eed871861790.jpg
   - /assets/fae02bac-023c-4988-89e3-f1319fbc109d.jpg
-  - /assets/fae02bac-023c-4988-89e3-f1319fbc109d.jpg
+  - /assets/logo_mesa-de-trabajo-1-copia-10.jpg
 propertyType: apartamentos
 listType: ventas
 date: 'July 20, 2021 6:46 PM'
