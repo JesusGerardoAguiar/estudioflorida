@@ -27,6 +27,17 @@ currency: U$S
 images:
   - /assets/whatsapp-image-2021-08-03-at-10.41.34-pm.jpeg
   - /assets/whatsapp-image-2021-08-03-at-10.52.10-pm-3-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.10-pm-2-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.10-pm-1-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.11-pm-4-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.11-pm-1-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.11-pm-3-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.11-pm-2-.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.58.44-pm.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.12-pm.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.10-pm.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.52.09-pm.jpeg
+  - /assets/whatsapp-image-2021-08-03-at-10.54.20-pm.jpeg
 propertyType: casas
 listType: ventas
 date: 'July 20, 2021 6:46 PM'
