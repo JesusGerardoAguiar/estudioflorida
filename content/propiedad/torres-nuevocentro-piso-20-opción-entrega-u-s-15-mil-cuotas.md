@@ -11,14 +11,13 @@ description: >-
   lo largo del living y dormitorio. Gastos comunes: $4.600. Contribución: 3
   cuotas de $1480 -  Primaria: 3 cuotas de $580 - Tributos domiciliarios: $
   838   Hay varias opciones de alquiler de garaje.   El complejo cuenta con SUM,
-  ascensor exclusivo para mascotas y vigilancia 24hs  Opción de entregar u$S
-  20.000 y seguir pagando el préstamo hipotecario.   No dudes en consultar! 
-  Línea Whatapp 094.140.123  Tel. 2.400.7347  Inmobiliaria Estudio Florida 
-  Socio ADIU.
+  ascensor exclusivo para mascotas y vigilancia 24hs  Acepta Banco! No dudes en
+  consultar!  Línea Whatapp 094.140.123  Tel. 2.400.7347  Inmobiliaria Estudio
+  Florida  Socio ADIU.
 location: Bv Artigas y L A de Herrera
 state: montevideo
 zone: jacinto vera
-title: Torres Nuevocentro. Piso 20! Opción entrega U$s 20 mil + cuotas
+title: 'Torres Nuevocentro. Piso 20! Vista espectacular! '
 price: '135000'
 destacada: true
 soldout: false
