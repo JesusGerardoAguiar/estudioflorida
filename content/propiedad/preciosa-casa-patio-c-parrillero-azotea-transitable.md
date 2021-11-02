@@ -19,7 +19,7 @@ zone: la blanqueada
 title: 'Preciosa casa, patio c/parrillero, azotea transitable.'
 longitud: '1'
 latitud: '1'
-price: '171.000'
+price: '164.000'
 destacada: true
 soldout: false
 rented: false
