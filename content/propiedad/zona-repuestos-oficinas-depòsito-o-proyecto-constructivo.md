@@ -16,12 +16,12 @@ location: Nueva York esquina YI
 state: montevideo
 zone: centro
 title: 'Zona repuestos! Oficinas, depòsito o proyecto constructivo!'
-price: '130.000'
+longitud: '1'
+latitud: '1'
+price: '97.000'
 destacada: false
 soldout: false
 rented: false
-longitud: '1'
-latitud: '1'
 currency: U$S
 images:
   - /assets/20210318_162635.jpg
