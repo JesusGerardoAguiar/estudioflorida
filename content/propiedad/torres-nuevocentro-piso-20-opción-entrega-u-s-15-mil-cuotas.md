@@ -18,7 +18,7 @@ location: Bv Artigas y L A de Herrera
 state: montevideo
 zone: jacinto vera
 title: 'Torres Nuevocentro. Piso 20! Vista espectacular! '
-price: '135000'
+price: '130000'
 destacada: true
 soldout: false
 rented: false
