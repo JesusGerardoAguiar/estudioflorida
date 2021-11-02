@@ -18,7 +18,7 @@ location: Florida y Canelones
 state: montevideo
 zone: barrio sur
 title: 'A metros de la Rambla, amplio y luminoso!'
-price: '135000'
+price: '119000'
 destacada: false
 soldout: false
 rented: false
