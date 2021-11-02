@@ -17,12 +17,12 @@ location: Basilio Pereira de la luz y Luis Lamas
 rooms: '5'
 state: montevideo
 zone: pocitos
-longitud: '1'
-latitud: '1'
 title: >-
   En una gran zona! Estudio de Grabación o vivienda C/renta Basilio Pereira de
   la Luz y Luis Lamas
-price: '170000'
+longitud: '1'
+latitud: '1'
+price: '150000'
 destacada: false
 soldout: false
 rented: false
