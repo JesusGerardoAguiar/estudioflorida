@@ -15,7 +15,7 @@ rooms: ''
 state: montevideo
 zone: barrio sur
 title: Amplio. A pasos del Centro y la Rambla!
-price: '17500'
+price: '16900'
 destacada: true
 soldout: false
 rented: false
