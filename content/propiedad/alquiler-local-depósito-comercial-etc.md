@@ -16,7 +16,7 @@ state: montevideo
 zone: cordón
 title: 'Alquiler local, depósito, comercial, etc'
 price: '45000'
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: $
@@ -25,7 +25,7 @@ images:
   - /assets/211105230204440.jpg
   - /assets/211105230202820.jpg
   - /assets/211105230203890-1-.jpg
-propertyType: apartamentos
+propertyType: local
 listType: alquileres
 date: 'September 30, 2021 4:53 PM'
 ---
