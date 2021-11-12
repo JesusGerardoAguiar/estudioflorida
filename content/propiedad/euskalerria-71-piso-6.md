@@ -18,7 +18,7 @@ location: 'Mallorca y Piran '
 state: montevideo
 zone: malvin norte
 title: Euskalerria 71 Piso 6!
-price: '18000'
+price: '16900'
 destacada: false
 soldout: false
 rented: false
