@@ -21,7 +21,7 @@ zone: malvin norte
 title: 'Euskalerria 71, 4 dormitorios, piso 6!'
 longitud: '1'
 latitud: '1'
-price: '72000'
+price: '69500'
 destacada: true
 soldout: false
 rented: false
