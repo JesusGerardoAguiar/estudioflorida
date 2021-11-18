@@ -15,7 +15,7 @@ location: La Paz entre Inca y Democracia
 state: montevideo
 zone: cordón
 title: 'Alquiler local, depósito, comercial, etc'
-price: '45000'
+price: '39000'
 destacada: true
 soldout: false
 rented: false
