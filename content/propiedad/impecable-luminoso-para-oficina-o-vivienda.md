@@ -17,7 +17,7 @@ rooms: ''
 state: montevideo
 zone: cordón
 title: 'Impecable, luminoso, para oficina o vivienda!'
-price: '16500'
+price: '15000'
 destacada: true
 soldout: false
 rented: false
