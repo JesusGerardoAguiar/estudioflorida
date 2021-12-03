@@ -20,7 +20,7 @@ rooms: ''
 state: montevideo
 zone: punta carretas
 title: 'Lindo apto, en una zona inmejorable!'
-price: '150000'
+price: '147000'
 destacada: true
 soldout: false
 rented: false
