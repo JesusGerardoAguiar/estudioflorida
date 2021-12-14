@@ -22,7 +22,7 @@ location: Rambla Tomas Berreta y De Los Pinos
 state: canelones
 zone: lomas de solymar
 title: Venta Casa Lomas de Solymar 3 Dormitorios frente a la playa!
-price: '248000'
+price: '235000'
 destacada: true
 soldout: false
 rented: false
