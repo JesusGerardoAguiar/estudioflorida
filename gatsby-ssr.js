@@ -11,7 +11,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
           // Facebook page ID
           whatsapp: "+59894140123",
           // WhatsApp number
-          call_to_action: "Escribenos!",
+          call_to_action: Comunícate con nosotros por whatsapp!",
           // Call to action
           button_color: "#FF6550",
           // Color of button

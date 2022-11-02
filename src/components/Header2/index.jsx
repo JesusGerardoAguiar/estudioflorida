@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
 
 const Header = () => {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" style={{paddingTop:"1rem"}}>
       <GlobalStyles />
       <Navbar.Brand style={{ padding: 0 }}>
         <Img alt="logo" src={Logo} />
@@ -53,14 +53,12 @@ const Header = () => {
           <Nav.Link style={{ boxShadow: "none" }} href="/projects">
             Proyectos
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/studio">
-            Estudio Notarial
-          </Nav.Link>
+         
           <Nav.Link style={{ boxShadow: "none" }} href="/blog">
-            Blog
+          Información de interés
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/aboutme">
-            Quien Soy
+          Quienes somos
           </Nav.Link>
           <Nav.Link style={{ boxShadow: "none" }} href="/contacto">
             Contacto
@@ -73,7 +71,7 @@ const Header = () => {
 
 const Img = styled.img`
   margin-bottom: 0px;
-  width: ${isClient && window.location.pathname === '/' ? '' : '6rem'};
+  width: ${isClient && window.location.pathname === '/' ? '0rem' : '6rem'};
   @media (max-width: 768px) {
     width: 4rem;
   }

@@ -37,46 +37,28 @@ class AboutMe extends React.Component {
         <Span>
           <h3>¡Bienvenidos! </h3>{" "}
           <p>
-            Hola, soy Andrea Alchurrut Duarte, Directora de Estudio Florida
-            Inmobiliaria. Soy mamá de Felipe de 2 años, Operadora Inmobiliaria
-            recibida de UTU en el año 2012 y Escribana Pública desde 2011.
-            Comencé a emprender en el rubro inmobiliario en 2016, previamente
-            trabajé en relación de dependencia por 5 años, siendo agente en otra
-            Inmobiliaria de Montevideo.
+            Estudio Florida nace en 2016 con la iniciativa de la Esc. y Op.
+            Inmobiliaria Andrea Alchurrut.
             <br />
-            Durante la relación de dependencia aprendí mucho de la actividad,
-            pero llegó un momento, en que necesité crecer personal y
-            profesionalmente, abarcar tareas que aumentaran la compatibilidad
-            con mi profesión y poder ser decisora de mi futuro. Tiempo de poner
-            la mira, desde otro punto de vista, el desafío de ser emprendedora.
+            En 2021 se integra a la dirección la Lic. Leticia Anzola. Ambas
+            cuentan con más de 10 años de experiencia asesorando y acompañando a
+            sus clientes durante todo el proceso de compra, venta y
+            arrendamientos de inmuebles.
             <br />
-            Tomé mi experiencia y conocimientos y di el paso. Logré
-            independizarme. Hoy Estudio Florida tiene 5 años en el mercado, con
-            una cartera de clientes fijos y en crecimiento. La Inmobiliaria es
-            hace varios años socia de la Asociación de Agentes Inmobiliarios del
-            Uruguay (A.D.I.U), institución que nos brinda capacitación constante
-            y un equipo de trabajo con más de 200 profesionales inmobiliarios,
-            con los cuales compartimos tanto experiencias como material en venta
-            y alquiler, permitiendo abarcar el 100% del mercado.
+            Hoy cuenta con una cartera de clientes fijos y en constante
+            crecimiento. Forma parte de la Asociación de Agentes Inmobiliarios
+            del Uruguay (ADIU), institución que brinda capacitación constante y
+            un gran equipo de trabajo con más de 200 operadores inmobiliarios
+            que trabajan en red abracando así la mayor parte del mercado para
+            poder acercarle a sus clientes a través de un único operador la
+            mayor parte de las opciones disponibles en el mercado.
             <br />
-            Uno de mis diferenciales es la cordial relación que tengo con los
-            clientes, intento empatizar con la necesidad u oportunidad que los
-            encuentra en el momento de pensar o llevar a cabo una operación de
-            esta índole.
+            Empada, cordialidad, compromiso y responsabilidad son los valores
+            que nos identifican.
             <br />
-            Te invito a que me contactes y conversemos sobre ello para darte ¡La
-            solución que buscas!
+            Comunicate con nosotras, somos la solución que buscas
           </p>
-          <div
-            style={{
-              backgroundImage: `url(${AboutMeImg})`,
-              backgroundSize: "contain",
-              width: "50rem",
-              height: "30rem",
-              backgroundRepeat: 'no-repeat',
-              margin:'auto'
-            }}
-          />
+         
         </Span>
       </Layout>
     )

@@ -3,10 +3,12 @@ import styled from "styled-components"
 import Header from "./Header2"
 import PhoneNumber from "./Header/PhoneNumber"
 import Lograf from "../../content/assets/lografLogoBlack.svg"
-import {theme} from '../theme';
-import LogoFooter from '../../content/assets/img/logo-footer.png'
-import Adiu from '../../content/assets/adiu.jpeg'
-
+import { theme } from "../theme"
+import LogoFooter from "../../content/assets/img/logo-footer.png"
+import Adiu from "../../content/assets/adiu.jpeg"
+import FacebookIcon from "./icons/facebook"
+import InstagramIcon from "./icons/instagram"
+import YoutubeIcon from "./icons/youtube"
 class Layout extends React.Component {
   render() {
     const { children, location } = this.props
@@ -20,31 +22,31 @@ class Layout extends React.Component {
         </div>
         <Footer backgroundImg={Lograf}>
           <Row>
-            <ColumnLinks>
-            <h5>Link Utiles</h5>
-              <ul>
-              <a href="/propiedades">Ventas y Alquileres</a>
-                <a href="/blog">Blog</a>
-              </ul>
-            </ColumnLinks>
-            <div style={{width:'100%'}}>
-            <img src={LogoFooter} />
-
+            <ColumnLinks></ColumnLinks>
+            <div style={{ width: "100%" }}>
+              <img src={LogoFooter} />
             </div>
             <ColumnLinks>
               <h5>Siguenos</h5>
-              <ul>
-              <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank">Instagram</a>
-                <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank">Facebook</a>
-                <img src={Adiu} style={{ width: '5rem',
-    marginLeft: 0}}/>
+              <ul style={{display:"flex", flexDirection:"row", alignItems:"baseline"}}>
+                <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank"><li style={{ marginRight:"0.5rem"}}>
+                  <FacebookIcon />
+                </li></a>{" "}
+                <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank"><li style={{ marginRight:"0.5rem"}}>
+                  <InstagramIcon />
+                </li></a>
+                <a href="https://www.youtube.com/channel/UC_hP4LmwPaLuJPNHti8Vjaw/videos" target="__blank"><li style={{ marginRight:"0.5rem"}}>
+                  <YoutubeIcon />
+                </li></a>{" "}
+                {/* <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank">Instagram</a>
+                <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank">Facebook</a> */}
               </ul>
-
+                <img src={Adiu} style={{ width: "5rem", marginLeft: 0 }} />
             </ColumnLinks>
           </Row>
           <LografLogo>
             © {new Date().getFullYear()}, powered by
-            <a href="https://www.lografdesign.com">
+            <a href="https://www.lografdesign.com" style={{ marginRight: 0 }}>
               <img src={Lograf} alt="f" style={{ width: "5rem" }} />
             </a>
           </LografLogo>
@@ -70,32 +72,33 @@ const Row = styled.div`
 `
 
 const ColumnLinks = styled.div`
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content:initial;
-  width:30%;
-  ul{
+  justify-content: initial;
+  width: 30%;
+  ul {
     text-align: initial;
-    margin-bottom:0px;
+    margin-bottom: 0px;
   }
-  li{
+  li {
     list-style: none;
     font-size: 1rem;
-    color:white;
+    color: white;
   }
-  h5{
+  h5 {
     font-family: MontserratBold;
-    color:white;
+    color: white;
   }
 
   @media (max-width: 768px) {
     width: auto;
-    h5,li,ul{
+    h5,
+    li,
+    ul {
       text-align: center;
-    width: 100%;
-    margin-left: 0;
-
+      width: 100%;
+      margin-left: 0;
     }
   }
 `
@@ -108,7 +111,7 @@ const Wrapper = styled.div`
   p {
     font-family: LeagueSpartanBold;
   }
-  
+
   #ReactBackgroundSlider > figure {
     height: 80vh;
     top: auto;
@@ -117,11 +120,10 @@ const Wrapper = styled.div`
 `
 
 const LografLogo = styled.div`
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  color:white;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
 `
 
 const Footer = styled.footer`
@@ -129,7 +131,7 @@ const Footer = styled.footer`
   margin-top: auto;
   margin-bottom: 0px;
   font-size: 14px;
-  background-color:${theme.themeColor};
+  background-color: ${theme.themeColor};
   font-family: "LeagueSpartanBold";
   display: flex;
   flex-direction: column;
@@ -139,17 +141,16 @@ const Footer = styled.footer`
     display: flex;
     border-shadow: none;
     color: transparent;
-    color:white;
+    color: white;
   }
   img {
-  
     margin-bottom: 0px;
     margin-left: 0.5rem;
   }
   @media (max-width: 768px) {
     margin: 0px;
-    img{
-      margin-bottom:1rem;
+    img {
+      margin-bottom: 1rem;
     }
   }
 `

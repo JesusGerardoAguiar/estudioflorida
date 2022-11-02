@@ -9,7 +9,7 @@ import PhoneNumberIcon from '../../content/assets/icons/phone-number.svg'
 import EmailIcon from '../../content/assets/icons/email.svg'
 import { createGlobalStyle } from "styled-components"
 import SearchTab from "../components/SearchTab/SearchInit"
-
+import MobileIcon from '../components/icons/phone'
 import BackgroundSlider from "react-background-slider"
 
 const GlobalStyles = createGlobalStyle`
@@ -43,9 +43,9 @@ class Contacto extends React.Component {
         <GlobalStyles />
         <Container>
           <PresentationText>Contacto</PresentationText>
-          <p id="ltaif">Estudio Florida</p>
           <p id='contact-bullets'> <img src={LocationIcon} />Cordón, Montevideo, Uruguay </p>
-          <p id='contact-bullets'><img src={PhoneNumberIcon} /> Celular +598 94 140 123, Oficina 24007347 </p>
+          <p id='contact-bullets'><MobileIcon />  +598 94 140 123 - +598 92 689 689</p>
+          <p id='contact-bullets'><img src={PhoneNumberIcon} />   2400-7347  </p>
           <p id='contact-bullets'><img src={EmailIcon} />estudioinmobiliarioflorida@gmail.com</p>
         </Container>
       </Layout>

@@ -1,14 +1,14 @@
 export const PropertyType = [
   { value: "casas", name: "Casas" },
   { value: "apartamentos", name: "Apartamentos" },
-  { name: "Terreno", value: "terreno" },
-  { name: "Local", value: "local" },
-  { name: "Oficina", value: "oficina" },
+  { name: "Terrenos", value: "terreno" },
+  { name: "Locales", value: "local" },
+  { name: "Oficinas", value: "oficina" },
 ]
 
 export const ListType = [
-  { value: "ventas", name: "Ventas" },
-  { value: "alquileres", name: "Alquileres" },
+  { value: "ventas", name: "Venta" },
+  { value: "alquileres", name: "Alquiler" },
 ]
 
 export const ZoneType = [
@@ -92,8 +92,8 @@ export const ZoneType = [
 ]
 
 export const StateType = [
-  { value: "Montevideo", name: "montevideo" },
-  { value: "Canelones", name: "canelones" },
+  { value: "Montevideo", name: "Montevideo" },
+  { value: "Canelones", name: "Canelones" },
 ]
 
 export const Currency = [

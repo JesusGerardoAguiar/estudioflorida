@@ -80,7 +80,7 @@ const SearchTab = () => {
         <SearchContainer>
           <SelectRow>
             <SelectComponent
-              label="Listado"
+              label="Operación"
               keyObject="listType"
               menuItems={
                ListType
@@ -89,7 +89,7 @@ const SearchTab = () => {
               setFilterValue={changeFilter}
             />
             <SelectComponent
-              label="Propiedad"
+              label="Tipo de Propiedad"
               keyObject="propertyType"
               menuItems={PropertyType}
               filter={filterState.propertyType}
@@ -104,17 +104,27 @@ const SearchTab = () => {
             />
 
             <SelectComponent
-              label="Zonas"
+              label="Barrio"
               keyObject="zones"
               menuItems={ZoneType.filter((zone) => {
                 return zone.zone === filterState.states.toLowerCase()
               
-              })}
+              }).map((zone) => { return { ...zone, name:zone.value } })}
               filter={filterState.zones}
               setFilterValue={changeFilter}
             />
           </SelectRow>
           <ButtonDiv>
+           
+            <Button
+              variant="contained"
+              color="primary"
+              size="large"
+              className={classes.button}
+              onClick={() => checkFields()}
+            >
+              Buscar
+            </Button>
             <Button
             style={{marginRight:'0.5rem'}}
               variant="contained"
@@ -124,15 +134,6 @@ const SearchTab = () => {
               onClick={() => clearFilter()}
             >
               Limpiar
-            </Button>
-            <Button
-              variant="contained"
-              color="primary"
-              size="large"
-              className={classes.button}
-              onClick={() => checkFields()}
-            >
-              Buscar
             </Button>
           </ButtonDiv>
         </SearchContainer>

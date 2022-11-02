@@ -75,7 +75,7 @@ const FeaturedHousesComponent = ({ data }) => {
         <FeaturedHouses>
           <FeaturedColumn>
             <TitleContainer id="featured">
-              <h2>Nuevos Ingresos</h2>
+              <h2>Propiedades destacadas</h2>
             </TitleContainer>
             <FeaturedStateRow>{renderHouses(properties)}</FeaturedStateRow>
           </FeaturedColumn>
@@ -86,7 +86,7 @@ const FeaturedHousesComponent = ({ data }) => {
         <FeaturedHouses>
           <FeaturedColumn>
             <TitleContainer id="featured">
-              <h2>Nuevos Ingresos</h2>
+              <h2>Propiedades destacadas</h2>
             </TitleContainer>
             <FeaturedStateRow>{renderHouses(properties)}</FeaturedStateRow>
           </FeaturedColumn>

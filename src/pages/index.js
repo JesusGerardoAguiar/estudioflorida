@@ -12,7 +12,7 @@ import HomeBg from '../../content/assets/img/home-bg.jpg'
 import HomeBgMobile from '../../content/assets/img/home-bg-mobile.jpg'
 import LogoHome from '../../content/assets/img/logo-home.png';
 
-
+import Logo from "../../content/assets/img/logo-header.jpg"
 
 const GlobalStyles = createGlobalStyle`
 @font-face {

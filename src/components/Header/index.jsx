@@ -249,11 +249,7 @@ const Header = ({ location }) => {
     } else if (matches.large) {
       return (
         <MainDiv pathname={location.pathname}>
-          <img
-            alt="a"
-            src={LtaiftLogo}
-            style={{ width: "20rem", marginBottom: 0 }}
-          />
+          
           <LinkDiv>
             <LinkBox>
               <Link>Inicio</Link>
