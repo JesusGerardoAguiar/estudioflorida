@@ -4,6 +4,11 @@ bedroom: '4'
 bathroom: '4'
 mts2: '207'
 garage: COCHERA
+map: >-
+  <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.651860862457!2d-56.159090168138434!3d-34.91518521762539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f817494c23a91%3A0x3aad2e44d8726850!2sDr%20Jos%C3%A9%20Scoseria%202660%2C%2011300%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1sen!2suy!4v1667828786420!5m2!1sen!2suy"
+  width="600" height="450" allowfullscreen="" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe>
 description: >-
   Los Pinos , a dos cuadras de  Giannattasio!: Terreno de 640 m2 y 207 m2
   construidos. Se trata de dos casas en un padrón común. Casa 1: (Al frente / 3
