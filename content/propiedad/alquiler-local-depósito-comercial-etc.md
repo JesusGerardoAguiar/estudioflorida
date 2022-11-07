@@ -4,6 +4,7 @@ bedroom: ''
 bathroom: '1'
 mts2: '350'
 garage: SI
+map: ""
 description: >-
   Nuevo en el mercado!. La Paz entre Inca y Democracia. Gran local de 350 m2 en
   excelente estado, listo para entrar!.  150 M2 techados y 200 m2 al aire libre.

@@ -89,7 +89,7 @@ const SearchTab = () => {
               setFilterValue={changeFilter}
             />
             <SelectComponent
-              label="Tipo de Propiedad"
+              label="Tipo de propiedad"
               keyObject="propertyType"
               menuItems={PropertyType}
               filter={filterState.propertyType}

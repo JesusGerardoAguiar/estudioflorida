@@ -4,6 +4,7 @@ bedroom: '1'
 bathroom: '1'
 mts2: '43'
 garage: NO TIENE
+map: ""
 description: >-
   Torres Nuevo Centro: Piso 20, gran vista! Muy luminoso da el sol todo el día.
   43m2= 37m2 edificados + 6 m2 de terraza Living comedor con cocina integrada 

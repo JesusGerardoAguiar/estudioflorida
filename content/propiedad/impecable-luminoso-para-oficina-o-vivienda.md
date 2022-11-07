@@ -4,6 +4,7 @@ bedroom: '1'
 bathroom: '1'
 mts2: '40'
 garage: NO TIENE
+map: ""
 description: >-
   18 de julio y Martin C Martínez: Apartamento Monoambiente de 40m2.
   Contrafrente con ventanal sobre calle Brandzen. Cuenta con una mampara

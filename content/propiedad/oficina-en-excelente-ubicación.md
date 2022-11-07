@@ -4,6 +4,7 @@ bedroom: ''
 bathroom: '1'
 mts2: '30'
 garage: NO TIENE
+map: ""
 description: >-
   OPORTUNIDAD!!   EN EL CENTRO -- Av Libertador y Paysandú .- Edificio con
   ubicación estratégica, dentro de los gastos comunes se incluye ute de cada

@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '1'
 mts2: '46'
 garage: 'NO'
+map: ""
 description: >-
   Malvín Norte, Complejo Inve 16,  calle 122, Block 6. Puerta 2169.  Apto en 3er
   piso por escalera.  Living comedor, baño reciclado, cocina nueva con terraza

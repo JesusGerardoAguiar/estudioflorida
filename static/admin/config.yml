@@ -17,6 +17,7 @@ collections:
       - { name: bathroom, label: Baños, required: false }
       - { name: mts2, label: Mts2 }
       - { name: garage, label: Garaje, required: false }
+      - { name: map, label: Mapa, required: false, default: "" }
       - { name: description, label: Descripción }
       - { name: location, label: Ubicación }
       - { name: rooms, label: Ambientes, required: false }

@@ -3,6 +3,7 @@ id: 4
 bathroom: '2'
 mts2: '90'
 garage: No tiene
+map: ""
 description: >-
   Sobre Av Uruguay casi Cuareim. Local de 90 m2, en muy buen estado. Al frente
   gran salón con vidriera,  ambiente de deposito , dos baños reciclados, cocina

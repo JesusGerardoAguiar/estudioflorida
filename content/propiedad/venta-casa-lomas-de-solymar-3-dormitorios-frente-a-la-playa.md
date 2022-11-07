@@ -4,6 +4,7 @@ bedroom: '3'
 bathroom: '3'
 mts2: '109'
 garage: NO TIENE
+map: ""
 description: >-
   Divina PH sobre Rambla en Lomas de Solymar! Moderna, funcional, frente a la
   playa! La misma se desarrolla en 2 plantas. Planta baja: Living comedor con

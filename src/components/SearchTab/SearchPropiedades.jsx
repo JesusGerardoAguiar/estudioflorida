@@ -116,7 +116,7 @@ const SearchPropiedades = ({ filterValues }) => {
       />
       <SelectColumn>
         <SelectComponent
-          label="Tipo de Propiedad"
+          label="Tipo de propiedad"
           keyObject="propertyType"
           menuItems={PropertyType}
           filter={filterState.propertyType}
@@ -124,7 +124,7 @@ const SearchPropiedades = ({ filterValues }) => {
           labelColor={theme.themeColor}
         />
         <SelectComponent
-          label="Tipo de Listado"
+          label="Operación"
           keyObject="listType"
           menuItems={ListType}
           filter={filterState.listType}
@@ -132,7 +132,7 @@ const SearchPropiedades = ({ filterValues }) => {
           labelColor={theme.themeColor}
         />
         <SelectComponent
-          label="Precio Minimo"
+          label="Desde"
           keyObject="minPrice"
           menuItems={MinPrice}
           filter={filterState.minPrice}
@@ -140,7 +140,7 @@ const SearchPropiedades = ({ filterValues }) => {
           labelColor={theme.themeColor}
         />
         <SelectComponent
-          label="Precio Maximo"
+          label="Hasta"
           keyObject="maxPrice"
           menuItems={MaxPrice}
           filter={filterState.maxPrice}
@@ -156,12 +156,12 @@ const SearchPropiedades = ({ filterValues }) => {
           labelColor={theme.themeColor}
         />
         <SelectComponent
-          label="Zonas"
+          label="Barrio"
           keyObject="zones"
           menuItems={ZoneType.filter(zone => {
             if(filterState.states){return zone.zone === filterState.states.toLowerCase()}
             return zone
-          })}
+          }).map((zone) => { return { ...zone, name:zone.value } })}
           filter={filterState.zones}
           setFilterValue={changeFilter}
           labelColor={theme.themeColor}

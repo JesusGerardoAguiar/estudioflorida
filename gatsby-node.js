@@ -40,6 +40,7 @@ exports.createPages = ({ graphql, actions }) => {
               description
               blogPost
               isProject
+              map
             }
           }
         }

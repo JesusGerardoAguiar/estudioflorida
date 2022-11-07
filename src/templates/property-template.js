@@ -84,28 +84,12 @@ const PropertyTemplate = props => {
           <Description>{ propertySelected && propertySelected.description}</Description>
           {renderRentedText(propertySelected)}
           <Specs>
-            {propertySelected && propertySelected.bathroom} Baños{" "}
-            <img
-              alt="propiedad"
-              src={BathIcon}
-              style={{
-                width: "1.8rem",
-                marginBottom: "-1px",
-              }}
-            />{" "}
-            &#9679; { propertySelected && propertySelected.bedroom} Dormitorios{" "}
-            <img
-              alt="propiedad"
-              src={BedIcon}
-              style={{
-                width: "2rem",
-                marginBottom: "-7px",
-              }}
-            />{" "}
-            &#9679;{" "}
-            <>
               {propertySelected && propertySelected.mts2} mts<sup>2</sup>{" "}
-            </>
+              &#9679;
+           {" "}
+            {propertySelected && propertySelected.bathroom} Baños{" "}
+            &#9679;
+             { propertySelected && propertySelected.bedroom} Dormitorios{" "}
           </Specs>
           <Specs style={{ alignSelf: "flex-end", marginTop: "1.5rem" }}>
             {propertySelected && propertySelected.location}
@@ -117,6 +101,9 @@ const PropertyTemplate = props => {
         </div>
       </MainDiv>
       <MainDiv>
+      <div dangerouslySetInnerHTML={{ __html: propertySelected && propertySelected.map }} />
+      </MainDiv>
+      <MainDiv>
         <ContactDiv>
           <h3 style={{ marginTop: 0, marginBottom: "1.5rem" }}>
             ¡Envianos tu consulta!
@@ -125,7 +112,8 @@ const PropertyTemplate = props => {
         </ContactDiv>
       </MainDiv>
       <MainDiv>
-        <GoogleMap googleMapsApiKey={'AIzaSyACQIe4BWvhGROmJiNj9XmvHwywh1qMQ80'} address={{ lat: (propertySelected && propertySelected.longitud), lng: (propertySelected && propertySelected.latitud) }} />
+        {/* <GoogleMap googleMapsApiKey={'AIzaSyACQIe4BWvhGROmJiNj9XmvHwywh1qMQ80'} address={{ lat: (propertySelected && propertySelected.longitud), lng: (propertySelected && propertySelected.latitud) }} /> */}
+        
       </MainDiv>
     </Layout>
   )
@@ -201,10 +189,9 @@ img{display:none;}
 const MainDiv = styled.div`
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
   flex-direction: row;
   padding: 2rem;
-  align-items: end;
  
   h3 {
     margin: 0px;
@@ -257,6 +244,7 @@ export const pageQuery = graphql`
           longitud
           soldout
           rented
+          map
         }
       }
     }

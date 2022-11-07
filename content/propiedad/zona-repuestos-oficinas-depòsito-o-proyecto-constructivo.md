@@ -4,6 +4,7 @@ bedroom: '4'
 bathroom: '1'
 mts2: '150'
 garage: NO TIENE
+map: ""
 description: >-
   Nueva York esquina YI: Se vende casa a reciclar con 150m2 de terreno y 150m2
   construidos. Actualmente la casa cuenta con 6 ambientes, un patio interno con

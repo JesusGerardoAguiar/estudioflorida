@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '1'
 mts2: '59'
 garage: NO TIENE
+map: ""
 description: >-
   Francisco Santos y Susviela: Casa en PH totalmente independiente al frente y
   con entrada lateral. 59m2 , recibidor, living comedor, dos dormitorios amplios

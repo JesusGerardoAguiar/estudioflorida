@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '1'
 mts2: '50'
 garage: 'NO'
+map: ""
 description: >-
   26 de Marzo y Pereira de la luz, 50m2 más 16m2 de patio de uso exclusivo! A
   pasos de todos los servicios, en una ubicación inmejorable. Entrada por

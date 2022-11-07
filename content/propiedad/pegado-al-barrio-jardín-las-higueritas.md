@@ -1,6 +1,7 @@
 ---
 id: 17
 mts2: '3348'
+map: ""
 description: >-
   Cno Gonzalo Gonchi Rdoriguez. Zona en pleno crecimiento!  A pasos de Haras del
   lago, complejos deportivos de varios colegios y a 650 metros de

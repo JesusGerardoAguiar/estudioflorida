@@ -4,6 +4,7 @@ bedroom: '3'
 bathroom: '2'
 mts2: '117'
 garage: 'NO'
+map: ""
 description: >-
   Mariano Moreno y Emilio Raña, casa en propiedad única, desarrollada en dos
   plantas, 117m2 edificados. PB: living, comedor, cocina definida con buenos

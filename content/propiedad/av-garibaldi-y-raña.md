@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '1'
 mts2: '50'
 garage: COCHERA
+map: ""
 description: >-
   Av Garibaldi y Raña: En una zona plagada de servicios, supermercados, red de
   cobranzas, ferreterías, transporte, etc y cerca de todo!  Apto en 2 do piso,

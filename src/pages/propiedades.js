@@ -132,32 +132,12 @@ const Propiedades = ({ location, data }) => {
                       alignItems: "center",
                     }}
                   >
-                    {property.bathroom} Baños{" "}
-                    <img
-                      alt="propiedad"
-                      src={BathIcon}
-                      style={{
-                        width: "1.8rem",
-                        marginBottom: "14.44444444px",
-                        marginLeft: 5,
-                        marginRight: 5,
-                      }}
-                    />{" "}
-                    &#9679; {property.bedroom} Dormitorios{" "}
-                    <img
-                      alt="propiedad"
-                      src={BedIcon}
-                      style={{
-                        width: "2rem",
-                        marginBottom: "9.44444444px",
-                        marginLeft: 5,
-                        marginRight: 5,
-                      }}
-                    />{" "}
+                    {/* “___m2 - ___dormitorio/s - ___ baño/s */}
+                      {property.mts2}mts<sup>2</sup>{" "}{" "}
+                      &#9679;{" "}
+                     {property.bedroom} Dormitorios{" "}
                     &#9679;{" "}
-                    <>
-                      {property.mts2} mts<sup>2</sup>{" "}
-                    </>
+                    {property.bathroom} Baños{" "}
                   </h5>
                   <p id="description">{property.description}</p>
                   {renderRentedText(property)}

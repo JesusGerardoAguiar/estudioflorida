@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '1'
 mts2: '56'
 garage: NO TIENE
+map: ""
 description: >-
   Basilio Pereira de la luz y Luis Lamas: PH de bajos 58m2. Totalmente
   independiente. Actualmente se encuentra instalado un estudio de grabación, por

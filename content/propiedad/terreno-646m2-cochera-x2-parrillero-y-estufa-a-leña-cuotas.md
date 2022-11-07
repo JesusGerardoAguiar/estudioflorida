@@ -4,6 +4,7 @@ bedroom: '3'
 bathroom: '1'
 mts2: '112'
 garage: COCHERA
+map: ""
 description: >-
   Sobre calle Curitiba (Ex Brasil) esquina Paraguay. Casa en padrón único, 646m2
   de terreno, 112 m2 edificados, living comedor con estufa a leña, cocina

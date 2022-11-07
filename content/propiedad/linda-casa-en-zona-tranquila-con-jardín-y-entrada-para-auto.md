@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '2'
 mts2: '120'
 garage: Cochera
+map: ""
 description: >-
   SALINAS: Solís y Guayacán: 472m2 de terreno , 120 m2 construidos. Casa en dos
   plantas. Planta baja: living comedor amplio con cocina integrada (placares

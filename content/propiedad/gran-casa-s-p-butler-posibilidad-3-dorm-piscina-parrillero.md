@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '3'
 mts2: '187'
 garage: NO TIENE
+map: ""
 description: >-
   Av. Pérez Butler y Patria: Padrón único de 1663 m2 de terreno y 187 m2
   edificados.  Living con estufa de alto rendimiento, comedor (ambos ambientes

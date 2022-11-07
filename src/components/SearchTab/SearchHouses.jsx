@@ -76,7 +76,7 @@ const SearchHouses = () => {
       <SnackbarComponent variant='error' open={openSnackbar} handleClose={closeSnakbar} msg={"Ninguno de los campos puede ser vacio"} />
       <SelectRow>
         <SelectComponent
-           label="Tipo de Propiedad"
+           label="Tipo de propiedad"
            keyObject="propertyType"
            menuItems={PropertyType}
            filter={filterState.propertyType}
@@ -84,7 +84,7 @@ const SearchHouses = () => {
           labelColor="#2f358f"
         />
         <SelectComponent
-          label="Tipo de Listado"
+          label="Operación"
           keyObject="listType"
           menuItems={
             filterState.propertyType !== "terrenos" ? ListType : []

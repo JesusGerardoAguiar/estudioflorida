@@ -4,6 +4,7 @@ bedroom: '1'
 bathroom: '1'
 mts2: '51'
 garage: NO TIENE
+map: ""
 description: >-
   Florida y Canelones: 51m2 edificados. Al frente. Primer piso por escalera.
   Living comedor amplio con moquette. Hall de distribución. 1 baño. 1 dormitorio

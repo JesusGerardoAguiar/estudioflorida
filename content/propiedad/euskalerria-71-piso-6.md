@@ -4,6 +4,7 @@ bedroom: '4'
 bathroom: '1'
 mts2: '80'
 garage: Cochera
+map: ""
 description: >-
   Mallorca y Piràn, 80 m2, living comedor, cocina definida con placares bajo
   mesada y aéreos,  4 cómodos dormitorios (el dormitorio contiguo al living

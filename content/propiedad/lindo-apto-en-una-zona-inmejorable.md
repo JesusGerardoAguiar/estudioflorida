@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '2'
 mts2: '60'
 garage: NO TIENE
+map: ""
 description: >-
   Montero y Mora: Apto 2 do por escalera al frente. 58m2 interiores más terraza
   de servicio. Living comedor al frente con salida lateral al balcón. Dormitorio

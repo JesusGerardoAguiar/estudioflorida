@@ -4,6 +4,7 @@ bedroom: '3'
 bathroom: '3'
 mts2: '248'
 garage: Cochera
+map: ""
 description: >-
   Biarritz esq Indiana: Casa en propiedad común, construida sobre terreno de 653
   m2, con 248 m2 edificados. Jardin al frente. Living comedor amplio con estufa

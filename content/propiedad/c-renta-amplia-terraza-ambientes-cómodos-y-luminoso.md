@@ -4,6 +4,7 @@ bedroom: '4'
 bathroom: '1'
 mts2: '77'
 garage: NO TIENE
+map: ""
 description: >-
   LA PAZ, CANELONES. Sobre Av. Artigas y López. Con todos los servicios cerca!
   Parada de ómnibus a pocos pasos. Complejo de viviendas. 77 m2. 2do piso por

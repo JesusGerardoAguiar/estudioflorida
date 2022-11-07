@@ -35,14 +35,14 @@ const Contact = () => {
     <SearchContainer>
       <SelectRow>
         <SelectComponent
-          label="Tipo de Propiedad"
+          label="Tipo de propiedad"
           menuItems={dummyMenuItems}
           property={propertyType}
           setPropertyValue={setPropertyType}
           labelColor="#2f358f"
         />
         <SelectComponent
-          label="Tipo de Listado"
+          label="Operación"
           menuItems={dummyMenuItems}
           property={propertyType}
           setPropertyValue={setPropertyType}

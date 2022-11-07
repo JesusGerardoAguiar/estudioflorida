@@ -4,6 +4,7 @@ bedroom: '2'
 bathroom: '1'
 mts2: '70'
 garage: ''
+map: ""
 description: >-
   Florida y Canelones: A metros de la Rambla y a unas pocas cuadras de 18 de
   julio. 2do piso por escalera. Apartamento de generosas dimensiones, muy
