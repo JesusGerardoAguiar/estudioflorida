@@ -4,7 +4,7 @@ bedroom: '4'
 bathroom: '4'
 mts2: '207'
 garage: COCHERA
-map: ''
+map: a
 description: >-
   Los Pinos , a dos cuadras de  Giannattasio!: Terreno de 640 m2 y 207 m2
   construidos. Se trata de dos casas en un padrón común. Casa 1: (Al frente / 3
