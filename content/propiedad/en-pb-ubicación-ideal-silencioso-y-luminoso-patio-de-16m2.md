@@ -1,32 +1,31 @@
 ---
 id: 6
-bedroom: '2'
-bathroom: '1'
-mts2: '50'
-garage: 'NO'
+bedroom: "2"
+bathroom: "1"
+mts2: "50"
+garage: NO
 map: ""
-description: >-
-  26 de Marzo y Pereira de la luz, 50m2 más 16m2 de patio de uso exclusivo! A
-  pasos de todos los servicios, en una ubicación inmejorable. Entrada por
-  pasillo amplio al fondo, living comedor, salida a patio, hall de distribución,
-  2 dormitorios con buenos pisos de parquet, baño reciclado, cocina con doble
-  mesada, terraza lavadero y con placares bajo mesada y aéreos. Todos los
-  ambientes tienen dimensiones cómodas, son luminosos y ventilados. El apto
-  tiene ubicación en planta lateral, es silencioso y cuenta con paneles de
+description: "26 de Marzo y Pereira de la luz, 50m2 más 16m2 de patio de uso
+  exclusivo! A pasos de todos los servicios, en una ubicación inmejorable.
+  Entrada por pasillo amplio al fondo, living comedor, salida a patio, hall de
+  distribución, 2 dormitorios con buenos pisos de parquet, baño reciclado,
+  cocina con doble mesada, terraza lavadero y con placares bajo mesada y aéreos.
+  Todos los ambientes tienen dimensiones cómodas, son luminosos y ventilados. El
+  apto tiene ubicación en planta lateral, es silencioso y cuenta con paneles de
   calefacción eléctrica. Gastos comunes $2200. Contribución: 3 cuotas de $
   3.400. Primaria: 3 cuotas de $1150. Buena opción para renta! Agendá una
-  visita!  T. 24007347 o al C. 094140123 (línea whatsapp) .
+  visita!  T. 24007347 o al C. 094140123 (línea whatsapp) ."
 location: 26 de marzo y Julio Cesar
 state: montevideo
 zone: pocitos
-title: 'En PB, ubicación ideal, silencioso y luminoso. Patio de 16m2. '
-price: '145.000'
+title: "En PB, ubicación ideal, silencioso y luminoso. Patio de 16m2. "
+longitud: "1"
+latitud: "1"
+price: "138.000"
 destacada: false
 soldout: false
 rented: false
 currency: U$S
-longitud: '1'
-latitud: '1'
 images:
   - /assets/img-20201117-wa0062.jpg
   - /assets/img-20201117-wa0043.jpg
@@ -39,6 +38,5 @@ images:
   - /assets/img-20201117-wa0060.jpg
 propertyType: apartamentos
 listType: ventas
-date: 'June 16, 2021 7:13 PM'
+date: June 16, 2021 7:13 PM
 ---
-
