@@ -80,14 +80,14 @@ export const ZoneType = [
   {value:"Villa García–Manga Rural", name:"villa garcía–manga rural", zone: "montevideo"},
   {value:"Lagomar", name:"lagomar", zone: 'canelones'},
   {value:"Solymar", name:"solymar", zone: 'canelones'},
-  {value:"medanos de solymar", name:"medanos de solymar", zone: 'canelones'},
-  {value:"lomas de solymar", name:"lomas de solymar", zone: 'canelones'},
-  {value:"el pinar", name:"el pinar", zone: 'canelones'},
-  {value:"colonia nicolich", name:"colonia nicolich", zone: 'canelones'},
-  {value:"shangrila", name:"shangrila", zone: 'canelones'},
-  {value:"paso carrasco", name:" paso carrasco", zone: 'canelones'},
-  {value:"san josé de carrasco", name:"san josé de carrasco", zone: 'canelones'},
-  {value:"ciudad de la costa", name:"ciudad de la costa", zone: 'canelones'},
+  {value:"Medanos de Solymar", name:"medanos de solymar", zone: 'canelones'},
+  {value:"Lomas de Solymar", name:"lomas de solymar", zone: 'canelones'},
+  {value:"El Pinar", name:"el pinar", zone: 'canelones'},
+  {value:"Colonia Nicolich", name:"colonia nicolich", zone: 'canelones'},
+  {value:"Shangrila", name:"shangrila", zone: 'canelones'},
+  {value:"Paso Carrasco", name:" paso carrasco", zone: 'canelones'},
+  {value:"San José de Carrasco", name:"san josé de carrasco", zone: 'canelones'},
+  {value:"Ciudad de la Costa", name:"ciudad de la costa", zone: 'canelones'},
   
 ]
 

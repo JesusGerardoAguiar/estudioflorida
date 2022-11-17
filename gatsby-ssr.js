@@ -17,7 +17,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
           // Color of button
           position: "right",
           // Position may be 'right' or 'left'
-          order: "facebook,whatsapp" // Order of buttons
+          order: "whatsapp" // Order of buttons
         
         };
         var proto = document.location.protocol,

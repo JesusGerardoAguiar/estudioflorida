@@ -109,7 +109,7 @@ const SearchTab = () => {
               menuItems={ZoneType.filter((zone) => {
                 return zone.zone === filterState.states.toLowerCase()
               
-              }).map((zone) => { return { ...zone, name:zone.value } })}
+              }).map((zone) => { return { ...zone, name:zone.value } }).sort((a, b) => a.name.localeCompare(b.name))}
               filter={filterState.zones}
               setFilterValue={changeFilter}
             />

@@ -20,14 +20,10 @@ class Layout extends React.Component {
           <header>{header}</header>
           <main>{children}</main>
         </div>
+        
         <Footer backgroundImg={Lograf}>
           <Row>
-            <ColumnLinks></ColumnLinks>
-            <div style={{ width: "100%" }}>
-              <img src={LogoFooter} />
-            </div>
             <ColumnLinks>
-              <h5>Siguenos</h5>
               <ul style={{display:"flex", flexDirection:"row", alignItems:"baseline"}}>
                 <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank"><li style={{ marginRight:"0.5rem"}}>
                   <FacebookIcon />
@@ -35,12 +31,17 @@ class Layout extends React.Component {
                 <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank"><li style={{ marginRight:"0.5rem"}}>
                   <InstagramIcon />
                 </li></a>
-                <a href="https://www.youtube.com/channel/UC_hP4LmwPaLuJPNHti8Vjaw/videos" target="__blank"><li style={{ marginRight:"0.5rem"}}>
+                <a href="https://www.youtube.com/channel/UC_hP4LmwPaLuJPNHti8Vjaw/videos" target="__blank" style={{ marginRight:"0rem"}}><li>
                   <YoutubeIcon />
                 </li></a>{" "}
                 {/* <a href="https://www.instagram.com/estudioinmobiliarioflorida/?hl=en" target="__blank">Instagram</a>
                 <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank">Facebook</a> */}
-              </ul>
+              </ul></ColumnLinks>
+            <div style={{ width: "100%", marginBottom:"2rem" }}>
+              <img src={LogoFooter} style={{marginLeft:"0px"}}/>
+            </div>
+            <ColumnLinks>
+             
                 <img src={Adiu} style={{ width: "5rem", marginLeft: 0 }} />
             </ColumnLinks>
           </Row>

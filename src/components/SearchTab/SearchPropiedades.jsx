@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
 
 const SearchPropiedades = ({ filterValues }) => {
   const classes = useStyles()
-  debugger;
+
   const [filterState, setFilterState] = useState(filterValues)
   const [openSnackbar, setOpenSnackbar] = useState(false)
 
@@ -161,7 +161,7 @@ const SearchPropiedades = ({ filterValues }) => {
           menuItems={ZoneType.filter(zone => {
             if(filterState.states){return zone.zone === filterState.states.toLowerCase()}
             return zone
-          }).map((zone) => { return { ...zone, name:zone.value } })}
+          }).map((zone) => { return { ...zone, name:zone.value } }).sort((a, b) => a.name.localeCompare(b.name))}
           filter={filterState.zones}
           setFilterValue={changeFilter}
           labelColor={theme.themeColor}

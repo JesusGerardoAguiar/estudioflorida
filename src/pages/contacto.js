@@ -43,10 +43,13 @@ class Contacto extends React.Component {
         <GlobalStyles />
         <Container>
           <PresentationText>Contacto</PresentationText>
+          <div>
+
           <p id='contact-bullets'> <img src={LocationIcon} />Cordón, Montevideo, Uruguay </p>
           <p id='contact-bullets'><MobileIcon />  +598 94 140 123 - +598 92 689 689</p>
-          <p id='contact-bullets'><img src={PhoneNumberIcon} />   2400-7347  </p>
+          <p id='contact-bullets'><img src={PhoneNumberIcon} />   24007347  </p>
           <p id='contact-bullets'><img src={EmailIcon} />estudioinmobiliarioflorida@gmail.com</p>
+          </div>
         </Container>
       </Layout>
     )
@@ -72,8 +75,7 @@ const Container = styled.div`
   padding: 1rem;
   border-radius: 10px;
   opacity: 0.9;
-  padding-right: 30rem;
-  padding-left: 30rem;
+  justify-content: center;
   #ltaif{
     font-family: MontserratBold;
     font-size: 1.2rem;

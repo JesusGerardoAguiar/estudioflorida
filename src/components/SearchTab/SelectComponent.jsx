@@ -54,6 +54,9 @@ const SelectComponent = ({ menuItems, keyObject, label, filter, setFilterValue, 
 
 const FormControlStyled = styled(FormControl)`
 width: inherit;
+label{
+  font-size:12px;
+}
   .MuiSvgIcon-root{
     color: #2f358f;
   }

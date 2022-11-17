@@ -56,9 +56,7 @@ const Header = () => {
           <Nav.Link style={{ boxShadow: "none" }} href="/blog">
           Información de interés
           </Nav.Link>
-          <Nav.Link style={{ boxShadow: "none" }} href="/aboutme">
-          Quienes somos
-          </Nav.Link>
+        
           <Nav.Link style={{ boxShadow: "none" }} href="/contacto">
             Contacto
           </Nav.Link>
