@@ -124,6 +124,7 @@ const Propiedades = ({ location, data }) => {
                 />
                 <TextColumn>
                   <h3>{property.title}</h3>
+                  <h3 style={{ alignSelf: "flex-start" }}>{property.location}</h3>
                   <h5
                     style={{
                       display: "flex",
@@ -137,11 +138,10 @@ const Propiedades = ({ location, data }) => {
                       &#9679;{" "}
                      {property.bedroom} Dormitorios{" "}
                     &#9679;{" "}
-                    {property.bathroom} Baños{" "}
+                    {property.bathroom === "1" ? `${property.bathroom} Baño` :`${property.bathroom} Baños` } 
                   </h5>
                   <p id="description">{property.description}</p>
                   {renderRentedText(property)}
-                  <h5 style={{ alignSelf: "flex-end" }}>{property.location}</h5>
                   <PriceTag>
                     {property.currency} {renderParseInt(property.price)}
                     <img alt="propiedad" src={PriceTagIcon} />

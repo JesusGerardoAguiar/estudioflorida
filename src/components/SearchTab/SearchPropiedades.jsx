@@ -72,7 +72,7 @@ const SearchPropiedades = ({ filterValues }) => {
     } = filterState
     if (fieldsNotEmpty(propertyType, listType)) {
       navigate(
-        `propiedades?propertyType=${propertyType}${
+        `?propertyType=${propertyType}${
           listType !== "" && listType !== undefined
             ? `&listType=${listType}`
             : ""
@@ -166,18 +166,26 @@ const SearchPropiedades = ({ filterValues }) => {
           setFilterValue={changeFilter}
           labelColor={theme.themeColor}
         />
-
-        <TextField
-          id="standard-number"
-          label="Numero de Dormitorios"
-          type="number"
-          name={"bedrooms"}
-          onChange={e =>
-            setFilterState({ ...filterState, [e.target.name]: e.target.value })
-          }
-          value={filterState.bedrooms}
+         <SelectComponent
+          label="Dormitorios"
+          keyObject="bedrooms"
+          menuItems={[
+            { value: "0", name: "Monoambiente" },
+            { value: "1", name: "1" },
+            { value: "2", name: "2" },
+            { value: "3", name: "3" },
+            { value: "4", name: "4" },
+            { value: "5", name: "5" },
+            { value: "6", name: "6" },
+            { value: "7", name: "7" },
+            { value: "8", name: "8" },
+            { value: "9", name: "9" },
+          ]}
+          filter={filterState.bedrooms}
+          setFilterValue={changeFilter}
           labelColor={theme.themeColor}
         />
+        
         <ButtonDiv>
           <Button
             variant="contained"

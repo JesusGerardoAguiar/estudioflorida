@@ -81,6 +81,9 @@ const PropertyTemplate = props => {
         </PropertyColumn>
         <div style={{ width: "50rem", marginLeft: "2rem" }}>
           <h3>{propertySelected && propertySelected.title}</h3>
+          <Specs style={{ alignSelf: "flex-start", marginTop: "1.5rem" }}>
+            {propertySelected && propertySelected.location}
+          </Specs>
           <Description>{ propertySelected && propertySelected.description}</Description>
           {renderRentedText(propertySelected)}
           <Specs>
@@ -91,9 +94,7 @@ const PropertyTemplate = props => {
             &#9679;
              { propertySelected && propertySelected.bedroom} Dormitorios{" "}
           </Specs>
-          <Specs style={{ alignSelf: "flex-end", marginTop: "1.5rem" }}>
-            {propertySelected && propertySelected.location}
-          </Specs>
+          
           <PriceTag>
             {propertySelected && propertySelected.currency} {propertySelected && propertySelected.price}
             <img alt="propiedad" style={{ margin: 0 }} src={PriceTagIcon} />
@@ -226,6 +227,7 @@ export const pageQuery = graphql`
     allMdx {
       nodes {
         frontmatter {
+          location
           bathroom
           bedroom
           currency
