@@ -1,41 +1,46 @@
 ---
 id: 19
-bedroom: '2'
-bathroom: '1'
-mts2: '50'
-garage: COCHERA
+bedroom: "2"
+bathroom: "1"
+mts2: "50"
+garage: "Cochera "
 map: ""
-description: >-
-  Av Garibaldi y Raña: En una zona plagada de servicios, supermercados, red de
-  cobranzas, ferreterías, transporte, etc y cerca de todo!  Apto en 2 do piso,
-  lateral, 50m2. Living comedor amplio, cocina integrada (fácilmente divisible),
-  terraza lavadero, baño, dos dormitorios con buena iluminación. Todo el apto
-  cuenta con buena ventilación dado a su ubicación en planta. Cochera fija en
-  planta baja.  Gastos comunes: $3800. El edificio cuenta con portería de 12 a
-  20hs y salón comunal con parrillero. Acepta préstamo bancario. Posibilidad de
-  permuta por casa en Ciudad de la Costa con apto al fondo.   Contribución: 3
-  cuotas de $1458. Primaria: 3 cuotas de $577.  No dudes en consultar!  
-  24007347 o al 094140123 (línea whatsapp) . 
+description: "Av. Garibaldi y Emilio Raña. Próximo Crandon, terminal Tres Cruces
+  y Universidad Católica. En una zona con infinidad de servicios y conectividad
+  hacia toda la ciudad.  Precioso edificio construido en el año 2014.  2 do piso
+  por ascensor, orientación lateral, 50m2.  Living comedor amplio con aire
+  acondicionado, cocina integrada (fácilmente divisible) con espacios muy
+  cómodos para heladera y cocina.  Terraza de servicio. Baño amplio con calefón
+  y placar aéreo.  2 dormitorios luminosos y de buen tamaño. El principal con
+  aire acondicionado y el secundario con placard.  Cochera fija en planta
+  baja.  Gastos comunes: $4462.  El edificio cuenta con 2 ascensores y portería
+  de 12 a 20hs.  Acepta préstamo bancario.  Contribución: 3 cuotas de
+  $2087.  Primaria: 3 cuotas de $ 735.  Tributos: $1058.  Por mas información o
+  para coordinar visita no dudes en comunicarte con nosotros.  Estudio Florida
+  Socio ADIU Asociación de Agentes Inmobiliarios del Uruguay."
 location: Av Garibaldi y Raña
+rooms: "3"
 state: montevideo
 zone: tres cruces
-title: Av Garibaldi y Raña
-longitud: '1'
-latitud: '1'
-price: '145000'
+title: Venta apartamento 2 dormitorios y garaje. La Blanqueada
+longitud: "1"
+latitud: "1"
+price: "130000"
 destacada: true
 soldout: false
 rented: false
 currency: U$S
 images:
-  - /assets/met1-fachada-1.jpg
-  - /assets/img-20191022-wa0036.jpg
-  - /assets/img-20191022-wa0024.jpg
-  - /assets/img-20191022-wa0025.jpg
-  - /assets/img-20191022-wa0027.jpg
-  - /assets/img-20191022-wa0033.jpg
+  - assets/img_7680.jpg
+  - assets/img_7716.jpg
+  - assets/img_7708.jpg
+  - assets/img_7709.jpg
+  - assets/img_7705.jpg
+  - assets/img_7714.jpg
+  - assets/img_7704.jpg
+  - assets/img_7713.jpg
+  - assets/img_7686.jpg
 propertyType: apartamentos
 listType: ventas
-date: 'June 19, 2021 8:01 PM'
+date: June 19, 2021 8:01 PM
 ---
-
