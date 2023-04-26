@@ -19,8 +19,8 @@ rooms: "3"
 state: montevideo
 zone: malvin norte
 title: Venta apartamento 2 dormitorios Malvin Norte
-longitud: "1"
-latitud: "1"
+longitud: ""
+latitud: ""
 price: "34000"
 destacada: true
 soldout: false
