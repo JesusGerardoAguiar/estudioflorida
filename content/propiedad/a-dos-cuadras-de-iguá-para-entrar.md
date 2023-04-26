@@ -1,39 +1,42 @@
 ---
 id: 7
-bedroom: '2'
-bathroom: '1'
-mts2: '46'
-garage: 'NO'
+bedroom: "2"
+bathroom: "1"
+mts2: "46"
+garage: NO
 map: ""
-description: >-
-  Malvín Norte, Complejo Inve 16,  calle 122, Block 6. Puerta 2169.  Apto en 3er
-  piso por escalera.  Living comedor, baño reciclado, cocina nueva con terraza
-  lavadero. 2 dormitorios. Los gastos comunes son 610 pesos, se paga aparte la
-  OSE y tarifa de saneamiento. Tel. 24007347 - 094140123 (línea wapp)
-location: 'Complejo Inve 122, calle 122, block 6 '
+description: "Complejo INVE 16, Malvin Norte, calle 122, Block 6. Puerta
+  2169.  Apartamento 3er piso por escalera.  Living comedor amplio, cocina
+  definida con conexión para lavadora y terraza lavadero.  2 dormitorios cómodos
+  y bano completo reciclado.  Todo el apartamento tiene muy linda luz. El
+  edificio y el apartamento se encuentran en perfecto estado de
+  conservación.  Se permiten mascotas.  Gastos comunes: $ 610 pesos.  No incluye
+  OSE ni tarifa de saneamiento.  En el complejo hay parking privado.  Por mas
+  información no dudes en comunicarte con nosotros.  Inmobiliaria Florida- Socio
+  ADIU - Asociación de Agentes Inmobiliarios del Uruguay."
+location: "Complejo Inve 122, calle 122, block 6 "
+rooms: "3"
 state: montevideo
 zone: malvin norte
-title: A dos cuadras de Iguá. Para entrar!
-longitud: '1'
-latitud: '1'
-price: '34000'
+title: Venta apartamento 2 dormitorios Malvin Norte
+longitud: "1"
+latitud: "1"
+price: "34000"
 destacada: true
 soldout: false
 rented: false
 currency: U$S
 images:
-  - /assets/whatsapp-image-2021-03-11-at-15.00.28.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.22.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.25-1-.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.25-2-.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.27-2-.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.26.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.24-2-.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.23.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.23-2-.jpeg
-  - /assets/whatsapp-image-2021-03-11-at-15.00.23-1-.jpeg
+  - assets/img_2315.jpg
+  - assets/img_2316.jpg
+  - assets/img_2318.jpg
+  - assets/img_2324.jpg
+  - assets/img_2329.jpg
+  - assets/img_2338.jpg
+  - assets/img_2332.jpg
+  - assets/img_2343.jpg
+  - assets/img_2322.jpg
 propertyType: apartamentos
 listType: ventas
-date: 'June 16, 2021 7:13 PM'
+date: April 26, 2023 5:09 PM
 ---
-
