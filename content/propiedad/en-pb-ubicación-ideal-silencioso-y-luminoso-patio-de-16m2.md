@@ -18,7 +18,7 @@ description: "26 de Marzo y Pereira de la luz, 50m2 más 16m2 de patio de uso
 location: 26 de marzo y Julio Cesar
 state: montevideo
 zone: pocitos
-title: "En PB, ubicación ideal, silencioso y luminoso. Patio de 16m2. "
+title: "Venta apartamento Pocitos Nuevo 2 dormitorios "
 longitud: "1"
 latitud: "1"
 price: "138.000"
