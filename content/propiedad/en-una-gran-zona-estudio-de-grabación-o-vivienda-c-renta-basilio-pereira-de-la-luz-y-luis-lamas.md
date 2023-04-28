@@ -17,8 +17,7 @@ location: Basilio Pereira de la luz y Luis Lamas
 rooms: "5"
 state: montevideo
 zone: pocitos
-title: En una gran zona! Estudio de Grabación o vivienda C/renta Basilio Pereira
-  de la Luz y Luis Lamas
+title: Venta casa Pocitos Nuevo 2 dormitorios
 longitud: "1"
 latitud: "1"
 price: "150000"
