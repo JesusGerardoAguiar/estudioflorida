@@ -1,38 +1,34 @@
 ---
 id: 16
-bedroom: '4'
-bathroom: '1'
-mts2: '150'
-garage: NO TIENE
+bedroom: "4"
+bathroom: "1"
+mts2: "150"
+garage: No tiene
 map: ""
-description: >-
-  Nueva York esquina YI: Se vende casa a reciclar con 150m2 de terreno y 150m2
-  construidos. Actualmente la casa cuenta con 6 ambientes, un patio interno con
+description: "Zona Repuestos! Ideal oficinas, deposito o proyecto Constructivo!
+  Nueva York esquina YI.  Se vende casa a reciclar con 150m2 de terreno
+  totalmente construidos.  La casa cuenta con 6 ambientes, un patio interno con
   claraboya, cocina, 1 baño y altillo, desde allí salida a la azotea, que se
-  encuentra en excelentes condiciones.   Altura permitida 16.5 metros.   Tiene
-  8.40 metros de frente y fondo de 17,18 metros.   Contribución: 3 cuotas de
-  $762  Primaria: 3 cuotas de $383.   Agendá tu visita!     T. 2400 7347 C.
-  094140123 (línea whatsapp)
+  encuentra en excelentes condiciones.  Altura permitida 16.5 metros.  Tiene
+  8.40 metros de frente y fondo de 17,18 metros.  Altura actual de los techos:
+  Sector dormitorios 4.20 mts aprox-/ Hall central 4.40mts.  Contribución:3
+  cuotas de $762  Primaria: 3 cuotas de $383.  Por mas información no dudes en
+  comunicarte con nosotros.  Estudio Florida socio ADIU - Asociación de Agentes
+  Inmobiliarios del Uruguay."
 location: Nueva York esquina YI
 state: montevideo
 zone: centro
-title: 'Zona repuestos! Oficinas, depòsito o proyecto constructivo!'
-longitud: '1'
-latitud: '1'
-price: '97.000'
+title: Venta terreno Centro
+longitud: "1"
+latitud: "1"
+price: "97.000"
 destacada: false
 soldout: false
 rented: false
 currency: U$S
 images:
-  - /assets/20210318_162635.jpg
-  - /assets/20210318_161915.jpg
-  - /assets/20210318_161552.jpg
-  - /assets/20210318_161450.jpg
-  - /assets/20210318_161817.jpg
-  - /assets/20210318_161154.jpg
+  - assets/20210318_162635-4.jpg
 propertyType: casas
 listType: ventas
-date: 'June 19, 2021 7:40 PM'
+date: June 19, 2021 7:40 PM
 ---
-
