@@ -21,7 +21,7 @@ title: Alquiler apartamento Paso Molino 2 dormitorios
 price: "23000"
 destacada: true
 soldout: false
-rented: true
+rented: false
 currency: $
 images:
   - assets/img_7858.jpg
