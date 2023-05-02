@@ -1,21 +1,21 @@
 ---
-id: 17
-mts2: '3348'
+id: 7
+mts2: "3348"
 map: ""
-description: >-
-  Cno Gonzalo Gonchi Rdoriguez. Zona en pleno crecimiento!  A pasos de Haras del
-  lago, complejos deportivos de varios colegios y a 650 metros de
+description: Cno Gonzalo Gonchi Rdoriguez.  Zona en pleno crecimiento! A pasos
+  de Haras del lago, complejos deportivos de varios colegios y a 650 metros de
   Interbalnearia.   Terreno con frente al barrio Las higueritas, lote de 3348m2,
-  47 metros de frente.   Consúltanos!     T. 2400 7347 C. 094140123 (línea
-  whatsapp)
+  47 metros de frente.   Por mas información no dudes en comunicarte con
+  nosotros.  Estudio Florida socio ADIU - Asociación de Agentes Inmobiliarios
+  del Uruguay.
 location: Cno Gonzalo Gonchi Rdoriguez
 state: canelones
-zone: colonia nicolich
-title: Pegado al Barrio jardín Las Higueritas!
-longitud: '1'
-latitud: '1'
-price: '480000'
-destacada: false
+zone: ciudad de la costa
+title: Venta terreno próximo Haras del Lago
+longitud: ""
+latitud: ""
+price: "480000"
+destacada: true
 soldout: false
 rented: false
 currency: U$S
@@ -24,6 +24,5 @@ images:
   - /assets/plano-higueritas.jpeg
 propertyType: terreno
 listType: ventas
-date: 'June 19, 2021 7:49 PM'
+date: May 2, 2023 3:30 PM
 ---
-
