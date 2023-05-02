@@ -41,7 +41,6 @@ const FeaturedHousesComponent = ({ data }) => {
       properties &&
       properties.length > 0 &&
       properties.map((property, index) => {
-        if (index <= 1) {
           return (
             // <Link to={`/propiedad?id=${property.id}`}>
               <Link>
@@ -64,7 +63,6 @@ const FeaturedHousesComponent = ({ data }) => {
               </RowItems>
             </Link>
           )
-        }
       })
     )
   }
