@@ -26,11 +26,11 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - /assets/871f7abf-fa43-4903-afb4-46f71628d72d.jpg
-  - /assets/cdcac411-c8f6-46ea-96df-681aad0e6a3f.jpg
-  - /assets/6601b932-ff7a-43f8-925e-db8dd6869136.jpg
-  - /assets/bf2b5c63-8b5e-4e22-bf38-0be8e131d530.jpg
-  - /assets/984d40c1-0d1c-4c5c-961e-46bb3f4ceeab.jpg
+  - assets/984d40c1-0d1c-4c5c-961e-46bb3f4ceeab.jpg
+  - assets/a0e5a3a1-b7e8-4d73-89ed-fdbb7cb71351.jpg
+  - assets/ae4ddfcd-4795-4388-9599-226b249c1639.jpg
+  - assets/2a7090fa-cf1f-4482-9e13-1d9e398a2aea.jpg
+  - assets/6601b932-ff7a-43f8-925e-db8dd6869136.jpg
 propertyType: oficina
 listType: ventas
 date: May 2, 2023 3:22 PM
