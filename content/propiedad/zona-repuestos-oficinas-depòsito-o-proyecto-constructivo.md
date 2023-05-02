@@ -3,7 +3,7 @@ id: 16
 bedroom: "4"
 bathroom: "1"
 mts2: "150"
-garage: No tiene
+garage: "No "
 map: ""
 description: "Zona Repuestos! Ideal oficinas, deposito o proyecto Constructivo!
   Nueva York esquina YI.  Se vende casa a reciclar con 150m2 de terreno
@@ -21,14 +21,14 @@ zone: centro
 title: Venta terreno Centro
 longitud: "1"
 latitud: "1"
-price: "97.000"
-destacada: false
+price: "89000"
+destacada: true
 soldout: false
 rented: false
 currency: U$S
 images:
   - assets/20210318_162635-4.jpg
-propertyType: casas
+propertyType: terreno
 listType: ventas
-date: June 19, 2021 7:40 PM
+date: May 2, 2023 3:14 PM
 ---
