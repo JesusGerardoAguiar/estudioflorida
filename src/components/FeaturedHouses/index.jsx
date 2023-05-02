@@ -233,7 +233,7 @@ const FeaturedStateRow = styled.div`
   align-items: start;
   padding: 1rem;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: center;
   a {
     color: transparent;
   }
