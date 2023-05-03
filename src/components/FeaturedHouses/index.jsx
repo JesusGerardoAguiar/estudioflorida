@@ -42,7 +42,8 @@ const FeaturedHousesComponent = ({ data }) => {
       properties.length > 0 &&
       properties.map((property, index) => {
           return (
-            <Link to={`/propiedad?id=${property.id}`}>
+            // <Link to={`/propiedad?id=${property.id}`}>
+            <Link>
               <StateContainer>
                 <StateImage bg={property.images[0]}>
                   <StateInfo>
