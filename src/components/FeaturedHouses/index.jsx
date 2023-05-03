@@ -41,9 +41,10 @@ const FeaturedHousesComponent = ({ data }) => {
       properties &&
       properties.length > 0 &&
       properties.map((property, index) => {
+        if (index <= 1) {
           return (
             // <Link to={`/propiedad?id=${property.id}`}>
-            <Link>
+            <Link to={`/propiedad?id=${property.id}`}>
               <StateContainer>
                 <StateImage bg={property.images[0]}>
                   <StateInfo>
@@ -52,6 +53,7 @@ const FeaturedHousesComponent = ({ data }) => {
                 </StateImage>
               </StateContainer>
               <Description>{property.description.slice(0,90)}...</Description>
+              <Location>{property.location}</Location>
               <Price>
                 {property.currency} {property.price}
               </Price>
@@ -62,6 +64,8 @@ const FeaturedHousesComponent = ({ data }) => {
               </RowItems>
             </Link>
           )
+        }
+        return <></>
       })
     )
   }
