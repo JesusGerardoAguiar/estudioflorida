@@ -42,7 +42,7 @@ class Layout extends React.Component {
             </div>
             <ColumnLinks>
              
-                <img src={Adiu} style={{ width: "5rem", marginLeft: 0 }} />
+                <img src={Adiu} style={{ width: "10rem", marginLeft: 0 }} />
             </ColumnLinks>
           </Row>
           <LografLogo>

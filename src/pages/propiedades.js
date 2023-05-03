@@ -59,7 +59,7 @@ const Propiedades = ({ location, data }) => {
     window.location.href = `/propiedades?${location.search}`
   }
 
-  export const accentFold = (inStr) => {
+   const accentFold = (inStr) => {
     return inStr.replace(
       /([àáâãäå])|([çčć])|([èéêë])|([ìíîï])|([ñ])|([òóôõöø])|([ß])|([ùúûü])|([ÿ])|([æ])/g,
       function (str, a, c, e, i, n, o, s, u, y, ae) {
