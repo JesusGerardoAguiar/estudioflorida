@@ -52,7 +52,6 @@ const FeaturedHousesComponent = ({ data }) => {
                 </StateImage>
               </StateContainer>
               <Description>{property.description.slice(0,90)}...</Description>
-              <Location>{property.location}</Location>
               <Price>
                 {property.currency} {property.price}
               </Price>
