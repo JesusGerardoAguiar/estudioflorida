@@ -58,6 +58,24 @@ const Propiedades = ({ location, data }) => {
     location.search = newLocation
     window.location.href = `/propiedades?${location.search}`
   }
+
+  export const accentFold = (inStr) => {
+    return inStr.replace(
+      /([àáâãäå])|([çčć])|([èéêë])|([ìíîï])|([ñ])|([òóôõöø])|([ß])|([ùúûü])|([ÿ])|([æ])/g,
+      function (str, a, c, e, i, n, o, s, u, y, ae) {
+        if (a) return "a";
+        if (c) return "c";
+        if (e) return "e";
+        if (i) return "i";
+        if (n) return "n";
+        if (o) return "o";
+        if (s) return "s";
+        if (u) return "u";
+        if (y) return "y";
+        if (ae) return "ae";
+      }
+    );
+  };
   const properties = propertiesToBeFiltered
     .filter(
       property =>
@@ -67,7 +85,7 @@ const Propiedades = ({ location, data }) => {
         (minPrice ? property.price >= minPrice : true)&&
         (maxPrice ? property.price <= maxPrice : true)&&
         (state ? property.state === state  : true)&&
-        (zones ?  property.zones === zones : true)
+        (zones ?  accentFold(property.zones) === accentFold(zones) : true)
     )
     .reverse()
 

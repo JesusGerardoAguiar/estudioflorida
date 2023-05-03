@@ -12,84 +12,194 @@ export const ListType = [
 ]
 
 export const ZoneType = [
-  { value: "Villa Biarritz", name: "villa biarritz", zone: "montevideo" },
-  { value: "Pocitos", name: "pocitos", zone: "montevideo" },
-  { value: "Parque Rodó", name: "parque rodó", zone: "montevideo" },
-  { value: "Parque Batlle", name: "parque batlle", zone: "montevideo" },
-  { value: "Buceo", name: "buceo", zone: "montevideo" },
-  { value: "Nuevo pocitos", name: "nuevo pocitos", zone: "montevideo" },
-  { value: "Cordón", name: "cordón", zone: "montevideo" },
-  { value: "Tres cruces", name: "tres cruces", zone: "montevideo" },
-  { value: "Punta Carretas", name: "punta carretas", zone: "montevideo" },
-  { value: "Barrio Sur", name: "barrio sur", zone: "montevideo" },
-  { value: "Centro", name: "centro", zone: "montevideo" },
-  { value: "Ciudad Vieja", name: "ciudad vieja", zone: "montevideo" },
-  { value: "Larrañaga", name: "larrañaga", zone: "montevideo" },
-  { value: "Jacinto Vera", name: "jacinto vera", zone: "montevideo" },
-  { value: "Goes", name: "goes", zone: "montevideo" },
-  { value: "Aguada", name: "aguada", zone: "montevideo" },
-  { value: "Villa Muñoz", name: "villa muñoz", zone: "montevideo" },
-  { value: "Reducto", name: "reducto", zone: "montevideo" },
-  { value: "Bella Vista", name: "bella vista", zone: "montevideo" },
-  { value: "Prado", name: "prado", zone: "montevideo" },
-  { value: "Atahualpa", name: "atahualpa", zone: "montevideo" },
-  { value: "Arroyo Seco", name: "arroyo seco", zone: "montevideo" },
-  { value: "La comercial", name: "la comercial", zone: "montevideo" },
-  { value: "La Figurita", name: "la figurita", zone: "montevideo" },
-  { value: "Palermo", name: "palermo" , zone: "montevideo"},
-  { value: "La Blanqueada", name: "la blanqueada" , zone: "montevideo"},
-  {value: 'Union', name:'union', zone: "montevideo"},
-  {value: "Malvín", name:'malvin', zone: "montevideo"},
-  {value: "Malvín Norte", name:'malvin norte', zone: "montevideo"},
-  {value:"Las Canteras", name:"las canteras", zone: "montevideo"},
-  {value:"Punta Gorda", name:"punta gorda", zone: "montevideo"},
-  {value: "Carrasco", name:'carrasco', zone: "montevideo"},
-  {value: "Carrasco Norte", name:'carrasco norte'},
-  {value: "Bañados de Carrasco", name:'bañados de carrasco', zone: "montevideo"},
-  {value: "Flor de Maroñas", name:'flor de maroñas', zone: "montevideo"},
-  {value: "Maroñas–Parque", name:'maroñas–parque', zone: "montevideo"},
-  {value: "Villa Española", name:'villa española', zone: "montevideo"},
-  {value: "Ituzaingó", name:'ituzaingó', zone: "montevideo"},
-  {value: "Castro–Pérez", name:'castro–pérez', zone: "montevideo"},
-  {value: "Mercado Modelo–Bolívar", name:'mercado modelo–bolívar', zone: "montevideo"},
-  {value: "Brazo Oriental", name:'brazo oriental', zone: "montevideo"},
-  {value: "Prado–Nueva", name:'prado–nueva', zone: "montevideo"},
-  {value: "Aires Puros", name:'aires puros', zone: "montevideo"},
-  {value: "Paso de las Duranas", name:'paso de las duranas', zone: "montevideo"},
-  {value: "Belvedere", name:'belvedere', zone: "montevideo"},
-  {value: "La Teja", name:'la teja', zone: "montevideo"},
-  {value: "Tres Ombúes–Pueblo", name:'tres ombúes–pueblo', zone: "montevideo"},
-  {value: "Villa del Cerro", name:'villa del cerro', zone: "montevideo"},
-  {value: "Casabó–Pajas Blancas", name:'casabó–Pajas blancas', zone: "montevideo"},
-  {value: "La Paloma–Tomkinson", name:'la paloma–tomkinson', zone: "montevideo"},
-  {value: "Paso de la Arena–Santiago Vázquez", name:'paso de la arena–santiago vázquez', zone: "montevideo"},
-  {value: "Nuevo París", name:'nuevo parís', zone: "montevideo"},
-  {value: "Conciliación", name:'conciliación', zone: "montevideo"},
-  {value: "Sayago", name:'sayago', zone: "montevideo"},
-  {value: "Peñarol–Lavalleja", name:'peñarol–lavalleja', zone: "montevideo"},
-  {value: "Lezica–Melilla", name:'lezica–melilla', zone: "montevideo"},
-  {value:"Colón Sudeste–Abayubá", name:"colón sudeste–abayubá", zone: "montevideo"},
-  {value:"Manga–Toledo Chico", name:"manga–toledo chico", zone: "montevideo"},
-  {value:"Casavalle", name:"casavalle", zone: "montevideo"},
-  {value:"Cerrito de la Victoria", name:"cerrito de la victoria", zone: "montevideo"},
-  {value:"Las Acacias", name:"las acacias", zone: "montevideo"},
-  {value:"Jardines del Hipódromo", name:"jardines del hipódromo", zone: "montevideo"},
-  {value:"Piedras Blancas", name:"piedras blancas", zone: "montevideo"},
-  {value:"Manga", name:"manga", zone: "montevideo"},
-  {value:"Punta de Rieles – Bella Italia", name:"punta de rieles – bella italia", zone: "montevideo"},
-  {value:"Villa García–Manga Rural", name:"villa garcía–manga rural", zone: "montevideo"},
-  {value:"Lagomar", name:"lagomar", zone: 'canelones'},
-  {value:"Solymar", name:"solymar", zone: 'canelones'},
-  {value:"Medanos de Solymar", name:"medanos de solymar", zone: 'canelones'},
-  {value:"Lomas de Solymar", name:"lomas de solymar", zone: 'canelones'},
-  {value:"El Pinar", name:"el pinar", zone: 'canelones'},
-  {value:"Colonia Nicolich", name:"colonia nicolich", zone: 'canelones'},
-  {value:"Shangrila", name:"shangrila", zone: 'canelones'},
-  {value:"Paso Carrasco", name:" paso carrasco", zone: 'canelones'},
-  {value:"San José de Carrasco", name:"san josé de carrasco", zone: 'canelones'},
-  {value:"Ciudad de la Costa", name:"ciudad de la costa", zone: 'canelones'},
-  
+  { label: "Abayuba - colon sudeste", value: "abayuba - colon sudeste", zone: 'montevideo' },
+  { label: "Aguada", value: "aguada", zone: 'montevideo' },
+  { label: "Aires Puros", value: "aires puros", zone: 'montevideo' },
+  { label: "Arroyo Seco", value: "arroyo seco", zone: 'montevideo' },
+  { label: "Atahualpa", value: "atahualpa", zone: 'montevideo' },
+  { label: "Barra Santa Lucia", value: "barra santa lucia", zone: 'montevideo' },
+  { label: "Barrio Sur", value: "barrio sur", zone: 'montevideo' },
+  { label: "Bella Italia", value: "bella italia", zone: 'montevideo' },
+  { label: "Bella Vista", value: "bella vista", zone: 'montevideo' },
+  { label: "Belvedere", value: "belvedere", zone: 'montevideo' },
+  { label: "Bolivar", value: "bolivar", zone: 'montevideo' },
+  { label: "Bañados de Carrasco", value: "bañados de carrasco", zone: 'montevideo' },
+  { label: "Brazo Oriental", value: "brazo oriental", zone: 'montevideo' },
+  { label: "Buceo", value: "buceo", zone: 'montevideo' },
+  { label: "Capurro", value: "capurro", zone: 'montevideo' },
+  { label: "Carrasco", value: "carrasco", zone: 'montevideo' },
+  { label: "Carrasco Norte", value: "carrasco norte", zone: 'montevideo' },
+  { label: "Casabo", value: "casabo", zone: 'montevideo' },
+  { label: "Casavalle", value: "casavalle", zone: 'montevideo' },
+  { label: "Centro", value: "centro", zone: 'montevideo' },
+  { label: "Cerrito", value: "cerrito", zone: 'montevideo' },
+  { label: "Cerro", value: "cerro", zone: 'montevideo' },
+  { label: "Cerro Norte", value: "cerro norte", zone: 'montevideo' },
+  { label: "Ciudad Vieja", value: "ciudad vieja", zone: 'montevideo' },
+  { label: "Camino Carrasco", value: "camino carrasco", zone: 'montevideo' },
+  { label: "Camino Maldonado", value: "camino maldonado", zone: 'montevideo' },
+  { label: "Colon", value: "colon", zone: 'montevideo' },
+  { label: "Conciliacion", value: "conciliacion", zone: 'montevideo' },
+  { label: "Cordon", value: "cordon", zone: 'montevideo' },
+  { label: "Goes", value: "goes", zone: 'montevideo' },
+  { label: "Golf", value: "golf", zone: 'montevideo' },
+  { label: "Ituzaingo", value: "ituzaingo", zone: 'montevideo' },
+  { label: "J. Hipodromo", value: "j. hipodromo", zone: 'montevideo' },
+  { label: "Jacinto Vera", value: "jacinto vera", zone: 'montevideo' },
+  { label: "Joanico", value: "joanico", zone: 'montevideo' },
+  { label: "La Blanqueada", value: "la blanqueada", zone: 'montevideo' },
+  { label: "La Comercial", value: "la comercial", zone: 'montevideo' },
+  { label: "La Figurita", value: "la figurita", zone: 'montevideo' },
+  { label: "La Paloma", value: "la paloma", zone: 'montevideo' },
+  { label: "La Teja", value: "la teja", zone: 'montevideo' },
+  { label: "Larrañaga", value: "larrañaga", zone: 'montevideo' },
+  { label: "Lavalleja", value: "lavalleja", zone: 'montevideo' },
+  { label: "Las Acacias", value: "las acacias", zone: 'montevideo' },
+  { label: "Las Canteras", value: "las canteras", zone: 'montevideo' },
+  {
+    label: "Lezica",
+    value: "lezica", zone: 'montevideo'
+  },
+  {
+    label: "Malvin",
+    value: "malvin", zone: 'montevideo'
+  },
+  {
+    label: "Malvin Norte",
+    value: "malvin norte", zone: 'montevideo'
+  },
+  {
+    label: "Manga",
+    value: "manga", zone: 'montevideo'
+  },
+  {
+    label: "Marconi",
+    value: "marconi", zone: 'montevideo'
+  },
+  {
+    label: "Maroñas",
+    value: "maroñas", zone: 'montevideo'
+  },
+  {
+    label: "Maroñas Curva",
+    value: "maroñas curva", zone: 'montevideo'
+  },
+  {
+    label: "Melilla",
+    value: "melilla", zone: 'montevideo'
+  },
+  {
+    label: "Nuevo Centro",
+    value: "nuevo centro", zone: 'montevideo'
+  },
+  {
+    label: "Nuevo Paris",
+    value: "nuevo paris", zone: 'montevideo'
+  },
+  {
+    label: "Otros",
+    value: "otros", zone: 'montevideo'
+  },
+  {
+    label: "Pajas Blancas",
+    value: "pajas blancas", zone: 'montevideo'
+  },
+  {
+    label: "Palermo",
+    value: "palermo", zone: 'montevideo'
+  },
+  {
+    label: "Parque Batlle",
+    value: "parque batlle", zone: 'montevideo'
+  },
+  {
+    label: "Parque Guarani",
+    value: "parque guarani", zone: 'montevideo'
+  },
+  {
+    label: "Parque Rodo",
+    value: "parque rodo", zone: 'montevideo'
+  },
+  {
+    label: "Paso de las Duranas",
+    value: "paso de las duranas", zone: 'montevideo'
+  },
+  {
+    label: "Paso Carrasco",
+    value: "paso carrasco", zone: 'montevideo'
+  },
+  {
+    label: "Paso de la arena",
+    value: "paso de la arena", zone: 'montevideo'
+  },
+  {
+    label: "Paso Molino",
+    value: "paso molino", zone: 'montevideo'
+  },
+  {
+    label: "Peñarol",
+    value: "peñarol", zone: 'montevideo'
+  },
+  {
+    label: "Perez Castellanos",
+    value: "perez castellanos", zone: 'montevideo'
+  },
+  {
+    label: "Piedras Blancas",
+    value: "piedras blancas", zone: 'montevideo'
+  },
+  {
+    label: "Pocitos",
+    value: "pocitos", zone: 'montevideo'
+  },
+  {
+    label: "Pocitos Nuevo",
+    value: "pocitos nuevo", zone: 'montevideo'
+  },
+  {
+    label: "Prado",
+    value: "prado", zone: 'montevideo'
+  },
+  {
+    label: "Prado Norte",
+    value: "prado norte", zone: 'montevideo'
+  },
+  {
+    label: "Puerto Buceo",
+    value: "puerto buceo", zone: 'montevideo'
+  },
+  {
+    label: "Punta Carretas",
+    value: "punta carretas", zone: 'montevideo'
+  },
+  {
+    label: "Punta Gorda",
+    value: "punta gorda", zone: 'montevideo'
+  },
+  {
+    label: "Punta Rieles",
+    value: "punta rieles", zone: 'montevideo'
+  },
+  {
+    label: "Reducto",
+    value: "reducto", zone: 'montevideo'
+  },
+  { label: "Sayago", value: "sayago", zone: 'montevideo' },
+  { label: "Santa Catalina", value: "santa catalina", zone: 'montevideo' },
+  { label: "Toledo Chico", value: "toledo chico", zone: 'montevideo' },
+  { label: "Tres Cruces", value: "tres cruces", zone: 'montevideo' }, { label: "Tres Ombues", value: "tres ombues", zone: 'montevideo' }, { label: "Union", value: "union", zone: 'montevideo' }, { label: "Villa Biarritz", value: "villa biarritz", zone: 'montevideo' }, { label: "Villa Dolores", value: "villa dolores", zone: 'montevideo' }, { label: "Villa Española", value: "villa española", zone: 'montevideo' }, { label: "Villa Garcia", value: "villa garcia", zone: 'montevideo' }, { label: "Villa Muñoz", value: "villa muñoz", zone: 'montevideo' }, { value: "Lagomar", name: "lagomar", zone: 'canelones' },
+  { value: "Solymar", name: "solymar", zone: 'canelones' },
+  { value: "Medanos de Solymar", name: "medanos de solymar", zone: 'canelones' },
+  { value: "Lomas de Solymar", name: "lomas de solymar", zone: 'canelones' },
+  { value: "El Pinar", name: "el pinar", zone: 'canelones' },
+  { value: "Colonia Nicolich", name: "colonia nicolich", zone: 'canelones' },
+  { value: "Shangrila", name: "shangrila", zone: 'canelones' },
+  { value: "Paso Carrasco", name: " paso carrasco", zone: 'canelones' },
+  { value: "San José de Carrasco", name: "san josé de carrasco", zone: 'canelones' },
+  { value: "Ciudad de la Costa", name: "ciudad de la costa", zone: 'canelones' },
+
 ]
+
 
 export const StateType = [
   { value: "Montevideo", name: "Montevideo" },
