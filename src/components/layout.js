@@ -24,7 +24,7 @@ class Layout extends React.Component {
         <Footer backgroundImg={Lograf}>
           <Row>
             <ColumnLinks>
-              <ul style={{display:"flex", flexDirection:"row", alignItems:"baseline"}}>
+              <ul style={{display:"flex", flexDirection:"row", alignItems:"baseline", justifyContent:'center'}}>
                 <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank"><li style={{ marginRight:"0.5rem"}}>
                   <FacebookIcon />
                 </li></a>{" "}
@@ -48,7 +48,7 @@ class Layout extends React.Component {
           <LografLogo>
             © {new Date().getFullYear()}, powered by
             <a href="https://www.lografdesign.com" style={{ marginRight: 0 }}>
-              <img src={Lograf} alt="f" style={{ width: "5rem" }} />
+              <img src={Lograf} alt="f" style={{ width: "3rem" }} />
             </a>
           </LografLogo>
         </Footer>
@@ -76,7 +76,7 @@ const ColumnLinks = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: initial;
+  justify-content: center;
   width: 30%;
   ul {
     text-align: initial;
