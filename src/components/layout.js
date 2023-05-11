@@ -38,11 +38,11 @@ class Layout extends React.Component {
                 <a href="https://www.facebook.com/EstudioInmobiliarioFlorida/" target="__blank">Facebook</a> */}
               </ul></ColumnLinks>
             <div style={{ width: "100%", marginBottom:"2rem" }}>
-              <img src={LogoFooter} style={{marginLeft:"0px"}}/>
+              <img id="logo-footer" src={LogoFooter} style={{marginLeft:"0px"}}/>
             </div>
             <ColumnLinks>
              
-                <img src={Adiu} style={{ width: "10rem", marginLeft: 0 }} />
+                <img src={Adiu} style={{ width: "10rem", marginLeft: 0, margin:"auto" }} />
             </ColumnLinks>
           </Row>
           <LografLogo>
@@ -68,6 +68,10 @@ const Row = styled.div`
   @media (max-width: 768px) {
     width: auto;
     flex-direction:column;
+
+    #logo-footer{
+      margin-top:2rem;
+    }
   }
 }
 `
