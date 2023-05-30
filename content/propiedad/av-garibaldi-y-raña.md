@@ -5,16 +5,16 @@ bathroom: "1"
 mts2: "50"
 garage: "Cochera "
 map: ""
-description: "Av. Garibaldi y Emilio Raña. Próximo Crandon, terminal Tres Cruces
-  y Universidad Católica. En una zona con infinidad de servicios y conectividad
-  hacia toda la ciudad.  Precioso edificio construido en el año 2014.  2 do piso
-  por ascensor, orientación lateral, 50m2.  Living comedor amplio con aire
-  acondicionado, cocina integrada (fácilmente divisible) con espacios muy
-  cómodos para heladera y cocina.  Terraza de servicio. Baño amplio con calefón
-  y placar aéreo.  2 dormitorios luminosos y de buen tamaño. El principal con
-  aire acondicionado y el secundario con placard.  Cochera fija en planta
-  baja.  Gastos comunes: $4462.  El edificio cuenta con 2 ascensores y portería
-  de 12 a 20hs.  Acepta préstamo bancario.  Contribución: 3 cuotas de
+description: "RESERVADO **** Av. Garibaldi y Emilio Raña. Próximo Crandon,
+  terminal Tres Cruces y Universidad Católica. En una zona con infinidad de
+  servicios y conectividad hacia toda la ciudad.  Precioso edificio construido
+  en el año 2014.  2 do piso por ascensor, orientación lateral, 50m2.  Living
+  comedor amplio con aire acondicionado, cocina integrada (fácilmente divisible)
+  con espacios muy cómodos para heladera y cocina.  Terraza de servicio. Baño
+  amplio con calefón y placar aéreo.  2 dormitorios luminosos y de buen tamaño.
+  El principal con aire acondicionado y el secundario con placard.  Cochera fija
+  en planta baja.  Gastos comunes: $4462.  El edificio cuenta con 2 ascensores y
+  portería de 12 a 20hs.  Acepta préstamo bancario.  Contribución: 3 cuotas de
   $2087.  Primaria: 3 cuotas de $ 735.  Tributos: $1058.  Por mas información o
   para coordinar visita no dudes en comunicarte con nosotros.  Estudio Florida
   Socio ADIU Asociación de Agentes Inmobiliarios del Uruguay."
