@@ -31,14 +31,14 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/20230420_115533.jpg
-  - assets/20230420_115508.jpg
-  - assets/20230420_115440.jpg
-  - assets/20230420_115338.jpg
-  - assets/20230420_115343.jpg
-  - assets/20230420_115904.jpg
-  - assets/20230420_115015.jpg
-  - assets/20230420_120403.jpg
+  - assets/jard.jpg.jfif
+  - assets/img_8280.jpg
+  - assets/img_8286.jpg
+  - assets/img_8289.jpg
+  - assets/img_8291.jpg
+  - assets/img_8297.jpg
+  - assets/img_8294.jpg
+  - assets/img_8282.jpg
 propertyType: apartamentos
 listType: ventas
 date: May 2, 2023 4:21 PM
