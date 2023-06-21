@@ -22,7 +22,7 @@ rooms: ""
 state: montevideo
 zone: la blanqueada
 title: "Venta casa La Blanqueada 2 dormitorios y garaje "
-price: "132000"
+price: "120000"
 destacada: true
 soldout: false
 rented: false
