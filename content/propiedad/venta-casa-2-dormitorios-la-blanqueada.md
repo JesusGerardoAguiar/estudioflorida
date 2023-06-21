@@ -27,7 +27,17 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - https://www.infocasas.com.uy/venta-casa-2-dormitorios-la-blanqueada/188863120
+  - assets/img_5748.jpg
+  - assets/img_5752.jpg
+  - assets/img_5762.jpg
+  - assets/img_5759.jpg
+  - assets/img_5774.jpg
+  - assets/img_5776.jpg
+  - assets/img_5767.jpg
+  - assets/img_5770.jpg
+  - assets/img_5794.jpg
+  - assets/img_5792.jpg
+  - assets/img_5788.jpg
 propertyType: casas
 listType: ventas
 date: June 21, 2023 11:50 AM
