@@ -21,7 +21,7 @@ location: Florida y Canelones
 state: montevideo
 zone: barrio sur
 title: Venta apartamento Centro Sur 2 dormitorios
-price: "119000"
+price: "98000"
 destacada: true
 soldout: false
 rented: false
