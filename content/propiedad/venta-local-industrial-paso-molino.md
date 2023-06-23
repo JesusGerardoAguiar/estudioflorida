@@ -29,12 +29,21 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/img_5869.jpg
-  - assets/img_5869.jpg
+  - assets/img_5805.jpg
+  - assets/img_5801.jpg
+  - assets/img_5802.jpg
+  - assets/img_5817.jpg
+  - assets/img_5769.jpg
+  - assets/img_5764.jpg
+  - assets/img_5788.jpg
+  - assets/img_5787.jpg
+  - assets/img_5830.jpg
   - assets/d968c9ee-4dcd-4afd-9f2e-af43de729887.jpg
-  - assets/img_5836.jpg
-  - assets/img_5768.jpg
+  - assets/img_5837.jpg
+  - assets/img_5864.jpg
+  - assets/img_5858.jpg
   - assets/img_5875.jpg
+  - assets/img_5877.jpg
 propertyType: local
 listType: ventas
 date: June 23, 2023 12:03 PM
