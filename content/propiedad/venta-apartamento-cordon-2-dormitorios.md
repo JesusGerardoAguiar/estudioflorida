@@ -29,7 +29,7 @@ rooms: "3"
 state: montevideo
 zone: cordon
 title: "Venta apartamento Cordon 2 dormitorios "
-price: "124755"
+price: "128000"
 destacada: true
 soldout: false
 rented: false
