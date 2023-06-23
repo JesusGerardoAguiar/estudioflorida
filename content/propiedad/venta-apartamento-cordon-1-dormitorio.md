@@ -25,7 +25,7 @@ location: "Próximo 18 de Julio y Arenal Grande "
 state: montevideo
 zone: cordón
 title: Venta apartamento Cordon 1 dormitorio
-price: "95750"
+price: "99000"
 destacada: true
 soldout: false
 rented: false
