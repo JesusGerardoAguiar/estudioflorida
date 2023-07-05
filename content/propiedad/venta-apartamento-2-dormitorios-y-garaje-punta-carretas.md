@@ -11,10 +11,11 @@ description: "Hermoso, Echeverria y 21 de Setiembre. Zona con gran accesibilidad
   acceso a terraza de 5 m2.  2 dormitorios amplios con placares, el principal en
   suite.  Cocina definida con placares sobre y bajo mesada, además cuenta con
   lugar de desayunador.  Terraza de servicio.  2 baños completos (uno de ellos
-  con bañera).  Garaje fijo para 1 auto.  Calefacción, losa radiante
-  central.  Gastos comunes: $11.550 (incluye fondo de reserva).  Por mas
-  información no dudes en comunicarte con nosotros.  Estudio Florida - Socio
-  ADIU - Asociación de Agentes Inmobiliarios del Uruguay."
+  con bañera).  Garaje fijo para 1 auto (podrian entrar 2 autos
+  chicos).  Calefacción, losa radiante central.  Gastos comunes: $11.550
+  (incluye fondo de reserva).  Por mas información no dudes en comunicarte con
+  nosotros.  Estudio Florida - Socio ADIU - Asociación de Agentes Inmobiliarios
+  del Uruguay."
 location: Echeverria y 21 de Setiembre
 state: montevideo
 zone: punta carretas
