@@ -10,7 +10,7 @@ description: "San Quintín esquina Agraciada, zona con gran locomoción y
   m2 + terraza de servicio.  Living comedor al frente, cocina definida con
   muchos placares.  Baño completo, 2 dormitorios al contrafrente, el principal
   con placar.  Piso de parquet en living y dormitorios.  Gastos comunes:
-  $4.000.  Garantías: Anda, Porto Seguro o Contaduría.  Por mas información no
+  $3.500.  Garantías: Anda, Porto Seguro o Contaduría.  Por mas información no
   dudes en llamarnos.  Estudio Florida - Socio ADIU -Asociación de Agentes
   Inmobiliarios del Uruguay."
 location: San Quintín y Agraciada
