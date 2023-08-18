@@ -25,7 +25,7 @@ title: "Alquiler local Industrial - Depósito. Paso Molino "
 price: "120000"
 destacada: false
 soldout: false
-rented: false
+rented: true
 currency: $
 images:
   - assets/d968c9ee-4dcd-4afd-9f2e-af43de729887.jpg
