@@ -24,8 +24,8 @@ state: montevideo
 zone: paso molino
 title: "Venta local Industrial Paso Molino "
 price: "610000"
-destacada: true
-soldout: false
+destacada: false
+soldout: true
 rented: false
 currency: U$S
 images:
