@@ -23,7 +23,7 @@ state: montevideo
 zone: paso molino
 title: "Alquiler local Industrial - Depósito. Paso Molino "
 price: "120000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
