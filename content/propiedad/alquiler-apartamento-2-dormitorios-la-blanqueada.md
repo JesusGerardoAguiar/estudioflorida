@@ -23,7 +23,7 @@ location: Av Garibaldi y Emilio Raña
 state: montevideo
 zone: la blanqueada
 title: "Alquiler apartamento 2 dormitorios La Blanqueada "
-price: "29500"
+price: "28500"
 destacada: true
 soldout: false
 rented: false
