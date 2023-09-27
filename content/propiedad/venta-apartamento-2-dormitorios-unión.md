@@ -4,7 +4,7 @@ bedroom: "2"
 bathroom: "1"
 mts2: "68"
 map: ""
-description: Cabrera y Gobernador Viana. A 1 cuadra de 8 de
+description: RESERVADO - Cabrera y Gobernador Viana. A 1 cuadra de 8 de
   Octubre.  Apartamento planta baja, al frente.68m2.  Living amplio, cocina
   definida con lugar de comedor diario, 2 dormitorios cómodos, uno de ellos con
   placar y baño completo.   Le corresponde un patio de uso exclusivo con
