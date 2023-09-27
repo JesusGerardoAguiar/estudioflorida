@@ -17,7 +17,7 @@ state: montevideo
 zone: union
 title: Venta apartamento 2 dormitorios. Unión
 price: "49000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: U$S
