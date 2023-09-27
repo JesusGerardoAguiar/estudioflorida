@@ -22,7 +22,7 @@ title: Venta terreno Centro
 longitud: "1"
 latitud: "1"
 price: "89000"
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
