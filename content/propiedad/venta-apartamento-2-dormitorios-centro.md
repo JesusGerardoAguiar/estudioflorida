@@ -22,7 +22,7 @@ state: montevideo
 zone: centro
 title: "Venta apartamento 2 dormitorios. Centro "
 price: "110000"
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
