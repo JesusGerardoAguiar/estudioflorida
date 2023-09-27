@@ -22,7 +22,7 @@ title: Venta apartamento 2 dormitorios Malvin Norte
 longitud: ""
 latitud: ""
 price: "34000"
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
