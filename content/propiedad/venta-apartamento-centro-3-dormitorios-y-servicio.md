@@ -24,8 +24,8 @@ state: montevideo
 zone: centro
 title: Venta apartamento Centro 3 dormitorios y servicio
 price: "150000"
-destacada: true
-soldout: false
+destacada: false
+soldout: true
 rented: false
 currency: U$S
 images:
