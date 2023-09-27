@@ -21,8 +21,8 @@ state: montevideo
 zone: ciudad vieja
 title: "Venta apartamento Ciudad Vieja 2 dormitorios "
 price: "79000"
-destacada: true
-soldout: false
+destacada: false
+soldout: true
 rented: false
 currency: U$S
 images:
