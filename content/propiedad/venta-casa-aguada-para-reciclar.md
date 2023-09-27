@@ -23,7 +23,7 @@ state: montevideo
 zone: aguada
 title: "Venta casa Aguada para reciclar "
 price: "89000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: U$S
