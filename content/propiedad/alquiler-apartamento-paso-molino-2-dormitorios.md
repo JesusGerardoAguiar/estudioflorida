@@ -19,9 +19,9 @@ state: montevideo
 zone: belvedere
 title: Alquiler apartamento Paso Molino 2 dormitorios
 price: "20500"
-destacada: true
+destacada: false
 soldout: false
-rented: false
+rented: true
 currency: $
 images:
   - assets/img_7858.jpg
