@@ -25,7 +25,7 @@ latitud: "1"
 price: "69500"
 destacada: true
 soldout: false
-rented: true
+rented: false
 currency: U$S
 images:
   - assets/img_4242.jpg
