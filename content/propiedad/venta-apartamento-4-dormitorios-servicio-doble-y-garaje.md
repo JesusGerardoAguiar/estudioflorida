@@ -17,7 +17,7 @@ description: "Espectacular apartamento en Plaza de Cagancha.  Hermosa planta,
   doble con baño completo. Terraza de servicio.  Excelente planta, de categoría,
   sus pisos son de parquet y se encuentran en excelente estado de
   conservación.  Garaje fijo para un auto y deposito de 5 m2.  Gastos comunes
-  promedio: $40.000.  Contribución 3 cuotas de: $ 26692  Primaria 3 cuotas de: $
+  promedio: $34.895.  Contribución 3 cuotas de: $ 26692  Primaria 3 cuotas de: $
   6.475  Vigilancia las 24 hs.  Estudio Florida - Socio ADIU - Asociación de
   Agentes Inmobiliarios del Uruguay,"
 location: "Plaza Cagancha "
@@ -25,7 +25,7 @@ state: montevideo
 zone: centro
 title: "Venta apartamento 4 dormitorios, servicio doble y garaje. "
 price: "270000"
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
