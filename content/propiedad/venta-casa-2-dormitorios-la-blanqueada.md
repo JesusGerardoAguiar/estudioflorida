@@ -37,7 +37,6 @@ images:
   - assets/img_5770.jpg
   - assets/img_5794.jpg
   - assets/img_5792.jpg
-  - assets/img_5788.jpg
 propertyType: casas
 listType: ventas
 date: June 21, 2023 11:50 AM
