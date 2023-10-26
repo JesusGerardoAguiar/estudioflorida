@@ -17,7 +17,7 @@ state: montevideo
 zone: centro
 title: "Alquiler Apartamento 2 dormitorios. Centro "
 price: "29000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
