@@ -37,6 +37,8 @@ images:
   - assets/img_1807.jpg
   - assets/img_1811.jpg
   - assets/img_1824.jpg
+  - assets/whatsapp-image-2023-10-27-at-4.21.53-pm-2-.jpeg
+  - assets/whatsapp-image-2023-10-27-at-4.21.52-pm-1-.jpeg
   - assets/3.jpg
   - assets/6.jpg
   - assets/img_1829.jpg
