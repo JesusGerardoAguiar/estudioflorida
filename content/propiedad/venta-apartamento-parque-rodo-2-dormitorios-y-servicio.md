@@ -29,7 +29,7 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/img_1770.jpg
+  - assets/sin-arrugas-living-.jpeg
   - assets/img_1775.jpg
   - assets/img_1772.jpg
   - assets/img_1787.jpg
