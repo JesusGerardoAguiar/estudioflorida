@@ -4,12 +4,12 @@ bedroom: "2"
 bathroom: "2"
 mts2: "94"
 map: ""
-description: "Paysandú esquina Andes. Apartamento de 94 m2 en 2 plantas. Cuenta
-  con dos entradas totalmente independientes.  Planta baja: gran ambiente tipo
-  loft ideal atelier, playroom etc., en el mismo hay un pequeño baño de
-  servicio.  Planta alta: Living comedor con cocina integrada, 2 dormitorios muy
-  luminosos, (uno de ellos con placard) y baño completo.  Gastos comunes:
-  $1.900.  Acceso a azotea para colgar ropa.  Garantías: Anda, Porto o
+description: "**RESERVADA** Paysandú esquina Andes. Apartamento de 94 m2 en 2
+  plantas. Cuenta con dos entradas totalmente independientes.  Planta baja: gran
+  ambiente tipo loft ideal atelier, playroom etc., en el mismo hay un pequeño
+  baño de servicio.  Planta alta: Living comedor con cocina integrada, 2
+  dormitorios muy luminosos, (uno de ellos con placard) y baño completo.  Gastos
+  comunes: $1.900.  Acceso a azotea para colgar ropa.  Garantías: Anda, Porto o
   Contaduría  Por mas información no dudes en comunicarte con nosotros.  Estudio
   Florida. Socio ADIU. Asociación de Agentes Inmobiliarios del Uruguay,"
 location: Paysandù y Andes
