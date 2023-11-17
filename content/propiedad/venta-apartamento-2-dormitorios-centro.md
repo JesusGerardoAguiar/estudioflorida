@@ -4,11 +4,11 @@ bedroom: "2"
 bathroom: "2"
 mts2: "94"
 map: ""
-description: "Paysandú esquina Andes. Apartamento de 94 m2 en 2 plantas. Ideal
-  vivienda y estudio profesional, consultorio, etc ya que cuenta con dos
-  entradas totalmente independientes.  Puerta de calle con numero propio y
-  entrada por el edificio.  Planta baja: gran ambiente tipo loft con lavadero y
-  baño de servicio para actualizar.  Planta alta: Living comedor con cocina
+description: "RESERVADO Paysandú esquina Andes. Apartamento de 94 m2 en 2
+  plantas. Ideal vivienda y estudio profesional, consultorio, etc ya que cuenta
+  con dos entradas totalmente independientes.  Puerta de calle con numero propio
+  y entrada por el edificio.  Planta baja: gran ambiente tipo loft con lavadero
+  y baño de servicio para actualizar.  Planta alta: Living comedor con cocina
   integrada, 2 dormitorios muy luminosos, (uno de ellos con placard) y baño
   completo.  Es perfecto para quien busca una casa donde vivir y trabajar de
   forma independiente dado que cuenta con 50 m2 totalmente libres (sin columnas)
