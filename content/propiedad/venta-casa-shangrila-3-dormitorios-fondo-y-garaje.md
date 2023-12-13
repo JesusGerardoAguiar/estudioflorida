@@ -29,7 +29,7 @@ location: Santa Maria y Del Estío
 state: canelones
 zone: shangrilá
 title: Venta casa Shangrila 3 dormitorios, fondo y garaje
-price: "360000"
+price: "330000"
 destacada: true
 soldout: false
 rented: false
