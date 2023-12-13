@@ -22,7 +22,7 @@ state: canelones
 zone: medanos de solymar
 title: Venta Casa 3 Dormitorios Médanos De Solymar
 price: "245000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: U$S
