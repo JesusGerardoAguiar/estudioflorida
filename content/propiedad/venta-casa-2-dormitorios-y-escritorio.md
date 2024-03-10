@@ -19,7 +19,7 @@ description: "Divina PH totalmente independiente en Malvin Sur muy cerquita del
 location: Nancy y Yacabù
 state: montevideo
 zone: malvin
-title: Venta casa 2 dormitorios y escritorio
+title: "Venta casa 2 dormitorios y escritorio Malvin "
 price: "198000"
 destacada: true
 soldout: false
