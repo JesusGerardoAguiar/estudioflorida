@@ -5,15 +5,15 @@ bathroom: "1"
 mts2: "45"
 garage: Si
 map: ""
-description: "Preciosa casa a 2 cuadras de Larrañaga y a 4 de General Flores.
-  Parada de ómnibus en la puerta.  Pablo Pérez y Callao.  Jardín al frente con
-  cochera techada para 1 vehículo.  Living comedor amplio, 2 dormitorios, cocina
-  definida con placares bajo mesada y acceso a pequeño patio.  Baño
-  completo.  La casa es muy cómoda, todos los ambientes tienen luz natural por
-  lo que es muy luminosa.  No tiene gastos comunes.  Garantías: Anda, Contaduría
-  o Porto Seguro  .  Por mas información no dudes en comunicarte con
-  nosotros.  Estudio Florida. Socio ADIU- Asociación de agentes inmobiliarios
-  del Uruguay."
+description: "RESERVADA Preciosa casa a 2 cuadras de Larrañaga y a 4 de General
+  Flores. Parada de ómnibus en la puerta.  Pablo Pérez y Callao.  Jardín al
+  frente con cochera techada para 1 vehículo.  Living comedor amplio, 2
+  dormitorios, cocina definida con placares bajo mesada y acceso a pequeño
+  patio.  Baño completo.  La casa es muy cómoda, todos los ambientes tienen luz
+  natural por lo que es muy luminosa.  No tiene gastos comunes.  Garantías:
+  Anda, Contaduría o Porto Seguro  .  Por mas información no dudes en
+  comunicarte con nosotros.  Estudio Florida. Socio ADIU- Asociación de agentes
+  inmobiliarios del Uruguay."
 location: Pablo Pérez y Callao
 state: montevideo
 zone: perez castellanos
