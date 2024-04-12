@@ -5,8 +5,8 @@ bathroom: "1"
 mts2: "76"
 garage: "0"
 map: ""
-description: "Hermosa casa en Zapican próxima a Agraciada. Zona con gran
-  locomoción y servicios.   Planta baja super luminosa 76 m2.  Living y 1er
+description: "RESERVADA - Hermosa casa en Zapican próxima a Agraciada. Zona con
+  gran locomoción y servicios.   Planta baja super luminosa 76 m2.  Living y 1er
   dormitorio (ideal consultorio o escritorio) ambos al frente.   Gran hall
   central donde se puede generar un muy lindo estar/comedor.   2 dormitorios
   cómodos con banderola.  Cocina definida con horno , anafe y campana.   Baño
