@@ -28,7 +28,7 @@ location: Av Libertador y Nueva York
 state: montevideo
 zone: aguada
 title: "Venta apartamento 2 dormitorios Centro - Aguada "
-price: "153000"
+price: "149000"
 destacada: true
 soldout: false
 rented: false
@@ -40,6 +40,8 @@ images:
   - assets/img_0494.jpg
   - assets/img_0478.jpg
   - assets/img_0508.jpg
+  - assets/img_5241.jpg
+  - assets/img_5242.jpg
 propertyType: apartamentos
 listType: ventas
 date: March 10, 2024 4:03 PM
