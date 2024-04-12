@@ -12,13 +12,13 @@ description: "Atención inversores! Luis Alberto de Herrera y Antonio Costa.
   de 8 m2 super disfrutable.  Precioso edificio, el mismo cuenta con maquinas
   industriales de lavado y secado, terraza con espectacular vista y parrillero.
   Alquilado desde Marzo de 2024 por 1 año con opcion a 1 año más. Garantía Porto
-  Seguro.  Admite mascota pequeña.   Gastos comunes : $3560aprox ( incluye fondo
-  de reserva de $160)  Por mas información no dudes en consultarnos.  Estudio
-  Florida - Socio ADIU Asociación de agentes inmobiliarios del Uruguay"
+  Seguro.   Gastos comunes : $3560aprox ( incluye fondo de reserva de $160)  Por
+  mas información no dudes en consultarnos.  Estudio Florida - Socio ADIU
+  Asociación de agentes inmobiliarios del Uruguay"
 location: "Av L A de Herrera y Antonio Costa "
 state: montevideo
 zone: pocitos
-title: "Venta Monoambiente con Patio Pocitos "
+title: Venta Monoambiente con Patio Pocitos Nuevo
 price: "125000"
 destacada: true
 soldout: false
