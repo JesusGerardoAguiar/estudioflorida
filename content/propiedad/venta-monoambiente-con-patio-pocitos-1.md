@@ -18,11 +18,11 @@ description: "Luis Alberto de Herrera y Antonio Costa. Próximo World Trade
 location: "Av LA de Herrera y Antonio Costa "
 state: montevideo
 zone: pocitos
-title: "Venta Monoambiente con patio Pocitos "
+title: Alquiler Monoambiente con patio Pocitos Nuevo
 price: "20500"
-destacada: true
+destacada: false
 soldout: false
-rented: false
+rented: true
 currency: $
 images:
   - assets/img_4234.jpg
