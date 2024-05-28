@@ -5,9 +5,9 @@ bathroom: "1"
 mts2: "45"
 garage: Si
 map: ""
-description: "RESERVADA Preciosa casa a 2 cuadras de Larrañaga y a 4 de General
-  Flores. Parada de ómnibus en la puerta.  Pablo Pérez y Callao.  Jardín al
-  frente con cochera techada para 1 vehículo.  Living comedor amplio, 2
+description: "ALQUILADA - Preciosa casa a 2 cuadras de Larrañaga y a 4 de
+  General Flores. Parada de ómnibus en la puerta.  Pablo Pérez y Callao.  Jardín
+  al frente con cochera techada para 1 vehículo.  Living comedor amplio, 2
   dormitorios, cocina definida con placares bajo mesada y acceso a pequeño
   patio.  Baño completo.  La casa es muy cómoda, todos los ambientes tienen luz
   natural por lo que es muy luminosa.  No tiene gastos comunes.  Garantías:
@@ -19,7 +19,7 @@ state: montevideo
 zone: perez castellanos
 title: Alquiler Casa 2 dormitorios Pérez Castellanos
 price: "20500"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
