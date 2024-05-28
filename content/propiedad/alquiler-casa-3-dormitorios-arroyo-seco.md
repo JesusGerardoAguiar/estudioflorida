@@ -5,7 +5,7 @@ bathroom: "1"
 mts2: "76"
 garage: "0"
 map: ""
-description: "RESERVADA - Hermosa casa en Zapican próxima a Agraciada. Zona con
+description: "ALQUILADA - Hermosa casa en Zapican próxima a Agraciada. Zona con
   gran locomoción y servicios.   Planta baja super luminosa 76 m2.  Living y 1er
   dormitorio (ideal consultorio o escritorio) ambos al frente.   Gran hall
   central donde se puede generar un muy lindo estar/comedor.   2 dormitorios
@@ -20,7 +20,7 @@ state: montevideo
 zone: arroyo seco
 title: Alquiler casa 3 dormitorios Arroyo Seco
 price: "29500"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
