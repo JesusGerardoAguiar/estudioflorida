@@ -9,7 +9,7 @@ description: "Apartamento muy cómodo en Euskalerria 71.Mallorca y Piràn, 78
   m2.  Living comedor, cocina definida, 4 cómodos dormitorios (el dormitorio
   contiguo al living comedor se encuentra integrado al living comedor por puerta
   corrediza de madera).  Amplio pasillo de distribución, baño reciclado.  Todo
-  el apartamento es muy luminoso y ventilado.  Gastos comunes: $4090.  Se vende
+  el apartamento es muy luminoso y ventilado.  Gastos comunes: $5.160.  Se vende
   alquilado en $18.215 contrato desde Febrero 2024 por 1 año con opción a 1 año
   mas. Garantía Porto Seguro.  Contribución anual: $ 6.900  Primaria anual: $
   2.380  Tributos: $954.  El block cuenta con salón comunal.  El complejo tiene
