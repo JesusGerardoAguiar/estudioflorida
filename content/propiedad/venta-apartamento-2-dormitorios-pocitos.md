@@ -23,7 +23,7 @@ location: Pagola y Chucarro
 state: montevideo
 zone: pocitos
 title: Venta apartamento 2 dormitorios Pocitos
-price: "220000"
+price: "215000"
 destacada: true
 soldout: false
 rented: false
