@@ -41,8 +41,6 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/img_6202.jpg
-  - assets/img_6202.jpg
   - assets/img_6229.jpg
   - assets/img_6221.jpg
   - assets/img_6224.jpg
@@ -50,6 +48,7 @@ images:
   - assets/img_6214.jpg
   - assets/img_6211.jpg
   - assets/img_6241.jpg
+  - assets/img_6201.jpg
 propertyType: apartamentos
 listType: ventas
 date: May 31, 2024 7:06 PM
