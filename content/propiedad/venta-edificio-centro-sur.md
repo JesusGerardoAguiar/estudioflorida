@@ -41,14 +41,20 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/img_6229.jpg
-  - assets/img_6221.jpg
-  - assets/img_6224.jpg
-  - assets/img_6208.jpg
-  - assets/img_6214.jpg
-  - assets/img_6211.jpg
-  - assets/img_6241.jpg
+  - assets/fachada-editada-.jpeg
+  - assets/img_6317.jpg
+  - assets/whatsapp-image-2024-06-03-at-6.01.12-pm.jpeg
+  - assets/whatsapp-image-2024-06-03-at-5.49.08-pm.jpeg
+  - assets/img_6317.jpg
+  - assets/img_6303.jpg
   - assets/img_6201.jpg
+  - assets/whatsapp-image-2024-06-03-at-4.51.08-pm.jpeg
+  - assets/img_6228.jpg
+  - assets/img_6205.jpg
+  - assets/img_6214.jpg
+  - assets/img_6208.jpg
+  - assets/img_6226.jpg
+  - assets/img_6215.jpg
 propertyType: apartamentos
 listType: ventas
 date: May 31, 2024 7:06 PM
