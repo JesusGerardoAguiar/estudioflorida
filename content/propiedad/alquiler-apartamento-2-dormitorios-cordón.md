@@ -21,7 +21,7 @@ location: Colonia y Requena
 state: montevideo
 zone: cordon
 title: "Alquiler apartamento 2 dormitorios Cordón "
-price: "32000"
+price: "30000"
 destacada: true
 soldout: false
 rented: false
