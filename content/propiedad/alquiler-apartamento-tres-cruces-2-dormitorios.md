@@ -19,7 +19,7 @@ location: Duvimioso Terra y Gral. Pagola - Próximo Shopping Tres Cruces
 state: montevideo
 zone: tres cruces
 title: Alquiler apartamento Tres Cruces 2 dormitorios
-price: "30000"
+price: "29000"
 destacada: true
 soldout: false
 rented: false
