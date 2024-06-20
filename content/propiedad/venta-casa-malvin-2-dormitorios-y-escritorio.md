@@ -20,7 +20,7 @@ rooms: "4"
 state: montevideo
 zone: malvin
 title: Venta casa Malvin 2 dormitorios y escritorio
-price: "198000"
+price: "189000"
 destacada: true
 soldout: false
 rented: false
