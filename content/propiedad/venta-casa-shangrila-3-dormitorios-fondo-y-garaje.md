@@ -30,7 +30,7 @@ state: canelones
 zone: shangrilá
 title: Venta casa Shangrila 3 dormitorios, fondo y garaje
 price: "330000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: U$S
