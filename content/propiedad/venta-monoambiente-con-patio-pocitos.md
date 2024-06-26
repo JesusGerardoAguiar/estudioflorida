@@ -25,6 +25,7 @@ soldout: false
 rented: false
 currency: U$S
 images:
+  - assets/img_4236.jpg
   - assets/img_5217.jpg
   - assets/img_5263.jpg
   - assets/img_5209.jpg
