@@ -20,7 +20,7 @@ state: montevideo
 zone: pocitos
 title: Venta Monoambiente con Patio Pocitos Nuevo
 price: "119000"
-destacada: false
+destacada: true
 soldout: false
 rented: false
 currency: U$S
