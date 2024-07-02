@@ -5,9 +5,9 @@ bathroom: "1"
 mts2: "56"
 garage: NO
 map: ""
-description: "Hermoso apartamento en Duvimioso Terra esquina Pagola. A 1 cuadra
-  de Br Artigas y a 3 de Shopping de Tres Cruces!.  4to piso, con todos sus
-  ambientes al frente, super luminoso!.  Gran living comedor con ventanal de
+description: "RESERVADO Hermoso apartamento en Duvimioso Terra esquina Pagola. A
+  1 cuadra de Br Artigas y a 3 de Shopping de Tres Cruces!.  4to piso, con todos
+  sus ambientes al frente, super luminoso!.  Gran living comedor con ventanal de
   piso a techo.  Cocina definida con placares aéreos y bajo mesada. Terraza de
   servicio con conexión para lavadora.  2 dormitorios con placard, el principal
   con aire acondicionado. Baño completo.  El apartamento cuenta con precioso
