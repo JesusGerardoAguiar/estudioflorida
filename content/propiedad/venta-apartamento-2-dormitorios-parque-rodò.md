@@ -16,7 +16,7 @@ location: Durazno y Jackson
 state: montevideo
 zone: parque rodo
 title: Venta apartamento 2 dormitorios Parque Rodò
-price: "118000"
+price: "115000"
 destacada: true
 soldout: false
 rented: false
