@@ -16,7 +16,7 @@ title: Venta terreno Ciudad de la Costa próximo Haras del Lago
 longitud: ""
 latitud: ""
 price: "550000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: U$S
