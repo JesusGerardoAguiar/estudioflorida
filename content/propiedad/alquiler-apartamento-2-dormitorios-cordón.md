@@ -14,14 +14,14 @@ description: "Precioso apartamento, Colonia y Joaquín Requena, a una cuadra de
   con bañera y mampara.  Cocina enorme con lugar para comedor
   diario.   Dormitorio de servicio, ideal escritorio y baño.   Terraza de
   servicio con conexión para lavarropas y lugar para colgar ropa.  Garaje fijo
-  para un auto.  Gastos comunes: $7.850.  Precioso edificio, muy bien
+  para un auto.  Gastos comunes: $8.600.  Precioso edificio, muy bien
   cuidado.  Por mas información no dudes en comunicarte con
   nosotros.  Garantías: Anda - SANCOR - Porto Seguro.    Estudio Florida - Socio
   ADIU Asociación de agentes inmobiliarios del Uruguay."
 location: Colonia y Requena
 state: montevideo
 zone: cordon
-title: "Alquiler apartamento 2 dormitorios Cordón "
+title: "Alquiler apartamento 2 dormitorios y servicio Cordón "
 price: "27000"
 destacada: true
 soldout: false
