@@ -5,9 +5,9 @@ bathroom: "2"
 mts2: "87"
 garage: Si
 map: ""
-description: "Precioso apartamento, Colonia y Joaquín Requena, a una cuadra de
-  18 de Julio y a 6 de Shopping Tres Cruces.   Primer piso, al frente. 2
-  apartamentos por piso. Entrada principal y de servicio.  Enorme, 87m2, todos
+description: "RESERVADO - Precioso apartamento, Colonia y Joaquín Requena, a una
+  cuadra de 18 de Julio y a 6 de Shopping Tres Cruces.   Primer piso, al frente.
+  2 apartamentos por piso. Entrada principal y de servicio.  Enorme, 87m2, todos
   sus ambientes super cómodos!. Gran living comedor al frente, con aire
   acondicionado y terraza integrada.  2 dormitorios amplios , ambos al frente
   con ventanal de piso a techo, el principal con placar.  2 Baños, el principal
@@ -23,7 +23,7 @@ state: montevideo
 zone: cordon
 title: "Alquiler apartamento 2 dormitorios y servicio Cordón "
 price: "27000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
