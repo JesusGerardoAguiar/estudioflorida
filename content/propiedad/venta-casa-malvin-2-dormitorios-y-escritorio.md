@@ -5,16 +5,22 @@ bathroom: "1"
 mts2: 132 total - 76 m2 construidos
 garage: "0"
 map: ""
-description: "Divina PH totalmente independiente en Malvin Sur muy cerquita del
-  Shopping Plaza Italia y a 5 cuadras de Av Rivera.  76m2 construidos en 2
-  plantas más 64m2 libres distribuidos en jardín, porche, pasaje lateral y
-  patio.  Planta baja: Living comedor al frente con estufa a leña, cocina
-  definida con placares, 2 dormitorios muy cómodos y baño completo. Hermoso
-  patio con parrillero y lavadero.  Planta alta: escritorio o 3er dormitorio,
-  super luminoso e independiente .  Una verdadera oportunidad, es una propiedad
-  solida, muy cuidada, en excelentes condiciones.  Por mas información o para
-  coordinar visita no dudes en llamarnos.  Estudio Florida - Socio ADIU -
-  Asociación de Agentes Inmobiliarios del Uruguay."
+description: "Divina PH en Malvin Sur a 1 cuadra del Shopping Plaza Italia y a 5
+  cuadras de Av Rivera.    Solo 2 unidades en el padrón y totalmente
+  independientes una de la otra. No comparten nada.    Terreno propio de 132 m2
+  de los cuales 76m2 se encuentran construidos en 2 plantas más 64m2 libres
+  distribuidos en jardín, porche, pasaje lateral y patio.    Planta baja: Living
+  comedor al frente con hermosa estufa a leña, cocina definida con placares, 2
+  dormitorios muy cómodos con placares y hermosos pisos de parquet, super
+  cuidados (en ambos entra una cama de 2 plazas) y baño completo en excelente
+  estado.    Divino patio con parrillero y lavadero cerrado.    Planta alta: 3er
+  dormitorio o escritorio, super luminoso por su orientación e
+  independiente.    Contribución 3 cuotas de $1357  Primaria 3 cuotas de
+  $640  Tributos: $1386 (bimensual)    Opción de alquilar garaje a pocos
+  metros.    Una verdadera oportunidad, propiedad solida, muy cuidada, en
+  excelentes condiciones.    Por mas información o para coordinar visita no
+  dudes en llamarnos.    Estudio Florida - Socio ADIU - Asociación de Agentes
+  Inmobiliarios del Uruguay."
 location: Nancy y Yacabu
 rooms: "4"
 state: montevideo
