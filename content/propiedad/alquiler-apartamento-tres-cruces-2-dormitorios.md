@@ -23,7 +23,7 @@ title: Alquiler apartamento Tres Cruces 2 dormitorios
 price: "29000"
 destacada: false
 soldout: false
-rented: false
+rented: true
 currency: $
 images:
   - assets/img_8250.jpg
