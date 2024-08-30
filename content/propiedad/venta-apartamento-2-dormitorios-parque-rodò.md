@@ -8,7 +8,7 @@ description: " Durazno y Jackson, próximo a facultades de Comunicación, Cienci
   Económicas, Centro y Rambla.  Ideal renta o vivienda propia.  Segundo piso por
   escalera, 60m2, muy amplio y luminoso.  Hall de ingreso, gran living comedor,
   cocina definida, 2 dormitorios de gran tamaño y baño completo con conexión
-  para lavadora.  Gastos comunes: $3900  Contribución 3 cuotas de
+  para lavadora.  Gastos comunes: $4.280.  Contribución 3 cuotas de
   $2.300.  Primaria 3 cuotas de $900.  Una muy buena opción en una excelente
   ubicación.  Por mas información no dudes en llamarnos.  Estudio Florida -
   Socio ADIU - Asociación de Agentes Inmobiliarios del Uruguay."
