@@ -5,8 +5,8 @@ bathroom: "1"
 mts2: 132 total - 76 m2 construidos
 garage: "0"
 map: ""
-description: "- RESERVADA - Divina PH en Malvin Sur a 1 cuadra del Shopping
-  Plaza Italia y a 5 cuadras de Av Rivera.    Solo 2 unidades en el padrón y
+description: "VENDIDA - Divina PH en Malvin Sur a 1 cuadra del Shopping Plaza
+  Italia y a 5 cuadras de Av Rivera.    Solo 2 unidades en el padrón y
   totalmente independientes una de la otra. No comparten nada.    Terreno propio
   de 132 m2 de los cuales 76m2 se encuentran construidos en 2 plantas más 64m2
   libres distribuidos en jardín, porche, pasaje lateral y patio.    Planta baja:
