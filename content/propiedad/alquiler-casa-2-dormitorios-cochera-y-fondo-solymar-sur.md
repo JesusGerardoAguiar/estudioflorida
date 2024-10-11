@@ -5,9 +5,9 @@ bathroom: "1"
 mts2: "55"
 garage: "1"
 map: ""
-description: "Divina casa en Solymar Sur a 3 cuadras de la playa! De los Pinos
-  esquina Gaviotas, próximo a todos los servicios.  Se desarrolla en una planta,
-  cuenta con amplio jardín al frente, cochera y fondo super
+description: "reservada **** Divina casa en Solymar Sur a 3 cuadras de la playa!
+  De los Pinos esquina Gaviotas, próximo a todos los servicios.  Se desarrolla
+  en una planta, cuenta con amplio jardín al frente, cochera y fondo super
   disfrutable!.  Living comedor amplio con cocina semi integrada y placares
   aéreos y bajo mesada.  2 dormitorios cómodos con placares y baño
   completo.  Hermoso fondo de 46m2 con parrillero.  Garantías: Anda o CGN.  Por
