@@ -5,9 +5,9 @@ bathroom: "1"
 mts2: "90"
 garage: "1"
 map: ""
-description: "Precioso apartamento en Pernas a 2 cuadras de Av. 8 de Octubre.
-  Zona Comercial con todos los servicios a su alcance.  Primer piso por
-  escalera, 90 m2 aprox,,más patio y gran terraza con parrillero!.  Living
+description: "RESERVADO*****Precioso apartamento en Pernas a 2 cuadras de Av. 8
+  de Octubre. Zona Comercial con todos los servicios a su alcance.  Primer piso
+  por escalera, 90 m2 aprox,,más patio y gran terraza con parrillero!.  Living
   comedor al frente, de gran tamaño y muy luminoso.  3 dormitorios todos muy
   cómodos, con vista despejada. Baño completo con mampara.  Cocina definida con
   lugar para desayunador.  Deposito en terraza de 13m2 .  No paga gastos
