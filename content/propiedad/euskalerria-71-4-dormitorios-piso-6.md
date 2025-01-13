@@ -5,17 +5,15 @@ bathroom: "1"
 mts2: "80"
 garage: Posibilidad de estacionar dentro del complejo
 map: ""
-description: "Apartamento muy cómodo en Euskalerria 71.Mallorca y Piràn, 78
-  m2.  Living comedor, cocina definida, 4 cómodos dormitorios (el dormitorio
+description: "Euskalerria 71.Mallorca y Piràn, 78 m2. Apartamento muy amplio y
+  cómodo!  Living comedor, cocina definida, 4 cómodos dormitorios (el dormitorio
   contiguo al living comedor se encuentra integrado al living comedor por puerta
   corrediza de madera).  Amplio pasillo de distribución, baño reciclado.  Todo
-  el apartamento es muy luminoso y ventilado.  Gastos comunes: $5.160.  Se vende
-  alquilado en $18.215 contrato desde Febrero 2024 por 1 año con opción a 1 año
-  mas. Garantía Porto Seguro.  Contribución anual: $ 6.900  Primaria anual: $
-  2.380  Tributos: $954.  El block cuenta con salón comunal.  El complejo tiene
-  espacios verdes muy disfrutables, lugar de estacionamiento y
-  vigilancia.  Estudio Florida socio ADIU - Asociación de Agentes Inmobiliarios
-  del Uruguay."
+  el apartamento es muy luminoso y ventilado.  Gastos comunes:
+  $5.200.  Contribución anual: $ 8.160  Primaria anual: $ 2.720  Tributos:
+  $1077.  El block cuenta con salón comunal.  El complejo tiene espacios verdes
+  muy disfrutables, lugar de estacionamiento y vigilancia.  Estudio Florida
+  socio ADIU - Asociación de Agentes Inmobiliarios del Uruguay."
 location: "Mallorca y Piràn "
 state: montevideo
 zone: malvin norte
@@ -28,22 +26,28 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/img_4242.jpg
+  - assets/img_0018.jpg
+  - assets/img_0020.jpg
+  - assets/img_0023.jpg
+  - assets/img_0024.jpg
+  - assets/img_0026.jpg
+  - assets/img_0025.jpg
+  - assets/img_0029.jpg
+  - assets/img_0037.jpg
+  - assets/img_0036.jpg
+  - assets/img_0040.jpg
+  - assets/img_0042.jpg
+  - assets/img_0058.jpg
+  - assets/img_0045.jpg
+  - assets/img_0047.jpg
+  - assets/img_0046-1.jpg
+  - assets/img_4264.jpg
+  - assets/img_4225.jpg
+  - assets/img_0014.jpg
+  - assets/img_0012.jpg
   - assets/img_4200.jpg
-  - assets/img_4209.jpg
-  - assets/img_4211.jpg
-  - assets/img_4215.jpg
-  - assets/img_4219.jpg
-  - assets/img_4216.jpg
-  - assets/img_4218.jpg
-  - assets/img_4223.jpg
-  - assets/img_4226.jpg
-  - assets/img_4230.jpg
-  - assets/img_4225.jpg
-  - assets/img_4225.jpg
-  - assets/img_4227.jpg
-  - assets/img_4241.jpg
+  - assets/img_4243.jpg
 propertyType: apartamentos
 listType: ventas
-date: April 26, 2023 5:37 PM
+date: January 13, 2025 12:48 PM
 ---
