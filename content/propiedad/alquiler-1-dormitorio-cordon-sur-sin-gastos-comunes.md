@@ -19,7 +19,7 @@ title: Alquiler 1 Dormitorio Cordon Sur - Sin Gastos Comunes
 price: "27000"
 destacada: true
 soldout: false
-rented: false
+rented: true
 currency: $
 images:
   - assets/img_0728.jpg
