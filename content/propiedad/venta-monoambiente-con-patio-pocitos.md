@@ -11,10 +11,10 @@ description: "Atención inversores! Luis Alberto de Herrera y Antonio Costa.
   silestone. Placares aéreos y bajo mesada.   Baño completo con calefón.  Patio
   de 8 m2 super disfrutable.  Precioso edificio, el mismo cuenta con maquinas
   industriales de lavado y secado, terraza con espectacular vista y parrillero.
-  Alquilado  en $20.500 desde Abril de 2024 por 2 años. Garantía Porto
-  Seguro.   Gastos comunes : $3560aprox ( incluye fondo de reserva de $160)  Por
-  mas información no dudes en consultarnos.  Estudio Florida - Socio ADIU
-  Asociación de agentes inmobiliarios del Uruguay"
+  Alquilado  desde Abril de 2024 por 2 años. Garantía Porto Seguro.   Gastos
+  comunes : $3560aprox ( incluye fondo de reserva de $160)  Por mas información
+  no dudes en consultarnos.  Estudio Florida - Socio ADIU Asociación de agentes
+  inmobiliarios del Uruguay"
 location: "Av L A de Herrera y Antonio Costa "
 state: montevideo
 zone: pocitos
