@@ -5,11 +5,11 @@ bathroom: "1"
 mts2: "80"
 garage: Posibilidad de estacionar dentro del complejo
 map: ""
-description: "Euskalerria 71.Mallorca y Piràn, 78 m2. Apartamento muy amplio y
-  cómodo!  Living comedor, cocina definida, 4 cómodos dormitorios (el dormitorio
-  contiguo al living comedor se encuentra integrado al living comedor por puerta
-  corrediza de madera).  Amplio pasillo de distribución, baño reciclado.  Todo
-  el apartamento es muy luminoso y ventilado.  Gastos comunes:
+description: "VENDIDO! Euskalerria 71.Mallorca y Piràn, 78 m2. Apartamento muy
+  amplio y cómodo!  Living comedor, cocina definida, 4 cómodos dormitorios (el
+  dormitorio contiguo al living comedor se encuentra integrado al living comedor
+  por puerta corrediza de madera).  Amplio pasillo de distribución, baño
+  reciclado.  Todo el apartamento es muy luminoso y ventilado.  Gastos comunes:
   $5.200.  Contribución anual: $ 8.160  Primaria anual: $ 2.720  Tributos:
   $1077.  El block cuenta con salón comunal.  El complejo tiene espacios verdes
   muy disfrutables, lugar de estacionamiento y vigilancia.  Estudio Florida
