@@ -5,19 +5,20 @@ bathroom: "1"
 mts2: "28"
 garage: "0"
 map: ""
-description: "Av Libertador y Paysandú .- Edificio con ubicación estratégica
+description: Av Libertador y Paysandú .- Edificio con ubicación estratégica
   próximo 18 de Julio.  Oficina de 28 m2 al frente. Actualmente cuenta con 3
-  ambientes, sala de espera, 1 privado y sala de reuniones.  Los gastos comunes
-  ya están sumados en el precio del alquiler e incluyen UTE, OSE, calefacción
-  central, limpieza, tributos domiciliarios.  El edificio cuenta con 2
-  ascensores enormes, preciosa recepción en primer piso y vigilancia.  Garantía:
-  Porto Seguro  Estudio Florida Socio ADIU Asociación de Agentes Inmobiliarios
-  del Uruguay."
+  ambientes, sala de espera, 1 privado y sala de reuniones.  En los gastos
+  comunes ya están incluidos los montos de contribución, tributos domiciliarios,
+  primaria, calefacción central, limpieza ute y ose.  El edificio cuenta con 2
+  ascensores enormes, preciosa recepción en primer piso y vigilancia.  Se vende
+  con renta desde Marzo de 2025, contrato por 1 año, garantía Porto Seguro. por
+  $ 15.000 (con gastos comunes incluidos)  Estudio Florida Socio ADIU Asociación
+  de Agentes Inmobiliarios del Uruguay.
 location: Av Libertador y Paysandú
 rooms: "3"
 state: montevideo
 zone: centro
-title: Alquiler Oficina Centro
+title: Venta Oficina Centro
 price: "25000"
 destacada: false
 soldout: false
