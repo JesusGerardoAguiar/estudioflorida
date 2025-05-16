@@ -18,8 +18,8 @@ rooms: "3"
 state: montevideo
 zone: centro
 title: Alquiler Oficina Centro
-price: "15000"
-destacada: true
+price: "25000"
+destacada: false
 soldout: false
 rented: false
 currency: $
@@ -33,6 +33,6 @@ images:
   - assets/img_20241021_110812.jpg
   - assets/img_5676.jpg
 propertyType: oficina
-listType: alquileres
+listType: ventas
 date: October 29, 2024 3:44 PM
 ---
