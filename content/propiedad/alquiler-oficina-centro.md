@@ -23,7 +23,7 @@ price: "25000"
 destacada: false
 soldout: false
 rented: false
-currency: $
+currency: U$S
 images:
   - assets/img_5772.jpg
   - assets/img_5765.jpg
