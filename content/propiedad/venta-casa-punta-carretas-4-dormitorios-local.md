@@ -26,7 +26,7 @@ location: "Ibiray & Patria, Montevideo "
 state: montevideo
 zone: punta carretas
 title: Venta Casa Punta Carretas 4 Dormitorios + Local
-price: "630000"
+price: "550000"
 destacada: false
 soldout: false
 rented: false
