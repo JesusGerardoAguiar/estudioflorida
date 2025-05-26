@@ -15,8 +15,8 @@ description: "Hermosa PH en planta baja con garaje y espacios abiertos!, Super
   de 5 m2 en planta baja y acceso a azotea de 14 m2.  Garaje para un auto grande
   con altura suficiente como para incorporar un entrepiso y ampliar su
   funcionalidad como deposito.  No paga gastos comunes.  Contribución anual: $
-  4.800.  Primaria anual: $ 1.650  Una excelente opción, en un barrio muy lindo
-  y tranquilo próximo a las Avenidas Br Artigas, Garibaldi y Gral
+  2700.  Primaria anual: $ 1.600  Una excelente opción, en un barrio muy lindo y
+  tranquilo próximo a las Avenidas Br Artigas, Garibaldi y Gral
   Flores.  Contáctanos para mas información o para coordinar una
   visita.  Estudio Florida - Socio ADIU - Asociación de Agentes Inmobiliarios
   del Uruguay."
