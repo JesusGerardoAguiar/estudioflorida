@@ -26,9 +26,9 @@ state: canelones
 zone: lomas de solymar
 title: Alquiler Apartamento Lomas De Solymar 1 Dormitorio
 price: "18000"
-destacada: true
+destacada: false
 soldout: false
-rented: false
+rented: true
 currency: $
 images:
   - assets/img_3168.jpg
