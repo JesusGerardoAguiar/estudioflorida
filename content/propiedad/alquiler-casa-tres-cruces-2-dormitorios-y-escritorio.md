@@ -5,14 +5,14 @@ bathroom: "1"
 mts2: "81"
 garage: No
 map: ""
-description: "Casa de altos ideal empresa u oficina.  Excelente ubicación
-  próxima a Shopping XXX y Centro.  Esta propiedad destaca por su presencia y
-  versatilidad. Al ingreso gran hall con claraboya perfecto como recepción o
-  living comedor.  Cuenta con 2 habitaciones al frente, una de ellas muy amplia,
-  ambas con grandes ventanales que permiten el ingreso de excelente luz natural
-  y preciosos pisos de pinotea.  La cocina definida cuenta con espacio para
-  desayunador y desde alli se accede a una tercera habitación tipo altillo (2 x2
-  m), posible escritorio o archivo.  Baño completo. Previsión para
+description: " RESERVADA Casa de altos ideal empresa u oficina.  Excelente
+  ubicación próxima a Shopping XXX y Centro.  Esta propiedad destaca por su
+  presencia y versatilidad. Al ingreso gran hall con claraboya perfecto como
+  recepción o living comedor.  Cuenta con 2 habitaciones al frente, una de ellas
+  muy amplia, ambas con grandes ventanales que permiten el ingreso de excelente
+  luz natural y preciosos pisos de pinotea.  La cocina definida cuenta con
+  espacio para desayunador y desde alli se accede a una tercera habitación tipo
+  altillo (2 x2 m), posible escritorio o archivo.  Baño completo. Previsión para
   lavadora.  Acceso a azotea transitable de 56 m2 aprx.  Garantías: Anda O Porto
   Seguro.  Llámanos y coordina tu visita. Te va a encantar!  Estudio Florida -
   abrimos puertas que transforman vidas.  Socio Adiu - Asociación de Agentes
