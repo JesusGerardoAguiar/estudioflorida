@@ -14,12 +14,13 @@ description: "Hermosa PH en planta baja con garaje y espacios abiertos!, Super
   como escritorio o cuarto de niños.  Baño completo en excelente estado.  Patio
   de 5 m2 en planta baja y acceso a azotea de 14 m2.  Garaje para un auto grande
   con altura suficiente como para incorporar un entrepiso y ampliar su
-  funcionalidad como deposito.  No paga gastos comunes.  Contribución anual: $
-  2700.  Primaria anual: $ 1.600  Una excelente opción, en un barrio muy lindo y
-  tranquilo próximo a las Avenidas Br Artigas, Garibaldi y Gral
+  funcionalidad como deposito.  La propiedad requiere mantenimiento general y
+  actualización de instalación eléctrica.  No paga gastos comunes.  Contribución
+  anual: $ 2700.  Primaria anual: $ 1.650  Es una excelente opción, en un barrio
+  muy lindo y tranquilo próximo a las Avenidas Br Artigas, Garibaldi y Gral
   Flores.  Contáctanos para mas información o para coordinar una
   visita.  Estudio Florida - Socio ADIU - Asociación de Agentes Inmobiliarios
-  del Uruguay."
+  del Uruguay"
 location: Guadalupe y Cufre,  La Figurita, Montevideo
 state: montevideo
 zone: jacinto vera
