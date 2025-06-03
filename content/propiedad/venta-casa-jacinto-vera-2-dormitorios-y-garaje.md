@@ -31,24 +31,19 @@ soldout: false
 rented: false
 currency: U$S
 images:
-  - assets/img_0350.jpg
-  - assets/img_0346.jpg
-  - assets/img_0352.jpg
-  - assets/img_0365.jpg
-  - assets/img_0366.jpg
-  - assets/img_0370.jpg
-  - assets/img_0380.jpg
-  - assets/img_0381.jpg
+  - assets/img_3527.jpg
+  - assets/img_3531.jpg
+  - assets/img_3534.jpg
+  - assets/img_3585.jpg
+  - assets/img_3603.jpg
+  - assets/img_3606.jpg
+  - assets/img_3611.jpg
+  - assets/img_3647.jpg
+  - assets/img_3641.jpg
   - assets/img_0383.jpg
-  - assets/img_0387.jpg
-  - assets/img_0395.jpg
-  - assets/img_0397.jpg
   - assets/img_0408.jpg
-  - assets/img_0409.jpg
-  - assets/img_0414.jpg
-  - assets/img_0427.jpg
+  - assets/img_3666.jpg
   - assets/img_0435.jpg
-  - assets/img_0357.jpg
 propertyType: casas
 listType: ventas
 date: May 24, 2025 9:29 AM
