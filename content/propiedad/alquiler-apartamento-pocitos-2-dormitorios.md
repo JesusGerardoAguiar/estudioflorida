@@ -18,7 +18,7 @@ location: Masini y Berro,  Pocitos, Montevideo
 state: montevideo
 zone: pocitos
 title: Alquiler Apartamento Pocitos 2 Dormitorios
-price: "35000"
+price: "33000"
 destacada: true
 soldout: false
 rented: false
