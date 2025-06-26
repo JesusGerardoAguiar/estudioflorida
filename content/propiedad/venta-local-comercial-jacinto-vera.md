@@ -8,15 +8,15 @@ description: "¡Gran oportunidad comercial en excelente ubicación!  Guadalupe y
   Cufre, a 80 metros de Av. Garibaldi y a menos de 300m de Br. Artigas, en una
   zona muy transitada y de gran conectividad.  Amplio local esquina, PH
   independiente, con gran potencial para adaptar a distintos usos.  Superficie
-  total: 105 m² + 32m2 de sótano.  El inmueble requiere mantenimiento, ideal
-  para adaptarlo según las necesidades del rubro.  Características:  Salón
-  principal sin columnas Tres accesos independientes Tres ventanales amplios con
-  cortinas metálicas (requieren mantenimiento). Salón principal en L sin
-  columnas Dos espacios privados Espacio con posibilidad de adaptarlo como
-  cocina Dos baños Sótano Ofrece gran potencial para diferentes negocios como
-  academias, gimnasio, supermercado, panadería, cafetería, oficinas, estudio
-  profesional o depósito.  Contribución Inmobiliaria: $2.428 anuales  Primaria:
-  $1.300 anuales  Una propiedad con gran potencial y con el atractivo de poder
+  total: 105 m² .  El inmueble requiere mantenimiento, ideal para adaptarlo
+  según las necesidades del rubro.  Características:  Salón principal sin
+  columnas Tres accesos independientes Tres ventanales amplios con cortinas
+  metálicas (requieren mantenimiento). Salón principal en L sin columnas Dos
+  espacios privados Espacio con posibilidad de adaptarlo como cocina Dos
+  baños  Ofrece gran potencial para diferentes negocios como academias,
+  gimnasio, supermercado, panadería, cafetería, oficinas, estudio profesional o
+  depósito.  Contribución Inmobiliaria: $2.428 anuales  Primaria: $1.300
+  anuales  Una propiedad con gran potencial y con el atractivo de poder
   adaptarla a tu gusto y necesidades!  Llámanos y vamos a verlo!  Estudio
   Florida - Socio ADIU - Asociación de Agentes Inmobiliarios del Uruguay."
 location: "Guadalupe y Cufre "
