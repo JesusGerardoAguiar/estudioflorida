@@ -19,7 +19,7 @@ state: montevideo
 zone: pocitos
 title: Alquiler Apartamento Pocitos 2 Dormitorios
 price: "33000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
