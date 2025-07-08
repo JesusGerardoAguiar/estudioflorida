@@ -22,9 +22,9 @@ description: "Hermoso apartamento a una cuadra de playa Pocitos. Pagola y
 location: Pagola y Chucarro
 state: montevideo
 zone: pocitos
-title: Venta apartamento 2 dormitorios y servicio Pocitos
+title: "***RESERVADO***Venta apartamento 2 dormitorios y servicio Pocitos"
 price: "207000"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: U$S
