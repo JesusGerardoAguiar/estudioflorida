@@ -5,7 +5,7 @@ bathroom: "1"
 mts2: "65"
 garage: no
 map: ""
-description: "***RESERVADO ***Masini y Berro, divino, amplio, a 3 cuadras de la
+description: "***ALQUILADO ***Masini y Berro, divino, amplio, a 3 cuadras de la
   rambla.  Segundo piso al frente. Living comedor con gran ventanal de piso a
   techo y piso de parquet, hall de distribución con placar despojador.  2
   dormitorios cómodos, ambos con placares. Cocina definida con doble mesada,
