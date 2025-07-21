@@ -15,7 +15,7 @@ location: Taboba y Mataojo
 state: montevideo
 zone: buceo
 title: Venta Local limite Buceo - Malvin
-price: "280000"
+price: "245000"
 destacada: true
 soldout: false
 rented: false
