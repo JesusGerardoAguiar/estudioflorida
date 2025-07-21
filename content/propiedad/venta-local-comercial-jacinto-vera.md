@@ -24,7 +24,7 @@ rooms: "4"
 state: montevideo
 zone: jacinto vera
 title: Venta Local Comercial Jacinto Vera
-price: "140000"
+price: "125000"
 destacada: true
 soldout: false
 rented: false
