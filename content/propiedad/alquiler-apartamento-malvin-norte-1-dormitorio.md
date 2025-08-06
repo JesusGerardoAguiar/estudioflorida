@@ -19,7 +19,7 @@ state: montevideo
 zone: malvin norte
 title: Alquiler Apartamento Malvin Norte 1 Dormitorio
 price: "13900"
-destacada: true
+destacada: false
 soldout: false
 rented: false
 currency: $
