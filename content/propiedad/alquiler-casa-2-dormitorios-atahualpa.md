@@ -5,16 +5,16 @@ bathroom: "1"
 mts2: "63"
 garage: NO
 map: ""
-description: "**RESERVADA**Preciosa casa, al frente, en la esquina de Carabela y
-  Antonio Machado. Hermoso entorno, tranquilo y arbolado, a una cuadra de las
-  Avenidas Bulevar Artigas y Av. San Martìn.  Living comedor super amplio (24
-  m2), 2 dormitoritos espaciosos y luminosos, ambos con ventanas.  Cocina
-  funcional con placares aéreos.  Baño completo.  Acceso a azotea para colgar
-  ropa.  Rejas en todas las aberturas.  La casa es muy cómoda, todos los
-  ambientes cuentan con luz natural.  No tiene gastos comunes.  No se acepta
-  mascota.  Garantías: Contaduría, Porto Seguro o Anda.  Para más información o
-  para coordinar visita ¡no dudes en contactarnos!.  Estudio Florida. Socio
-  ADIU- Asociación de agentes inmobiliarios del Uruguay."
+description: "Preciosa casa, al frente, en la esquina de Carabela y Antonio
+  Machado. Hermoso entorno, tranquilo y arbolado, a una cuadra de las Avenidas
+  Bulevar Artigas y Av. San Martìn.  Living comedor super amplio (24 m2), 2
+  dormitoritos espaciosos y luminosos, ambos con ventanas.  Cocina funcional con
+  placares aéreos.  Baño completo.  Acceso a azotea para colgar ropa.  Rejas en
+  todas las aberturas.  La casa es muy cómoda, todos los ambientes cuentan con
+  luz natural.  No tiene gastos comunes.  No se acepta mascota.  Garantías:
+  Contaduría, Porto Seguro o Anda.  Para más información o para coordinar visita
+  ¡no dudes en contactarnos!.  Estudio Florida. Socio ADIU- Asociación de
+  agentes inmobiliarios del Uruguay."
 location: Carabela y Antonio Machado
 state: montevideo
 zone: atahualpa
