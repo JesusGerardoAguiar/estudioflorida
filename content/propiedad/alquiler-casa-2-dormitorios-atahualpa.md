@@ -18,7 +18,7 @@ description: "Preciosa casa, al frente, en la esquina de Carabela y Antonio
 location: Carabela y Antonio Machado
 state: montevideo
 zone: atahualpa
-title: "**RESERVADA**Alquiler Casa 2 Dormitorios Atahualpa"
+title: "**ALQUILADA** Alquiler Casa 2 Dormitorios Atahualpa"
 price: "26000"
 destacada: false
 soldout: false
