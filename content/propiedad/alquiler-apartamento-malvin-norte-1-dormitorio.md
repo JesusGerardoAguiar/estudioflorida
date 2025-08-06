@@ -17,7 +17,7 @@ description: "Hipólito Irigoyen entre Petrona Rosende y Melitón Romero, a 1
 location: Hipólito Irigoyen entre Petrona Rosende y Melitón Romero
 state: montevideo
 zone: malvin norte
-title: Alquiler Apartamento Malvin Norte 1 Dormitorio
+title: "**RESERVADO**Alquiler Apartamento Malvin Norte 1 Dormitorio"
 price: "13900"
 destacada: false
 soldout: false
