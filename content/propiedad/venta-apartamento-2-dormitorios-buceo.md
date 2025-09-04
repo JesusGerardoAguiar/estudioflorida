@@ -15,8 +15,8 @@ description: "Alto Perú y Av. Italia, a tan solo 4 cuadras de Shopping Plaza
   ropa.  Baño actualizado con mampara y excelentes terminaciones.  2
   Dormitorios, el principal de cómodas dimensiones, ambos con
   placares.  Instalación eléctrica nueva y cañerías en termofusión.  *Gastos
-  comunes $5.821 (incluye $1.000 de fondo de reserva)  *Contribución: 3 cuotas
-  de $2.700  *Primaria: 3 cuotas de $1.900  *Tributos domiciliarios: $1.300  Un
+  comunes $5.821 (incluye $1.000 de fondo de reserva)  *Contribución:
+  anual  $2.700  *Primaria: anual  $1.900  *Tributos domiciliarios: $1.300  Un
   apartamento luminoso, funcional y con todas las comodidades, ubicado en una
   zona en constante crecimiento.  No te lo pierdas! contáctanos y coordinemos
   una visita."
