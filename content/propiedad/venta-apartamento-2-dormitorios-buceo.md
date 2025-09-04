@@ -5,22 +5,24 @@ bathroom: "1"
 mts2: "48"
 garage: "0"
 map: ""
-description: "Alto Perú y Av. Italia – Apartamento en piso alto  ✨ Orientación
-  Este-Oeste | Sol todo el día | Excelente ventilación  ✔ Living comedor al
-  frente con gran ventanal, balcón francés y vista privilegiada. ✔ Cocina
-  definida reciclada, con amplio lugar de guardado y salida a terraza lavadero.
-  ✔ Baño actualizado, moderno y con mampara. ✔ Dormitorio principal de cómodas
-  dimensiones con placar. ✔ Segundo dormitorio también con placar y gran vista.
-  ✔ Instalaciones actualizadas: eléctrica nueva y cañerías en
-  termofusión.  --Gastos fijos--  *Gastos comunes $5.821 (incluye $1.000 de
-  fondo de reserva)  *Contribución: 3 cuotas de $2.700  *Primaria: 3 cuotas de
-  $1.900  *Tributos domiciliarios: $1.300  Un apartamento luminoso, funcional y
-  con todas las comodidades en una excelente ubicación.  --Llámanos y vamos a
-  verlo!-- Estudio Florida – Socio ADIU (Asociación de Agentes Inmobiliarios del
-  Uruguay)"
+description: "Alto Perú y Av. Italia, a tan solo 4 cuadras de Shopping Plaza
+  Italia. Zona con gran movimiento, excelente locomoción y servicios.  Hermoso y
+  acogedor apartamento en piso alto con espectacular vista de la
+  ciudad.  Orientación este / oeste hace que sea sumamente luminoso todo el
+  día.  Living comedor al frente con ventanal de piso a techo y hermoso piso de
+  parquet.  Cocina definida, reciclada y muy cómoda, con gran espacio de
+  guardado.  Terraza de servicio con conexión para lavadora y lugar para colgar
+  ropa.  Baño actualizado con mampara y excelentes terminaciones.  2
+  Dormitorios, el principal de cómodas dimensiones, ambos con
+  placares.  Instalación eléctrica nueva y cañerías en termofusión.  *Gastos
+  comunes $5.821 (incluye $1.000 de fondo de reserva)  *Contribución: 3 cuotas
+  de $2.700  *Primaria: 3 cuotas de $1.900  *Tributos domiciliarios: $1.300  Un
+  apartamento luminoso, funcional y con todas las comodidades, ubicado en una
+  zona en constante crecimiento.  No te lo pierdas! contáctanos y coordinemos
+  una visita."
 location: "Alto Perù y Av Italia "
 state: montevideo
-zone: buceo
+zone: malvin
 title: "Venta apartamento 2 dormitorios Buceo "
 price: "129000"
 destacada: true
