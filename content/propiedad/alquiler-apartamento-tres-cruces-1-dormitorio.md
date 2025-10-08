@@ -23,7 +23,7 @@ location: Defensa y Ferrer Serra
 state: montevideo
 zone: cordon
 title: Alquiler apartamento Tres Cruces 1 dormitorio
-price: "24000"
+price: "22800"
 destacada: true
 soldout: false
 rented: false
