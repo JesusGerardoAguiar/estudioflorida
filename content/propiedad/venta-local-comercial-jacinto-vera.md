@@ -23,7 +23,7 @@ location: "Guadalupe y Cufre "
 rooms: "4"
 state: montevideo
 zone: jacinto vera
-title: Venta Local Comercial Jacinto Vera
+title: RESERVADO Venta Local Comercial Jacinto Vera
 price: "125000"
 destacada: true
 soldout: false
