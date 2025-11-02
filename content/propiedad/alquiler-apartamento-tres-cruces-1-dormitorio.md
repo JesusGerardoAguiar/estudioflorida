@@ -22,7 +22,7 @@ description: "RESERVADO Defensa y Ferrer Serra. Hermoso apartamento en Nostrum
 location: Defensa y Ferrer Serra
 state: montevideo
 zone: cordon
-title: Alquiler apartamento Tres Cruces 1 dormitorio
+title: RESERVADO Alquiler apartamento Tres Cruces 1 dormitorio
 price: "22800"
 destacada: true
 soldout: false
