@@ -5,14 +5,14 @@ bathroom: "1"
 mts2: "38"
 garage: "1"
 map: ""
-description: "Defensa y Ferrer Serra. Hermoso apartamento en Nostrum Plaza I, a
-  pasos de Terminal Tres Cruces, Plaza Seregni y con rápida conexión hacia el
-  Centro y supermercado en el mismo edificio!  Orientación Oeste: ambientes
-  luminosos con sol toda la tarde.  Living comedor con aire acondicionado,
-  cocina integrada y vista totalmente despejada.  Dormitorio amplio con
-  balcón.  Baño completo en excelente estado con conexión para lavarropas.  El
-  edificio cuenta con gimnasio al aire libre, juegos infantiles, salón de usos
-  múltiples con parrillero, Portería 24hs y circuito perimetral de
+description: "RESERVADO Defensa y Ferrer Serra. Hermoso apartamento en Nostrum
+  Plaza I, a pasos de Terminal Tres Cruces, Plaza Seregni y con rápida conexión
+  hacia el Centro y supermercado en el mismo edificio!  Orientación Oeste:
+  ambientes luminosos con sol toda la tarde.  Living comedor con aire
+  acondicionado, cocina integrada y vista totalmente despejada.  Dormitorio
+  amplio con balcón.  Baño completo en excelente estado con conexión para
+  lavarropas.  El edificio cuenta con gimnasio al aire libre, juegos infantiles,
+  salón de usos múltiples con parrillero, Portería 24hs y circuito perimetral de
   cámaras.  Gastos comunes: $4.700  Garantías: ANDA o Porto Seguro  Admite
   mascota pequeña  Posibilidad de alquilar con muebles por $1.500 más, se
   entrega con heladera, cocina, juego de comedor, rack de TV, cama de 2 plazas,
