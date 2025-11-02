@@ -5,7 +5,7 @@ bathroom: "1"
 mts2: "85"
 garage: "1"
 map: ""
-description: "**RESERVADA**Hermosa PH en planta baja con garaje y espacios
+description: "**VENDIDA**Hermosa PH en planta baja con garaje y espacios
   abiertos!, Super completa y cómoda.  Guadalupe y Garibaldi, en un entorno
   tranquilo y bien conectado.  Living al frente, amplia cocina definida con
   placares de madera (aéreos y bajo mesada) y previsión para
