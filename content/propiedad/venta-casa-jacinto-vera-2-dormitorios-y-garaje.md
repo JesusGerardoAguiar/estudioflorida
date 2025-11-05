@@ -24,7 +24,7 @@ description: "**VENDIDA**Hermosa PH en planta baja con garaje y espacios
 location: Guadalupe y Cufre,  La Figurita, Montevideo
 state: montevideo
 zone: jacinto vera
-title: "**RESERVADA**Venta Casa Jacinto Vera 2 Dormitorios y Garaje"
+title: "**VENDIDA**Venta Casa Jacinto Vera 2 Dormitorios y Garaje"
 price: "115000"
 destacada: false
 soldout: true
