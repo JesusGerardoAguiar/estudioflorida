@@ -5,12 +5,12 @@ bathroom: "1"
 mts2: "48"
 garage: "0"
 map: ""
-description: "Alto Perú y Av. Italia, a tan solo 4 cuadras de Shopping Plaza
-  Italia. Zona con gran movimiento, excelente locomoción y servicios.  Hermoso y
-  acogedor apartamento en piso alto con espectacular vista de la
-  ciudad.  Orientación este / oeste hace que sea sumamente luminoso todo el
-  día.  Living comedor al frente con ventanal de piso a techo y hermoso piso de
-  parquet.  Cocina definida, reciclada y muy cómoda, con gran espacio de
+description: "** RESERVADO** Alto Perú y Av. Italia, a tan solo 4 cuadras de
+  Shopping Plaza Italia. Zona con gran movimiento, excelente locomoción y
+  servicios.  Hermoso y acogedor apartamento en piso alto con espectacular vista
+  de la ciudad.  Orientación este / oeste hace que sea sumamente luminoso todo
+  el día.  Living comedor al frente con ventanal de piso a techo y hermoso piso
+  de parquet.  Cocina definida, reciclada y muy cómoda, con gran espacio de
   guardado.  Terraza de servicio con conexión para lavadora y lugar para colgar
   ropa.  Baño actualizado con mampara y excelentes terminaciones.  2
   Dormitorios, el principal de cómodas dimensiones, ambos con
