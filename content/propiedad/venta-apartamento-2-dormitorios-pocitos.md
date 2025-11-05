@@ -25,7 +25,7 @@ zone: pocitos
 title: "***VENDIDO***Venta apartamento 2 dormitorios y servicio Pocitos"
 price: "207000"
 destacada: false
-soldout: false
+soldout: true
 rented: false
 currency: U$S
 images:
