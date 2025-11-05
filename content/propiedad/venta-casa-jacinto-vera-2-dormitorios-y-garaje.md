@@ -27,7 +27,7 @@ zone: jacinto vera
 title: "**RESERVADA**Venta Casa Jacinto Vera 2 Dormitorios y Garaje"
 price: "115000"
 destacada: false
-soldout: false
+soldout: true
 rented: false
 currency: U$S
 images:
