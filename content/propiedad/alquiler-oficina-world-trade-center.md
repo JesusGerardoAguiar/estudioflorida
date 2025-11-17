@@ -33,6 +33,8 @@ images:
   - assets/whatsapp-image-2025-11-17-at-1.02.49-pm-3-.jpeg
   - assets/whatsapp-image-2025-11-17-at-1.02.49-pm-2-.jpeg
   - assets/whatsapp-image-2025-11-17-at-12.18.06-pm-4-.jpeg
+  - assets/a2cabad3-8ce8-4eb7-b79b-96e556bdaa67.jpg
+  - assets/eb7a8618-1395-4d02-a3bc-fdf9d55daac7.jpg
 propertyType: oficina
 listType: alquileres
 date: November 17, 2025 6:39 PM
