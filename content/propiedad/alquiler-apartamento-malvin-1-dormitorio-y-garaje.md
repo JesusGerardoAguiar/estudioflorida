@@ -5,16 +5,16 @@ bathroom: "1"
 mts2: "37"
 garage: "1"
 map: ""
-description: "Divino! En una de las zonas mas lindas de Malvin! Pérez Gomar a 2
-  cuadras de Av Rivera, a 5 del Shopping Plaza Italia y a 6 de Rambla. Tercer
-  piso contrafrente, con vista despejada y orientación noreste! Living comedor
-  con cocina integrada, placares aéreos y bajo mesada. Hermosa terraza de 5 m2 y
-  terraza de servicio. Dormitorio con placar y baño completo. Cochera fija.
-  Gastos comunes promedio: $5.800 Terraza de uso común con parrillero y laundry.
-  Garantías: Anda, Porto o Contaduría. Hermoso edificio, construcción
-  tradicional, el mismo cuenta con ascensor, portón automático y cámaras de
-  seguridad. Una belleza! llamanos y vamos a verlo! ESTUDIO FLORIDA - Socio ADIU
-  - Asociación de Agentes Inmobiliarios del Uruguay."
+description: "RESERVADO******Divino! En una de las zonas mas lindas de Malvin!
+  Pérez Gomar a 2 cuadras de Av Rivera, a 5 del Shopping Plaza Italia y a 6 de
+  Rambla. Tercer piso contrafrente, con vista despejada y orientación noreste!
+  Living comedor con cocina integrada, placares aéreos y bajo mesada. Hermosa
+  terraza de 5 m2 y terraza de servicio. Dormitorio con placar y baño completo.
+  Cochera fija. Gastos comunes promedio: $5.800 Terraza de uso común con
+  parrillero y laundry. Garantías: Anda, Porto o Contaduría. Hermoso edificio,
+  construcción tradicional, el mismo cuenta con ascensor, portón automático y
+  cámaras de seguridad. Una belleza! llamanos y vamos a verlo! ESTUDIO FLORIDA -
+  Socio ADIU - Asociación de Agentes Inmobiliarios del Uruguay."
 location: "Perez Gomar y Colombes "
 state: montevideo
 zone: malvin
