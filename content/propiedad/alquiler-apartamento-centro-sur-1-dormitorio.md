@@ -19,7 +19,7 @@ location: Florida 1195 esquina Canelones
 state: montevideo
 zone: centro
 title: ALQUILER APARTAMENTO CENTRO SUR 1 DORMITORIO
-price: "22300"
+price: "21900"
 destacada: true
 soldout: false
 rented: false
