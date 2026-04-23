@@ -35,7 +35,7 @@ location: "Zelmar Michelini y San José "
 state: montevideo
 zone: centro
 title: "Venta Edificio Centro Sur "
-price: "890000"
+price: "760000"
 destacada: true
 soldout: false
 rented: false
